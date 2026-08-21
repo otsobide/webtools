@@ -37,7 +37,8 @@ npm run generate
 ```
 
 Output: `dist/` — a fully static SPA. Vercel runs this automatically on
-every push to `dev`.
+every push to `main`. Pushes to `dev` build too, but as previews: only
+the production branch is served on the project's own domain.
 
 The relevant config lives in `vercel.json` at the repo root:
 
@@ -65,9 +66,9 @@ it only catches paths that weren't prerendered.
 You usually don't need to do anything manual. The flow is:
 
 1. Work on the `dev` branch.
-2. Push: `git push origin dev` — Vercel picks it up and deploys.
-3. `main` is kept as a stable release branch. Fast-forward `dev` into it
-   when you want to mark a known-good state:
+2. Push: `git push origin dev` — Vercel builds it as a preview.
+3. When ready to release, fast-forward `dev` into `main` and push. This
+   is what publishes to production:
    ```bash
    git checkout main
    git merge --ff-only dev

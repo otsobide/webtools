@@ -108,12 +108,12 @@ to brief an LLM on the project:
   - `js-yaml` — YamlJson
   - `qrcode` — Qrgen
   - `diff` — Diffy
-- **Vercel** auto-deploys from the `dev` branch (`npm run generate` →
+- **Vercel** auto-deploys from the `main` branch (`npm run generate` →
   `dist/`), configured in `vercel.json`.
 
 ## Branches
 
 | Branch | Role |
 |---|---|
-| `dev` | Default. All day-to-day work happens here. Vercel deploys from it. |
-| `main` | Stable release branch. Only receives fast-forward merges from `dev`, by explicit request. |
+| `dev` | Default. All day-to-day work happens here. Pushes here build as Vercel previews. |
+| `main` | Production. Vercel watches it. Only receives fast-forward merges from `dev`, by explicit request. |

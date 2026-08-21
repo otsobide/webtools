@@ -63,8 +63,8 @@ Examples from the history:
 
 | Branch | What it's for |
 |---|---|
-| `dev` | Default branch. All day-to-day work, all auto-pushes after each commit. Vercel deploys from it. |
-| `main` | Stable release branch. Only receives merges from `dev`. |
+| `dev` | Default branch. All day-to-day work, all auto-pushes after each commit. Builds as a Vercel preview. |
+| `main` | Production. Vercel watches it. Only receives merges from `dev`. |
 
 **Merging to `main` is user-triggered, always.** Never merge without an
 explicit "mergea" / "merge to main" from the user. When merging:

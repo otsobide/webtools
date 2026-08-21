@@ -1,0 +1,7 @@
+{
+  "framework": null,
+  "installCommand": "npm install",
+  "buildCommand": "NITRO_PRESET=static npm run generate",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/200.html" }]
+}

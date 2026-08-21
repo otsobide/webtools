@@ -11,7 +11,7 @@ const { t } = useI18n()
 const sectionKeys = ['scope', 'data', 'cookies', 'tracking', 'gdpr', 'children', 'changes', 'contact'] as const
 
 useHead({
-  title: () => `TanukiBox · ${t('legal.privacy.title')}`,
+  title: () => `Cervantic · ${t('legal.privacy.title')}`,
   meta: [{ name: 'robots', content: 'index, follow' }],
 })
 </script>

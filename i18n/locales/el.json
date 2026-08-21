@@ -1006,7 +1006,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "π.χ. tanukibox",
+      "placeholder": "π.χ. cervantic",
       "hint": "Το ίδιο seed παράγει πάντα την ίδια ακολουθία. Δεν είναι κρυπτογραφικά ασφαλές.",
       "randomTitle": "Νέο τυχαίο seed"
     },
@@ -1052,7 +1052,7 @@
     },
     "text": {
       "text": "Κείμενο υδατογραφήματος",
-      "placeholder": "π.χ. © TanukiBox",
+      "placeholder": "π.χ. © Cervantic",
       "font": "Γραμματοσειρά",
       "size": "Μέγεθος",
       "color": "Χρώμα",
@@ -1423,7 +1423,7 @@
     "notAnImage": "Το αρχείο δεν είναι έγκυρη εικόνα."
   },
   "footer": {
-    "tagline": "Tanukibox · εργαλεία που τρέχουν στο πρόγραμμα περιήγησής σας",
+    "tagline": "Cervantic · εργαλεία που τρέχουν στο πρόγραμμα περιήγησής σας",
     "legalLinks": "Νομικοί σύνδεσμοι",
     "privacy": "Απόρρητο",
     "terms": "Όροι",

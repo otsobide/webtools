@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "t.ex. tanukibox",
+      "placeholder": "t.ex. cervantic",
       "hint": "Samma seed ger alltid samma sekvens. Inte kryptografiskt säker.",
       "randomTitle": "Ny slumpmässig seed"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Vattenstämpeltext",
-      "placeholder": "t.ex. © TanukiBox",
+      "placeholder": "t.ex. © Cervantic",
       "font": "Typsnitt",
       "size": "Storlek",
       "color": "Färg",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Den filen är inte en giltig bild."
   },
   "footer": {
-    "tagline": "Tanukibox · verktyg som körs i din webbläsare",
+    "tagline": "Cervantic · verktyg som körs i din webbläsare",
     "legalLinks": "Juridiska länkar",
     "privacy": "Integritet",
     "terms": "Villkor",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Senast uppdaterad: 15 maj 2026",
     "privacy": {
       "title": "Integritetspolicy",
-      "intro": "<p>På Tanukibox tror vi att dina filer är dina. Därför körs alla våra verktyg <strong>helt i din webbläsare</strong>: bilderna, PDF-filerna, texten eller vilken fil du än bearbetar lämnar aldrig din enhet.</p>",
+      "intro": "<p>På Cervantic tror vi att dina filer är dina. Därför körs alla våra verktyg <strong>helt i din webbläsare</strong>: bilderna, PDF-filerna, texten eller vilken fil du än bearbetar lämnar aldrig din enhet.</p>",
       "sections": {
         "scope": {
           "title": "1. Omfattning",
-          "body": "<p>Denna policy gäller för tanukibox.com och varje verktyg som finns under denna domän. Den beskriver vilken information som samlas in när du besöker webbplatsen och vad vi gör med den.</p>"
+          "body": "<p>Denna policy gäller för Cervantic och alla dess verktyg. Den beskriver vilken information som samlas in när du besöker webbplatsen och vad vi gör med den.</p>"
         },
         "data": {
           "title": "2. Data vi samlar in",
-          "body": "<p>Vi har ingen server som tar emot dina filer. Verktygen (Mochi, Metaimg, Createpass, Hashy, etc.) bearbetar data direkt i din webbläsare med inbyggda API:er (Canvas, Web Crypto, etc.). Därför:</p><ul><li><strong>Vi samlar inte in</strong> filerna du bearbetar, deras innehåll eller resultaten.</li><li><strong>Det finns inga användarkonton</strong>, lösenord eller profiler.</li><li>Tanukibox-servern levererar bara webbplatsens statiska resurser (HTML, CSS, JS).</li></ul><p>Det enda som lagras beskrivs i Cookies-avsnittet.</p>"
+          "body": "<p>Vi har ingen server som tar emot dina filer. Verktygen (Mochi, Metaimg, Createpass, Hashy, etc.) bearbetar data direkt i din webbläsare med inbyggda API:er (Canvas, Web Crypto, etc.). Därför:</p><ul><li><strong>Vi samlar inte in</strong> filerna du bearbetar, deras innehåll eller resultaten.</li><li><strong>Det finns inga användarkonton</strong>, lösenord eller profiler.</li><li>Cervantic-servern levererar bara webbplatsens statiska resurser (HTML, CSS, JS).</li></ul><p>Det enda som lagras beskrivs i Cookies-avsnittet.</p>"
         },
         "cookies": {
           "title": "3. Cookies och lokal lagring",
-          "body": "<p>Vi använder en enda teknisk cookie som heter <code>tanukibox_lang</code> för att komma ihåg din språkinställning. Den identifierar inte användaren och delas inte med tredje part.</p><p>Mer detaljer i <a href='/cookies'>cookies-policyn</a>.</p>"
+          "body": "<p>Vi använder en enda teknisk cookie som heter <code>cervantic_lang</code> för att komma ihåg din språkinställning. Den identifierar inte användaren och delas inte med tredje part.</p><p>Mer detaljer i <a href='/cookies'>cookies-policyn</a>.</p>"
         },
         "tracking": {
           "title": "4. Analys och annonsering",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Kontakt",
-          "body": "<p>För eventuella frågor om integritet: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>För eventuella frågor om integritet: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Användarvillkor",
-      "intro": "<p>Välkommen till Tanukibox. Genom att använda denna webbplats accepterar du villkoren som beskrivs nedan. Om du inte godkänner dem, vänligen använd inte tjänsten.</p>",
+      "intro": "<p>Välkommen till Cervantic. Genom att använda denna webbplats accepterar du villkoren som beskrivs nedan. Om du inte godkänner dem, vänligen använd inte tjänsten.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Godkännande",
-          "body": "<p>Åtkomst till och användning av tanukibox.com innebär ett fullständigt godkännande av dessa villkor. De kan uppdateras när som helst; fortsatt användning efter ändringarna innebär att de godkänns.</p>"
+          "body": "<p>Åtkomst till och användning av Cervantic innebär ett fullständigt godkännande av dessa villkor. De kan uppdateras när som helst; fortsatt användning efter ändringarna innebär att de godkänns.</p>"
         },
         "service": {
           "title": "2. Tjänstebeskrivning",
-          "body": "<p>Tanukibox tillhandahåller en uppsättning verktyg som körs helt i din webbläsare (lokal bearbetning). Tjänsten tillhandahålls <strong>gratis och \"i befintligt skick\"</strong>, utan garantier för tillgänglighet, noggrannhet eller lämplighet för ett visst ändamål.</p>"
+          "body": "<p>Cervantic tillhandahåller en uppsättning verktyg som körs helt i din webbläsare (lokal bearbetning). Tjänsten tillhandahålls <strong>gratis och \"i befintligt skick\"</strong>, utan garantier för tillgänglighet, noggrannhet eller lämplighet för ett visst ändamål.</p>"
         },
         "use": {
           "title": "3. Tillåten användning",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Immateriella rättigheter",
-          "body": "<p>Namnet Tanukibox, logotypen och webbplatsens design tillhör dess upphovsperson. Källkoden kan vara tillgänglig under en öppen licens i dess offentliga repository; kontrollera repository för de exakta villkoren.</p>"
+          "body": "<p>Namnet Cervantic, logotypen och webbplatsens design tillhör dess upphovsperson. Källkoden kan vara tillgänglig under en öppen licens i dess offentliga repository; kontrollera repository för de exakta villkoren.</p>"
         },
         "liability": {
           "title": "6. Ansvarsbegränsning",
-          "body": "<p>I den utsträckning som lagen tillåter ska Tanukibox inte vara ansvarig för direkta, indirekta, oavsiktliga eller följdriktiga skador som uppstår från användningen eller oförmågan att använda tjänsten, inklusive dataförlust.</p>"
+          "body": "<p>I den utsträckning som lagen tillåter ska Cervantic inte vara ansvarig för direkta, indirekta, oavsiktliga eller följdriktiga skador som uppstår från användningen eller oförmågan att använda tjänsten, inklusive dataförlust.</p>"
         },
         "changes": {
           "title": "7. Ändringar",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Cookies-policy",
-      "intro": "<p>Den här sidan beskriver vilka cookies och lagringsmekanismer tanukibox.com använder.</p>",
+      "intro": "<p>Den här sidan beskriver vilka cookies och lagringsmekanismer Cervantic använder.</p>",
       "sections": {
         "what": {
           "title": "1. Vad cookies är",
-          "body": "<p>Cookies är små filer som en webbplats lagrar på din enhet för att komma ihåg information mellan besök (inställningar, session, etc.). Tanukibox använder det absoluta minimum.</p>"
+          "body": "<p>Cookies är små filer som en webbplats lagrar på din enhet för att komma ihåg information mellan besök (inställningar, session, etc.). Cervantic använder det absoluta minimum.</p>"
         },
         "used": {
           "title": "2. Cookies vi använder",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — teknisk cookie för inställningar. Lagrar det valda språket så att vi inte behöver fråga vid varje besök. Upphör efter 1 år. Identifierar inte användaren.</li></ul><p>Vi använder för närvarande inga spårnings- eller annonscookies.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — teknisk cookie för inställningar. Lagrar det valda språket så att vi inte behöver fråga vid varje besök. Upphör efter 1 år. Identifierar inte användaren.</li></ul><p>Vi använder för närvarande inga spårnings- eller annonscookies.</p>"
         },
         "thirdParty": {
           "title": "3. Cookies från tredje part",
-          "body": "<p>Tanukibox laddar för närvarande inte tredjepartsskript som installerar cookies. Om vi i framtiden integrerar tjänster som Google AdSense eller ett analysverktyg kommer detta avsnitt att uppdateras och ditt samtycke kommer att begäras via en banner.</p>"
+          "body": "<p>Cervantic laddar för närvarande inte tredjepartsskript som installerar cookies. Om vi i framtiden integrerar tjänster som Google AdSense eller ett analysverktyg kommer detta avsnitt att uppdateras och ditt samtycke kommer att begäras via en banner.</p>"
         },
         "manage": {
           "title": "4. Hur du hanterar cookies",
-          "body": "<p>Du kan radera eller blockera cookies från din webbläsares inställningar. Om du blockerar <code>tanukibox_lang</code> kommer webbplatsen att fungera men inte komma ihåg din språkinställning.</p>"
+          "body": "<p>Du kan radera eller blockera cookies från din webbläsares inställningar. Om du blockerar <code>cervantic_lang</code> kommer webbplatsen att fungera men inte komma ihåg din språkinställning.</p>"
         },
         "changes": {
           "title": "5. Ändringar av denna policy",

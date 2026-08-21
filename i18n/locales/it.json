@@ -1006,7 +1006,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "es. tanukibox",
+      "placeholder": "es. cervantic",
       "hint": "Lo stesso seed produce sempre la stessa sequenza. Non è crittograficamente sicuro.",
       "randomTitle": "Nuovo seed casuale"
     },
@@ -1052,7 +1052,7 @@
     },
     "text": {
       "text": "Testo della filigrana",
-      "placeholder": "es. © TanukiBox",
+      "placeholder": "es. © Cervantic",
       "font": "Font",
       "size": "Dimensione",
       "color": "Colore",
@@ -1423,7 +1423,7 @@
     "notAnImage": "Il file non è un'immagine valida."
   },
   "footer": {
-    "tagline": "Tanukibox · strumenti che girano nel tuo browser",
+    "tagline": "Cervantic · strumenti che girano nel tuo browser",
     "legalLinks": "Link legali",
     "privacy": "Privacy",
     "terms": "Termini",

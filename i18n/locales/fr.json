@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Graine",
-      "placeholder": "ex. tanukibox",
+      "placeholder": "ex. cervantic",
       "hint": "La même graine produit toujours la même séquence. Pas cryptographiquement sécurisé.",
       "randomTitle": "Nouvelle graine aléatoire"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Texte du filigrane",
-      "placeholder": "ex. © TanukiBox",
+      "placeholder": "ex. © Cervantic",
       "font": "Police",
       "size": "Taille",
       "color": "Couleur",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Ce fichier n'est pas une image valide."
   },
   "footer": {
-    "tagline": "Tanukibox · des outils qui tournent dans votre navigateur",
+    "tagline": "Cervantic · des outils qui tournent dans votre navigateur",
     "legalLinks": "Liens légaux",
     "privacy": "Confidentialité",
     "terms": "Conditions",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Dernière mise à jour : 15 mai 2026",
     "privacy": {
       "title": "Politique de confidentialité",
-      "intro": "<p>Chez Tanukibox, nous pensons que vos fichiers vous appartiennent. C'est pourquoi tous nos outils fonctionnent <strong>entièrement dans votre navigateur</strong> : les images, PDF, textes ou tout autre fichier que vous traitez ne quittent jamais votre appareil.</p>",
+      "intro": "<p>Chez Cervantic, nous pensons que vos fichiers vous appartiennent. C'est pourquoi tous nos outils fonctionnent <strong>entièrement dans votre navigateur</strong> : les images, PDF, textes ou tout autre fichier que vous traitez ne quittent jamais votre appareil.</p>",
       "sections": {
         "scope": {
           "title": "1. Portée",
-          "body": "<p>Cette politique s'applique à tanukibox.com et à chaque outil hébergé sous ce domaine. Elle décrit quelles informations sont collectées lorsque vous visitez le site et ce que nous en faisons.</p>"
+          "body": "<p>Cette politique s'applique à Cervantic et à tous ses outils. Elle décrit quelles informations sont collectées lorsque vous visitez le site et ce que nous en faisons.</p>"
         },
         "data": {
           "title": "2. Données que nous collectons",
-          "body": "<p>Nous n'avons pas de serveur qui reçoit vos fichiers. Les outils (Mochi, Metaimg, Createpass, Hashy, etc.) traitent les données directement dans votre navigateur via les API natives (Canvas, Web Crypto, etc.). Par conséquent :</p><ul><li><strong>Nous ne collectons pas</strong> les fichiers que vous traitez, leur contenu ou leurs résultats.</li><li><strong>Il n'y a pas de comptes utilisateurs</strong>, ni de mots de passe ni de profils.</li><li>Le serveur Tanukibox ne fait que livrer les ressources statiques du site (HTML, CSS, JS).</li></ul><p>La seule chose stockée est décrite dans la section Cookies.</p>"
+          "body": "<p>Nous n'avons pas de serveur qui reçoit vos fichiers. Les outils (Mochi, Metaimg, Createpass, Hashy, etc.) traitent les données directement dans votre navigateur via les API natives (Canvas, Web Crypto, etc.). Par conséquent :</p><ul><li><strong>Nous ne collectons pas</strong> les fichiers que vous traitez, leur contenu ou leurs résultats.</li><li><strong>Il n'y a pas de comptes utilisateurs</strong>, ni de mots de passe ni de profils.</li><li>Le serveur Cervantic ne fait que livrer les ressources statiques du site (HTML, CSS, JS).</li></ul><p>La seule chose stockée est décrite dans la section Cookies.</p>"
         },
         "cookies": {
           "title": "3. Cookies et stockage local",
-          "body": "<p>Nous utilisons un unique cookie technique appelé <code>tanukibox_lang</code> pour mémoriser votre préférence de langue. Il n'identifie pas l'utilisateur et n'est pas partagé avec des tiers.</p><p>Plus de détails dans la <a href='/cookies'>politique de cookies</a>.</p>"
+          "body": "<p>Nous utilisons un unique cookie technique appelé <code>cervantic_lang</code> pour mémoriser votre préférence de langue. Il n'identifie pas l'utilisateur et n'est pas partagé avec des tiers.</p><p>Plus de détails dans la <a href='/cookies'>politique de cookies</a>.</p>"
         },
         "tracking": {
           "title": "4. Statistiques et publicité",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Contact",
-          "body": "<p>Pour toute question liée à la confidentialité : <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>Pour toute question liée à la confidentialité : <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Conditions d'utilisation",
-      "intro": "<p>Bienvenue sur Tanukibox. En utilisant ce site, vous acceptez les conditions décrites ci-dessous. Si vous n'êtes pas d'accord, veuillez ne pas utiliser le service.</p>",
+      "intro": "<p>Bienvenue sur Cervantic. En utilisant ce site, vous acceptez les conditions décrites ci-dessous. Si vous n'êtes pas d'accord, veuillez ne pas utiliser le service.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Acceptation",
-          "body": "<p>Accéder à tanukibox.com et l'utiliser implique l'acceptation pleine de ces conditions. Elles peuvent être mises à jour à tout moment ; la poursuite de l'utilisation après les modifications implique leur acceptation.</p>"
+          "body": "<p>Accéder à Cervantic et l'utiliser implique l'acceptation pleine de ces conditions. Elles peuvent être mises à jour à tout moment ; la poursuite de l'utilisation après les modifications implique leur acceptation.</p>"
         },
         "service": {
           "title": "2. Description du service",
-          "body": "<p>Tanukibox fournit un ensemble d'utilitaires qui s'exécutent entièrement dans votre navigateur (traitement local). Le service est fourni <strong>gratuitement et « tel quel »</strong>, sans garantie de disponibilité, d'exactitude ou d'adéquation à un usage particulier.</p>"
+          "body": "<p>Cervantic fournit un ensemble d'utilitaires qui s'exécutent entièrement dans votre navigateur (traitement local). Le service est fourni <strong>gratuitement et « tel quel »</strong>, sans garantie de disponibilité, d'exactitude ou d'adéquation à un usage particulier.</p>"
         },
         "use": {
           "title": "3. Utilisation autorisée",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Propriété intellectuelle",
-          "body": "<p>Le nom Tanukibox, le logo et le design du site sont la propriété de leur auteur. Le code source peut être disponible sous licence ouverte dans son dépôt public ; consultez le dépôt pour connaître les termes exacts.</p>"
+          "body": "<p>Le nom Cervantic, le logo et le design du site sont la propriété de leur auteur. Le code source peut être disponible sous licence ouverte dans son dépôt public ; consultez le dépôt pour connaître les termes exacts.</p>"
         },
         "liability": {
           "title": "6. Limitation de responsabilité",
-          "body": "<p>Dans toute la mesure permise par la loi, Tanukibox ne saurait être tenu responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser le service, y compris la perte de données.</p>"
+          "body": "<p>Dans toute la mesure permise par la loi, Cervantic ne saurait être tenu responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser le service, y compris la perte de données.</p>"
         },
         "changes": {
           "title": "7. Modifications",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Politique de cookies",
-      "intro": "<p>Cette page décrit quels cookies et mécanismes de stockage tanukibox.com utilise.</p>",
+      "intro": "<p>Cette page décrit quels cookies et mécanismes de stockage Cervantic utilise.</p>",
       "sections": {
         "what": {
           "title": "1. Ce que sont les cookies",
-          "body": "<p>Les cookies sont de petits fichiers qu'un site web stocke sur votre appareil pour mémoriser des informations entre les visites (préférences, session, etc.). Tanukibox utilise le strict minimum.</p>"
+          "body": "<p>Les cookies sont de petits fichiers qu'un site web stocke sur votre appareil pour mémoriser des informations entre les visites (préférences, session, etc.). Cervantic utilise le strict minimum.</p>"
         },
         "used": {
           "title": "2. Cookies que nous utilisons",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — cookie technique de préférence. Stocke la langue sélectionnée afin de ne pas vous la demander à chaque visite. Expire au bout d'un an. N'identifie pas l'utilisateur.</li></ul><p>Nous n'utilisons pas de cookies de suivi ni de publicité pour le moment.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — cookie technique de préférence. Stocke la langue sélectionnée afin de ne pas vous la demander à chaque visite. Expire au bout d'un an. N'identifie pas l'utilisateur.</li></ul><p>Nous n'utilisons pas de cookies de suivi ni de publicité pour le moment.</p>"
         },
         "thirdParty": {
           "title": "3. Cookies tiers",
-          "body": "<p>Tanukibox ne charge actuellement pas de scripts tiers qui installent des cookies. Si à l'avenir nous intégrons des services comme Google AdSense ou un outil d'analytique, cette section sera mise à jour et votre consentement sera demandé via une bannière.</p>"
+          "body": "<p>Cervantic ne charge actuellement pas de scripts tiers qui installent des cookies. Si à l'avenir nous intégrons des services comme Google AdSense ou un outil d'analytique, cette section sera mise à jour et votre consentement sera demandé via une bannière.</p>"
         },
         "manage": {
           "title": "4. Comment gérer les cookies",
-          "body": "<p>Vous pouvez supprimer ou bloquer les cookies depuis les paramètres de votre navigateur. Si vous bloquez <code>tanukibox_lang</code>, le site fonctionnera mais ne mémorisera pas votre préférence de langue.</p>"
+          "body": "<p>Vous pouvez supprimer ou bloquer les cookies depuis les paramètres de votre navigateur. Si vous bloquez <code>cervantic_lang</code>, le site fonctionnera mais ne mémorisera pas votre préférence de langue.</p>"
         },
         "changes": {
           "title": "5. Modifications de cette politique",

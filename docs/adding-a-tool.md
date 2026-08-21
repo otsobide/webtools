@@ -92,7 +92,7 @@ A thin wrapper. Sets the document title and renders the component.
 const { t } = useI18n()
 
 useHead({
-  title: () => `${t('tools.slugify.name')} · Tanukibox`,
+  title: () => `${t('tools.slugify.name')} · Cervantic`,
   meta: [{ name: 'description', content: () => t('tools.slugify.description') }],
 })
 </script>
@@ -190,7 +190,7 @@ Check that:
    right alphabetical slot.
 3. Switching language updates **all** strings on the page (no leftover
    keys like `slugify.input` showing literally).
-4. The page title in the browser tab is `Slugify · Tanukibox`.
+4. The page title in the browser tab is `Slugify · Cervantic`.
 
 ## 7. Commit and push
 

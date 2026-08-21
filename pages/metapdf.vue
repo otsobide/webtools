@@ -3,7 +3,7 @@
 const { t } = useI18n()
 
 useHead({
-  title: () => `TanukiBox · ${t('tools.metapdf.name')}`,
+  title: () => `Cervantic · ${t('tools.metapdf.name')}`,
   meta: [{ name: 'description', content: () => t('tools.metapdf.description') }],
 })
 </script>

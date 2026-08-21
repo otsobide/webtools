@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "f.eks. tanukibox",
+      "placeholder": "f.eks. cervantic",
       "hint": "Samme seed gir alltid samme sekvens. Ikke kryptografisk sikker.",
       "randomTitle": "Ny tilfeldig seed"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Vannmerketekst",
-      "placeholder": "f.eks. © TanukiBox",
+      "placeholder": "f.eks. © Cervantic",
       "font": "Skrift",
       "size": "Størrelse",
       "color": "Farge",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Filen er ikke et gyldig bilde."
   },
   "footer": {
-    "tagline": "Tanukibox · verktøy som kjører i nettleseren din",
+    "tagline": "Cervantic · verktøy som kjører i nettleseren din",
     "legalLinks": "Juridiske lenker",
     "privacy": "Personvern",
     "terms": "Vilkår",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Sist oppdatert: 15. mai 2026",
     "privacy": {
       "title": "Personvernerklæring",
-      "intro": "<p>Hos Tanukibox mener vi at filene dine er dine. Derfor kjører alle verktøyene våre <strong>helt i nettleseren din</strong>: bildene, PDF-ene, teksten eller enhver fil du behandler, forlater aldri enheten din.</p>",
+      "intro": "<p>Hos Cervantic mener vi at filene dine er dine. Derfor kjører alle verktøyene våre <strong>helt i nettleseren din</strong>: bildene, PDF-ene, teksten eller enhver fil du behandler, forlater aldri enheten din.</p>",
       "sections": {
         "scope": {
           "title": "1. Omfang",
-          "body": "<p>Denne erklæringen gjelder for tanukibox.com og alle verktøy som er hostet under dette domenet. Den beskriver hvilken informasjon som samles inn når du besøker nettstedet, og hva vi gjør med den.</p>"
+          "body": "<p>Denne erklæringen gjelder for Cervantic og alle verktøyene. Den beskriver hvilken informasjon som samles inn når du besøker nettstedet, og hva vi gjør med den.</p>"
         },
         "data": {
           "title": "2. Data vi samler inn",
-          "body": "<p>Vi har ikke en server som mottar filene dine. Verktøyene (Mochi, Metaimg, Createpass, Hashy osv.) behandler data direkte i nettleseren din ved hjelp av native API-er (Canvas, Web Crypto osv.). Derfor:</p><ul><li><strong>Vi samler ikke inn</strong> filene du behandler, innholdet deres eller resultatene.</li><li><strong>Det finnes ingen brukerkontoer</strong>, passord eller profiler.</li><li>Tanukibox-serveren leverer bare de statiske ressursene til nettstedet (HTML, CSS, JS).</li></ul><p>Det eneste som lagres, er beskrevet i delen om informasjonskapsler.</p>"
+          "body": "<p>Vi har ikke en server som mottar filene dine. Verktøyene (Mochi, Metaimg, Createpass, Hashy osv.) behandler data direkte i nettleseren din ved hjelp av native API-er (Canvas, Web Crypto osv.). Derfor:</p><ul><li><strong>Vi samler ikke inn</strong> filene du behandler, innholdet deres eller resultatene.</li><li><strong>Det finnes ingen brukerkontoer</strong>, passord eller profiler.</li><li>Cervantic-serveren leverer bare de statiske ressursene til nettstedet (HTML, CSS, JS).</li></ul><p>Det eneste som lagres, er beskrevet i delen om informasjonskapsler.</p>"
         },
         "cookies": {
           "title": "3. Informasjonskapsler og lokal lagring",
-          "body": "<p>Vi bruker en enkelt teknisk informasjonskapsel kalt <code>tanukibox_lang</code> for å huske språkpreferansen din. Den identifiserer ikke brukeren og deles ikke med tredjeparter.</p><p>Flere detaljer i <a href='/cookies'>retningslinjene for informasjonskapsler</a>.</p>"
+          "body": "<p>Vi bruker en enkelt teknisk informasjonskapsel kalt <code>cervantic_lang</code> for å huske språkpreferansen din. Den identifiserer ikke brukeren og deles ikke med tredjeparter.</p><p>Flere detaljer i <a href='/cookies'>retningslinjene for informasjonskapsler</a>.</p>"
         },
         "tracking": {
           "title": "4. Analyse og annonsering",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Kontakt",
-          "body": "<p>For ethvert personvernrelatert spørsmål: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>For ethvert personvernrelatert spørsmål: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Brukervilkår",
-      "intro": "<p>Velkommen til Tanukibox. Ved å bruke dette nettstedet aksepterer du betingelsene som er beskrevet nedenfor. Hvis du ikke er enig, vennligst ikke bruk tjenesten.</p>",
+      "intro": "<p>Velkommen til Cervantic. Ved å bruke dette nettstedet aksepterer du betingelsene som er beskrevet nedenfor. Hvis du ikke er enig, vennligst ikke bruk tjenesten.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Aksept",
-          "body": "<p>Tilgang til og bruk av tanukibox.com innebærer full aksept av disse vilkårene. De kan oppdateres når som helst; fortsatt bruk etter endringene innebærer aksept av dem.</p>"
+          "body": "<p>Tilgang til og bruk av Cervantic innebærer full aksept av disse vilkårene. De kan oppdateres når som helst; fortsatt bruk etter endringene innebærer aksept av dem.</p>"
         },
         "service": {
           "title": "2. Tjenestebeskrivelse",
-          "body": "<p>Tanukibox tilbyr et sett med verktøy som kjører helt i nettleseren din (lokal behandling). Tjenesten leveres <strong>gratis og \"som den er\"</strong>, uten garantier for tilgjengelighet, nøyaktighet eller egnethet for et bestemt formål.</p>"
+          "body": "<p>Cervantic tilbyr et sett med verktøy som kjører helt i nettleseren din (lokal behandling). Tjenesten leveres <strong>gratis og \"som den er\"</strong>, uten garantier for tilgjengelighet, nøyaktighet eller egnethet for et bestemt formål.</p>"
         },
         "use": {
           "title": "3. Tillatt bruk",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Immaterielle rettigheter",
-          "body": "<p>Navnet Tanukibox, logoen og designet til nettstedet er eiendommen til forfatteren. Kildekoden kan være tilgjengelig under en åpen lisens i det offentlige repositoriet; sjekk repositoriet for de nøyaktige vilkårene.</p>"
+          "body": "<p>Navnet Cervantic, logoen og designet til nettstedet er eiendommen til forfatteren. Kildekoden kan være tilgjengelig under en åpen lisens i det offentlige repositoriet; sjekk repositoriet for de nøyaktige vilkårene.</p>"
         },
         "liability": {
           "title": "6. Ansvarsbegrensning",
-          "body": "<p>I den grad loven tillater det, skal Tanukibox ikke være ansvarlig for direkte, indirekte, tilfeldige eller følgeskader som oppstår fra bruken av eller manglende evne til å bruke tjenesten, inkludert tap av data.</p>"
+          "body": "<p>I den grad loven tillater det, skal Cervantic ikke være ansvarlig for direkte, indirekte, tilfeldige eller følgeskader som oppstår fra bruken av eller manglende evne til å bruke tjenesten, inkludert tap av data.</p>"
         },
         "changes": {
           "title": "7. Endringer",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Retningslinjer for informasjonskapsler",
-      "intro": "<p>Denne siden beskriver hvilke informasjonskapsler og lagringsmekanismer tanukibox.com bruker.</p>",
+      "intro": "<p>Denne siden beskriver hvilke informasjonskapsler og lagringsmekanismer Cervantic bruker.</p>",
       "sections": {
         "what": {
           "title": "1. Hva informasjonskapsler er",
-          "body": "<p>Informasjonskapsler er små filer som et nettsted lagrer på enheten din for å huske informasjon mellom besøk (preferanser, økt osv.). Tanukibox bruker det aller minste.</p>"
+          "body": "<p>Informasjonskapsler er små filer som et nettsted lagrer på enheten din for å huske informasjon mellom besøk (preferanser, økt osv.). Cervantic bruker det aller minste.</p>"
         },
         "used": {
           "title": "2. Informasjonskapsler vi bruker",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — teknisk preferanseinformasjonskapsel. Lagrer det valgte språket slik at vi ikke spør ved hvert besøk. Utløper om 1 år. Identifiserer ikke brukeren.</li></ul><p>Vi bruker ikke sporings- eller reklameinformasjonskapsler for øyeblikket.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — teknisk preferanseinformasjonskapsel. Lagrer det valgte språket slik at vi ikke spør ved hvert besøk. Utløper om 1 år. Identifiserer ikke brukeren.</li></ul><p>Vi bruker ikke sporings- eller reklameinformasjonskapsler for øyeblikket.</p>"
         },
         "thirdParty": {
           "title": "3. Tredjeparts informasjonskapsler",
-          "body": "<p>Tanukibox laster for øyeblikket ikke tredjepartsskript som installerer informasjonskapsler. Hvis vi i fremtiden integrerer tjenester som Google AdSense eller et analyseverktøy, vil denne delen bli oppdatert og samtykket ditt vil bli innhentet via et banner.</p>"
+          "body": "<p>Cervantic laster for øyeblikket ikke tredjepartsskript som installerer informasjonskapsler. Hvis vi i fremtiden integrerer tjenester som Google AdSense eller et analyseverktøy, vil denne delen bli oppdatert og samtykket ditt vil bli innhentet via et banner.</p>"
         },
         "manage": {
           "title": "4. Hvordan administrere informasjonskapsler",
-          "body": "<p>Du kan slette eller blokkere informasjonskapsler fra nettleserens innstillinger. Hvis du blokkerer <code>tanukibox_lang</code>, vil nettstedet fungere, men det vil ikke huske språkpreferansen din.</p>"
+          "body": "<p>Du kan slette eller blokkere informasjonskapsler fra nettleserens innstillinger. Hvis du blokkerer <code>cervantic_lang</code>, vil nettstedet fungere, men det vil ikke huske språkpreferansen din.</p>"
         },
         "changes": {
           "title": "5. Endringer i denne erklæringen",

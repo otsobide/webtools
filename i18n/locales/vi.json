@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "ví dụ tanukibox",
+      "placeholder": "ví dụ cervantic",
       "hint": "Cùng một seed luôn cho ra cùng một chuỗi. Không an toàn về mặt mật mã.",
       "randomTitle": "Seed ngẫu nhiên mới"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Văn bản hình mờ",
-      "placeholder": "ví dụ © TanukiBox",
+      "placeholder": "ví dụ © Cervantic",
       "font": "Phông chữ",
       "size": "Kích thước",
       "color": "Màu sắc",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Tệp đó không phải là ảnh hợp lệ."
   },
   "footer": {
-    "tagline": "Tanukibox · công cụ chạy trong trình duyệt của bạn",
+    "tagline": "Cervantic · công cụ chạy trong trình duyệt của bạn",
     "legalLinks": "Liên kết pháp lý",
     "privacy": "Quyền riêng tư",
     "terms": "Điều khoản",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Cập nhật lần cuối: 15 tháng 5, 2026",
     "privacy": {
       "title": "Chính sách quyền riêng tư",
-      "intro": "<p>Tại Tanukibox, chúng tôi tin rằng tệp của bạn là của bạn. Đó là lý do tại sao tất cả công cụ của chúng tôi đều chạy <strong>hoàn toàn trong trình duyệt của bạn</strong>: ảnh, PDF, văn bản hoặc bất kỳ tệp nào bạn xử lý đều không bao giờ rời khỏi thiết bị của bạn.</p>",
+      "intro": "<p>Tại Cervantic, chúng tôi tin rằng tệp của bạn là của bạn. Đó là lý do tại sao tất cả công cụ của chúng tôi đều chạy <strong>hoàn toàn trong trình duyệt của bạn</strong>: ảnh, PDF, văn bản hoặc bất kỳ tệp nào bạn xử lý đều không bao giờ rời khỏi thiết bị của bạn.</p>",
       "sections": {
         "scope": {
           "title": "1. Phạm vi",
-          "body": "<p>Chính sách này áp dụng cho tanukibox.com và mọi công cụ được lưu trữ trong miền này. Nó mô tả những thông tin nào được thu thập khi bạn truy cập trang web và chúng tôi làm gì với chúng.</p>"
+          "body": "<p>Chính sách này áp dụng cho Cervantic và mọi công cụ của nó. Nó mô tả những thông tin nào được thu thập khi bạn truy cập trang web và chúng tôi làm gì với chúng.</p>"
         },
         "data": {
           "title": "2. Dữ liệu chúng tôi thu thập",
-          "body": "<p>Chúng tôi không có máy chủ nhận tệp của bạn. Các công cụ (Mochi, Metaimg, Createpass, Hashy, v.v.) xử lý dữ liệu ngay trong trình duyệt của bạn bằng API gốc (Canvas, Web Crypto, v.v.). Do đó:</p><ul><li><strong>Chúng tôi không thu thập</strong> các tệp bạn xử lý, nội dung của chúng hoặc kết quả.</li><li><strong>Không có tài khoản người dùng</strong>, mật khẩu hoặc hồ sơ.</li><li>Máy chủ Tanukibox chỉ cung cấp các tài nguyên tĩnh của trang web (HTML, CSS, JS).</li></ul><p>Điều duy nhất được lưu trữ được mô tả trong phần Cookies.</p>"
+          "body": "<p>Chúng tôi không có máy chủ nhận tệp của bạn. Các công cụ (Mochi, Metaimg, Createpass, Hashy, v.v.) xử lý dữ liệu ngay trong trình duyệt của bạn bằng API gốc (Canvas, Web Crypto, v.v.). Do đó:</p><ul><li><strong>Chúng tôi không thu thập</strong> các tệp bạn xử lý, nội dung của chúng hoặc kết quả.</li><li><strong>Không có tài khoản người dùng</strong>, mật khẩu hoặc hồ sơ.</li><li>Máy chủ Cervantic chỉ cung cấp các tài nguyên tĩnh của trang web (HTML, CSS, JS).</li></ul><p>Điều duy nhất được lưu trữ được mô tả trong phần Cookies.</p>"
         },
         "cookies": {
           "title": "3. Cookies và lưu trữ cục bộ",
-          "body": "<p>Chúng tôi sử dụng một cookie kỹ thuật duy nhất tên là <code>tanukibox_lang</code> để ghi nhớ tùy chọn ngôn ngữ của bạn. Nó không xác định người dùng và không được chia sẻ với bên thứ ba.</p><p>Thông tin chi tiết hơn trong <a href='/cookies'>chính sách cookies</a>.</p>"
+          "body": "<p>Chúng tôi sử dụng một cookie kỹ thuật duy nhất tên là <code>cervantic_lang</code> để ghi nhớ tùy chọn ngôn ngữ của bạn. Nó không xác định người dùng và không được chia sẻ với bên thứ ba.</p><p>Thông tin chi tiết hơn trong <a href='/cookies'>chính sách cookies</a>.</p>"
         },
         "tracking": {
           "title": "4. Phân tích và quảng cáo",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Liên hệ",
-          "body": "<p>Đối với bất kỳ câu hỏi nào liên quan đến quyền riêng tư: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>Đối với bất kỳ câu hỏi nào liên quan đến quyền riêng tư: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Điều khoản sử dụng",
-      "intro": "<p>Chào mừng bạn đến với Tanukibox. Khi sử dụng trang web này, bạn chấp nhận các điều kiện được mô tả bên dưới. Nếu bạn không đồng ý, vui lòng không sử dụng dịch vụ.</p>",
+      "intro": "<p>Chào mừng bạn đến với Cervantic. Khi sử dụng trang web này, bạn chấp nhận các điều kiện được mô tả bên dưới. Nếu bạn không đồng ý, vui lòng không sử dụng dịch vụ.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Chấp nhận",
-          "body": "<p>Việc truy cập và sử dụng tanukibox.com đồng nghĩa với việc chấp nhận đầy đủ các điều khoản này. Chúng có thể được cập nhật bất kỳ lúc nào; việc tiếp tục sử dụng sau những thay đổi đó đồng nghĩa với việc chấp nhận chúng.</p>"
+          "body": "<p>Việc truy cập và sử dụng Cervantic đồng nghĩa với việc chấp nhận đầy đủ các điều khoản này. Chúng có thể được cập nhật bất kỳ lúc nào; việc tiếp tục sử dụng sau những thay đổi đó đồng nghĩa với việc chấp nhận chúng.</p>"
         },
         "service": {
           "title": "2. Mô tả dịch vụ",
-          "body": "<p>Tanukibox cung cấp một bộ tiện ích chạy hoàn toàn trong trình duyệt của bạn (xử lý cục bộ). Dịch vụ được cung cấp <strong>miễn phí và \"như hiện trạng\"</strong>, không bảo đảm về tính khả dụng, độ chính xác hoặc tính phù hợp cho một mục đích cụ thể.</p>"
+          "body": "<p>Cervantic cung cấp một bộ tiện ích chạy hoàn toàn trong trình duyệt của bạn (xử lý cục bộ). Dịch vụ được cung cấp <strong>miễn phí và \"như hiện trạng\"</strong>, không bảo đảm về tính khả dụng, độ chính xác hoặc tính phù hợp cho một mục đích cụ thể.</p>"
         },
         "use": {
           "title": "3. Sử dụng được cho phép",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Sở hữu trí tuệ",
-          "body": "<p>Tên Tanukibox, logo và thiết kế trang web là tài sản của tác giả. Mã nguồn có thể được cung cấp dưới giấy phép mở trong kho lưu trữ công khai; hãy kiểm tra kho lưu trữ để biết các điều khoản chính xác.</p>"
+          "body": "<p>Tên Cervantic, logo và thiết kế trang web là tài sản của tác giả. Mã nguồn có thể được cung cấp dưới giấy phép mở trong kho lưu trữ công khai; hãy kiểm tra kho lưu trữ để biết các điều khoản chính xác.</p>"
         },
         "liability": {
           "title": "6. Giới hạn trách nhiệm",
-          "body": "<p>Trong phạm vi tối đa mà luật pháp cho phép, Tanukibox sẽ không chịu trách nhiệm về các thiệt hại trực tiếp, gián tiếp, ngẫu nhiên hoặc do hậu quả phát sinh từ việc sử dụng hoặc không thể sử dụng dịch vụ, bao gồm cả việc mất dữ liệu.</p>"
+          "body": "<p>Trong phạm vi tối đa mà luật pháp cho phép, Cervantic sẽ không chịu trách nhiệm về các thiệt hại trực tiếp, gián tiếp, ngẫu nhiên hoặc do hậu quả phát sinh từ việc sử dụng hoặc không thể sử dụng dịch vụ, bao gồm cả việc mất dữ liệu.</p>"
         },
         "changes": {
           "title": "7. Sửa đổi",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Chính sách cookies",
-      "intro": "<p>Trang này mô tả những cookies và cơ chế lưu trữ nào mà tanukibox.com sử dụng.</p>",
+      "intro": "<p>Trang này mô tả những cookies và cơ chế lưu trữ nào mà Cervantic sử dụng.</p>",
       "sections": {
         "what": {
           "title": "1. Cookies là gì",
-          "body": "<p>Cookies là những tệp nhỏ mà một trang web lưu trữ trên thiết bị của bạn để ghi nhớ thông tin giữa các lần truy cập (tùy chọn, phiên, v.v.). Tanukibox sử dụng mức tối thiểu.</p>"
+          "body": "<p>Cookies là những tệp nhỏ mà một trang web lưu trữ trên thiết bị của bạn để ghi nhớ thông tin giữa các lần truy cập (tùy chọn, phiên, v.v.). Cervantic sử dụng mức tối thiểu.</p>"
         },
         "used": {
           "title": "2. Cookies chúng tôi sử dụng",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — cookie tùy chọn kỹ thuật. Lưu trữ ngôn ngữ đã chọn để chúng tôi không hỏi lại mỗi lần truy cập. Hết hạn sau 1 năm. Không xác định người dùng.</li></ul><p>Hiện tại chúng tôi không sử dụng cookie theo dõi hoặc quảng cáo.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — cookie tùy chọn kỹ thuật. Lưu trữ ngôn ngữ đã chọn để chúng tôi không hỏi lại mỗi lần truy cập. Hết hạn sau 1 năm. Không xác định người dùng.</li></ul><p>Hiện tại chúng tôi không sử dụng cookie theo dõi hoặc quảng cáo.</p>"
         },
         "thirdParty": {
           "title": "3. Cookies bên thứ ba",
-          "body": "<p>Tanukibox hiện không tải các script bên thứ ba cài đặt cookies. Nếu trong tương lai chúng tôi tích hợp các dịch vụ như Google AdSense hoặc công cụ phân tích, phần này sẽ được cập nhật và sự đồng ý của bạn sẽ được yêu cầu thông qua biểu ngữ.</p>"
+          "body": "<p>Cervantic hiện không tải các script bên thứ ba cài đặt cookies. Nếu trong tương lai chúng tôi tích hợp các dịch vụ như Google AdSense hoặc công cụ phân tích, phần này sẽ được cập nhật và sự đồng ý của bạn sẽ được yêu cầu thông qua biểu ngữ.</p>"
         },
         "manage": {
           "title": "4. Cách quản lý cookies",
-          "body": "<p>Bạn có thể xóa hoặc chặn cookies từ cài đặt trình duyệt của mình. Nếu bạn chặn <code>tanukibox_lang</code>, trang web sẽ hoạt động nhưng sẽ không nhớ tùy chọn ngôn ngữ của bạn.</p>"
+          "body": "<p>Bạn có thể xóa hoặc chặn cookies từ cài đặt trình duyệt của mình. Nếu bạn chặn <code>cervantic_lang</code>, trang web sẽ hoạt động nhưng sẽ không nhớ tùy chọn ngôn ngữ của bạn.</p>"
         },
         "changes": {
           "title": "5. Thay đổi đối với chính sách này",

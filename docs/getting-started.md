@@ -10,7 +10,7 @@ That's it. No databases, no environment variables, no API keys.
 ## Install and run
 
 ```bash
-git clone git@github.com:n1nj4t4nuk1/webtools.git
+git clone <url-del-repositorio>
 cd webtools
 npm install
 npm run dev

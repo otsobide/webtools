@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "bijv. tanukibox",
+      "placeholder": "bijv. cervantic",
       "hint": "Dezelfde seed levert altijd dezelfde reeks op. Niet cryptografisch veilig.",
       "randomTitle": "Nieuwe willekeurige seed"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Watermerktekst",
-      "placeholder": "bijv. © TanukiBox",
+      "placeholder": "bijv. © Cervantic",
       "font": "Lettertype",
       "size": "Grootte",
       "color": "Kleur",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Dat bestand is geen geldige afbeelding."
   },
   "footer": {
-    "tagline": "Tanukibox · tools die in uw browser draaien",
+    "tagline": "Cervantic · tools die in uw browser draaien",
     "legalLinks": "Juridische links",
     "privacy": "Privacy",
     "terms": "Voorwaarden",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Laatst bijgewerkt: 15 mei 2026",
     "privacy": {
       "title": "Privacybeleid",
-      "intro": "<p>Bij Tanukibox geloven we dat uw bestanden van u zijn. Daarom draaien al onze tools <strong>volledig in uw browser</strong>: de afbeeldingen, PDF's, tekst of welk bestand u ook verwerkt verlaat nooit uw apparaat.</p>",
+      "intro": "<p>Bij Cervantic geloven we dat uw bestanden van u zijn. Daarom draaien al onze tools <strong>volledig in uw browser</strong>: de afbeeldingen, PDF's, tekst of welk bestand u ook verwerkt verlaat nooit uw apparaat.</p>",
       "sections": {
         "scope": {
           "title": "1. Toepassingsgebied",
-          "body": "<p>Dit beleid is van toepassing op tanukibox.com en op elke tool die onder dit domein wordt gehost. Het beschrijft welke informatie wordt verzameld wanneer u de site bezoekt en wat we ermee doen.</p>"
+          "body": "<p>Dit beleid is van toepassing op Cervantic en op al zijn tools. Het beschrijft welke informatie wordt verzameld wanneer u de site bezoekt en wat we ermee doen.</p>"
         },
         "data": {
           "title": "2. Gegevens die we verzamelen",
-          "body": "<p>We hebben geen server die uw bestanden ontvangt. De tools (Mochi, Metaimg, Createpass, Hashy, enz.) verwerken gegevens rechtstreeks in uw browser met behulp van native API's (Canvas, Web Crypto, enz.). Daarom:</p><ul><li><strong>Verzamelen we niet</strong> de bestanden die u verwerkt, hun inhoud of de resultaten.</li><li><strong>Er zijn geen gebruikersaccounts</strong>, wachtwoorden of profielen.</li><li>De Tanukibox-server levert alleen de statische bronnen van de site (HTML, CSS, JS).</li></ul><p>Het enige wat wordt opgeslagen staat beschreven in het gedeelte Cookies.</p>"
+          "body": "<p>We hebben geen server die uw bestanden ontvangt. De tools (Mochi, Metaimg, Createpass, Hashy, enz.) verwerken gegevens rechtstreeks in uw browser met behulp van native API's (Canvas, Web Crypto, enz.). Daarom:</p><ul><li><strong>Verzamelen we niet</strong> de bestanden die u verwerkt, hun inhoud of de resultaten.</li><li><strong>Er zijn geen gebruikersaccounts</strong>, wachtwoorden of profielen.</li><li>De Cervantic-server levert alleen de statische bronnen van de site (HTML, CSS, JS).</li></ul><p>Het enige wat wordt opgeslagen staat beschreven in het gedeelte Cookies.</p>"
         },
         "cookies": {
           "title": "3. Cookies en lokale opslag",
-          "body": "<p>We gebruiken één enkele technische cookie genaamd <code>tanukibox_lang</code> om uw taalvoorkeur te onthouden. Deze identificeert de gebruiker niet en wordt niet gedeeld met derden.</p><p>Meer details in het <a href='/cookies'>cookiebeleid</a>.</p>"
+          "body": "<p>We gebruiken één enkele technische cookie genaamd <code>cervantic_lang</code> om uw taalvoorkeur te onthouden. Deze identificeert de gebruiker niet en wordt niet gedeeld met derden.</p><p>Meer details in het <a href='/cookies'>cookiebeleid</a>.</p>"
         },
         "tracking": {
           "title": "4. Analyse en advertenties",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Contact",
-          "body": "<p>Voor vragen over privacy: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>Voor vragen over privacy: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Gebruiksvoorwaarden",
-      "intro": "<p>Welkom bij Tanukibox. Door deze site te gebruiken accepteert u de hieronder beschreven voorwaarden. Als u het er niet mee eens bent, gebruik de dienst dan niet.</p>",
+      "intro": "<p>Welkom bij Cervantic. Door deze site te gebruiken accepteert u de hieronder beschreven voorwaarden. Als u het er niet mee eens bent, gebruik de dienst dan niet.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Acceptatie",
-          "body": "<p>Toegang tot en gebruik van tanukibox.com impliceert volledige acceptatie van deze voorwaarden. Ze kunnen op elk moment worden bijgewerkt; voortgezet gebruik na de wijzigingen impliceert acceptatie ervan.</p>"
+          "body": "<p>Toegang tot en gebruik van Cervantic impliceert volledige acceptatie van deze voorwaarden. Ze kunnen op elk moment worden bijgewerkt; voortgezet gebruik na de wijzigingen impliceert acceptatie ervan.</p>"
         },
         "service": {
           "title": "2. Beschrijving van de dienst",
-          "body": "<p>Tanukibox biedt een set hulpmiddelen die volledig in uw browser draaien (lokale verwerking). De dienst wordt <strong>gratis en \"zoals het is\"</strong> geleverd, zonder garanties van beschikbaarheid, nauwkeurigheid of geschiktheid voor een bepaald doel.</p>"
+          "body": "<p>Cervantic biedt een set hulpmiddelen die volledig in uw browser draaien (lokale verwerking). De dienst wordt <strong>gratis en \"zoals het is\"</strong> geleverd, zonder garanties van beschikbaarheid, nauwkeurigheid of geschiktheid voor een bepaald doel.</p>"
         },
         "use": {
           "title": "3. Toegestaan gebruik",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Intellectueel eigendom",
-          "body": "<p>De naam Tanukibox, het logo en het siteontwerp zijn eigendom van de auteur. De broncode kan beschikbaar zijn onder een open licentie in zijn publieke repository; raadpleeg de repository voor de exacte voorwaarden.</p>"
+          "body": "<p>De naam Cervantic, het logo en het siteontwerp zijn eigendom van de auteur. De broncode kan beschikbaar zijn onder een open licentie in zijn publieke repository; raadpleeg de repository voor de exacte voorwaarden.</p>"
         },
         "liability": {
           "title": "6. Beperking van aansprakelijkheid",
-          "body": "<p>Voor zover wettelijk toegestaan is Tanukibox niet aansprakelijk voor directe, indirecte, incidentele of gevolgschade die voortvloeit uit het gebruik of het onvermogen om de dienst te gebruiken, inclusief gegevensverlies.</p>"
+          "body": "<p>Voor zover wettelijk toegestaan is Cervantic niet aansprakelijk voor directe, indirecte, incidentele of gevolgschade die voortvloeit uit het gebruik of het onvermogen om de dienst te gebruiken, inclusief gegevensverlies.</p>"
         },
         "changes": {
           "title": "7. Wijzigingen",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Cookiebeleid",
-      "intro": "<p>Deze pagina beschrijft welke cookies en opslagmechanismen tanukibox.com gebruikt.</p>",
+      "intro": "<p>Deze pagina beschrijft welke cookies en opslagmechanismen Cervantic gebruikt.</p>",
       "sections": {
         "what": {
           "title": "1. Wat cookies zijn",
-          "body": "<p>Cookies zijn kleine bestanden die een website op uw apparaat opslaat om informatie tussen bezoeken te onthouden (voorkeuren, sessie, enz.). Tanukibox gebruikt het absolute minimum.</p>"
+          "body": "<p>Cookies zijn kleine bestanden die een website op uw apparaat opslaat om informatie tussen bezoeken te onthouden (voorkeuren, sessie, enz.). Cervantic gebruikt het absolute minimum.</p>"
         },
         "used": {
           "title": "2. Cookies die we gebruiken",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — technische voorkeurscookie. Slaat de geselecteerde taal op zodat we het niet bij elk bezoek hoeven te vragen. Verloopt na 1 jaar. Identificeert de gebruiker niet.</li></ul><p>We gebruiken op dit moment geen tracking- of advertentiecookies.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — technische voorkeurscookie. Slaat de geselecteerde taal op zodat we het niet bij elk bezoek hoeven te vragen. Verloopt na 1 jaar. Identificeert de gebruiker niet.</li></ul><p>We gebruiken op dit moment geen tracking- of advertentiecookies.</p>"
         },
         "thirdParty": {
           "title": "3. Cookies van derden",
-          "body": "<p>Tanukibox laadt momenteel geen scripts van derden die cookies installeren. Als we in de toekomst diensten als Google AdSense of een analysehulpmiddel integreren, wordt deze sectie bijgewerkt en wordt uw toestemming gevraagd via een banner.</p>"
+          "body": "<p>Cervantic laadt momenteel geen scripts van derden die cookies installeren. Als we in de toekomst diensten als Google AdSense of een analysehulpmiddel integreren, wordt deze sectie bijgewerkt en wordt uw toestemming gevraagd via een banner.</p>"
         },
         "manage": {
           "title": "4. Cookies beheren",
-          "body": "<p>U kunt cookies verwijderen of blokkeren via de instellingen van uw browser. Als u <code>tanukibox_lang</code> blokkeert, blijft de site werken maar onthoudt deze uw taalvoorkeur niet.</p>"
+          "body": "<p>U kunt cookies verwijderen of blokkeren via de instellingen van uw browser. Als u <code>cervantic_lang</code> blokkeert, blijft de site werken maar onthoudt deze uw taalvoorkeur niet.</p>"
         },
         "changes": {
           "title": "5. Wijzigingen van dit beleid",

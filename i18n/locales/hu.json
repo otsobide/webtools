@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Mag",
-      "placeholder": "pl. tanukibox",
+      "placeholder": "pl. cervantic",
       "hint": "Ugyanaz a mag mindig ugyanazt a sorozatot adja. Kriptográfiailag nem biztonságos.",
       "randomTitle": "Új véletlen mag"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Vízjel szövege",
-      "placeholder": "pl. © TanukiBox",
+      "placeholder": "pl. © Cervantic",
       "font": "Betűtípus",
       "size": "Méret",
       "color": "Szín",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Ez a fájl nem érvényes kép."
   },
   "footer": {
-    "tagline": "Tanukibox · eszközök, amelyek a böngészőben futnak",
+    "tagline": "Cervantic · eszközök, amelyek a böngészőben futnak",
     "legalLinks": "Jogi linkek",
     "privacy": "Adatvédelem",
     "terms": "Feltételek",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Utolsó frissítés: 2026. május 15.",
     "privacy": {
       "title": "Adatvédelmi szabályzat",
-      "intro": "<p>A Tanukibox-nál hiszünk abban, hogy az Ön fájljai az Önéi. Ezért minden eszközünk <strong>teljes egészében az Ön böngészőjében</strong> fut: a feldolgozott képek, PDF-ek, szövegek vagy bármilyen fájl soha nem hagyják el az eszközét.</p>",
+      "intro": "<p>A Cervantic-nál hiszünk abban, hogy az Ön fájljai az Önéi. Ezért minden eszközünk <strong>teljes egészében az Ön böngészőjében</strong> fut: a feldolgozott képek, PDF-ek, szövegek vagy bármilyen fájl soha nem hagyják el az eszközét.</p>",
       "sections": {
         "scope": {
           "title": "1. Hatály",
-          "body": "<p>Ez a szabályzat a tanukibox.com oldalra és az ehhez a domainhez tartozó minden eszközre vonatkozik. Leírja, milyen információkat gyűjtünk az oldal látogatása során, és mit teszünk velük.</p>"
+          "body": "<p>Ez a szabályzat a Cervanticra és annak minden eszközére vonatkozik. Leírja, milyen információkat gyűjtünk az oldal látogatása során, és mit teszünk velük.</p>"
         },
         "data": {
           "title": "2. Az általunk gyűjtött adatok",
-          "body": "<p>Nincs olyan szerverünk, amely az Ön fájljait fogadná. Az eszközök (Mochi, Metaimg, Createpass, Hashy, stb.) közvetlenül a böngészőben dolgozzák fel az adatokat natív API-k (Canvas, Web Crypto, stb.) segítségével. Ennélfogva:</p><ul><li><strong>Nem gyűjtjük</strong> az Ön által feldolgozott fájlokat, azok tartalmát vagy az eredményeket.</li><li><strong>Nincsenek felhasználói fiókok</strong>, jelszavak vagy profilok.</li><li>A Tanukibox szerver csak az oldal statikus erőforrásait (HTML, CSS, JS) szolgáltatja.</li></ul><p>Az egyetlen tárolt elemet a Cookies szakasz írja le.</p>"
+          "body": "<p>Nincs olyan szerverünk, amely az Ön fájljait fogadná. Az eszközök (Mochi, Metaimg, Createpass, Hashy, stb.) közvetlenül a böngészőben dolgozzák fel az adatokat natív API-k (Canvas, Web Crypto, stb.) segítségével. Ennélfogva:</p><ul><li><strong>Nem gyűjtjük</strong> az Ön által feldolgozott fájlokat, azok tartalmát vagy az eredményeket.</li><li><strong>Nincsenek felhasználói fiókok</strong>, jelszavak vagy profilok.</li><li>A Cervantic szerver csak az oldal statikus erőforrásait (HTML, CSS, JS) szolgáltatja.</li></ul><p>Az egyetlen tárolt elemet a Cookies szakasz írja le.</p>"
         },
         "cookies": {
           "title": "3. Cookies és helyi tárolás",
-          "body": "<p>Egyetlen technikai cookie-t használunk <code>tanukibox_lang</code> néven az Ön nyelvi preferenciájának megjegyzésére. Nem azonosítja a felhasználót, és nem osztjuk meg harmadik felekkel.</p><p>További részletek a <a href='/cookies'>cookies szabályzatban</a>.</p>"
+          "body": "<p>Egyetlen technikai cookie-t használunk <code>cervantic_lang</code> néven az Ön nyelvi preferenciájának megjegyzésére. Nem azonosítja a felhasználót, és nem osztjuk meg harmadik felekkel.</p><p>További részletek a <a href='/cookies'>cookies szabályzatban</a>.</p>"
         },
         "tracking": {
           "title": "4. Elemzés és hirdetés",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Kapcsolat",
-          "body": "<p>Az adatvédelemmel kapcsolatos bármely kérdés esetén: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>Az adatvédelemmel kapcsolatos bármely kérdés esetén: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Felhasználási feltételek",
-      "intro": "<p>Üdvözöljük a Tanukibox-on. Az oldal használatával elfogadja az alább ismertetett feltételeket. Ha nem ért egyet velük, kérjük, ne használja a szolgáltatást.</p>",
+      "intro": "<p>Üdvözöljük a Cervantic-on. Az oldal használatával elfogadja az alább ismertetett feltételeket. Ha nem ért egyet velük, kérjük, ne használja a szolgáltatást.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Elfogadás",
-          "body": "<p>A tanukibox.com elérése és használata e feltételek teljes elfogadását jelenti. Ezek bármikor frissülhetnek; a változások utáni folytatólagos használat azok elfogadását jelenti.</p>"
+          "body": "<p>A Cervantic elérése és használata e feltételek teljes elfogadását jelenti. Ezek bármikor frissülhetnek; a változások utáni folytatólagos használat azok elfogadását jelenti.</p>"
         },
         "service": {
           "title": "2. A szolgáltatás leírása",
-          "body": "<p>A Tanukibox olyan segédprogramokat kínál, amelyek teljes egészében az Ön böngészőjében futnak (helyi feldolgozás). A szolgáltatást <strong>ingyenesen és \"ahogy van\"</strong> alapon nyújtjuk, az elérhetőségre, pontosságra vagy adott célra való alkalmasságra vonatkozó garancia nélkül.</p>"
+          "body": "<p>A Cervantic olyan segédprogramokat kínál, amelyek teljes egészében az Ön böngészőjében futnak (helyi feldolgozás). A szolgáltatást <strong>ingyenesen és \"ahogy van\"</strong> alapon nyújtjuk, az elérhetőségre, pontosságra vagy adott célra való alkalmasságra vonatkozó garancia nélkül.</p>"
         },
         "use": {
           "title": "3. Engedélyezett használat",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Szellemi tulajdon",
-          "body": "<p>A Tanukibox név, logó és oldaltervezés a szerzője tulajdonát képezi. A forráskód nyílt licenc alatt elérhető lehet a nyilvános tárolójában; az pontos feltételeket a tárolóban ellenőrizze.</p>"
+          "body": "<p>A Cervantic név, logó és oldaltervezés a szerzője tulajdonát képezi. A forráskód nyílt licenc alatt elérhető lehet a nyilvános tárolójában; az pontos feltételeket a tárolóban ellenőrizze.</p>"
         },
         "liability": {
           "title": "6. Felelősség korlátozása",
-          "body": "<p>A törvény által megengedett legnagyobb mértékben a Tanukibox nem vállal felelősséget a szolgáltatás használatából vagy nem használatából eredő közvetlen, közvetett, járulékos vagy következményes károkért, beleértve az adatvesztést is.</p>"
+          "body": "<p>A törvény által megengedett legnagyobb mértékben a Cervantic nem vállal felelősséget a szolgáltatás használatából vagy nem használatából eredő közvetlen, közvetett, járulékos vagy következményes károkért, beleértve az adatvesztést is.</p>"
         },
         "changes": {
           "title": "7. Módosítások",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Cookies szabályzat",
-      "intro": "<p>Ez az oldal leírja, milyen cookies-okat és tárolási mechanizmusokat használ a tanukibox.com.</p>",
+      "intro": "<p>Ez az oldal leírja, milyen cookies-okat és tárolási mechanizmusokat használ a Cervantic.</p>",
       "sections": {
         "what": {
           "title": "1. Mik azok a cookies",
-          "body": "<p>A cookies kis fájlok, amelyeket egy weboldal tárol az eszközén, hogy információkat megjegyezzen a látogatások között (preferenciák, munkamenet, stb.). A Tanukibox a minimális szükséges mennyiséget használja.</p>"
+          "body": "<p>A cookies kis fájlok, amelyeket egy weboldal tárol az eszközén, hogy információkat megjegyezzen a látogatások között (preferenciák, munkamenet, stb.). A Cervantic a minimális szükséges mennyiséget használja.</p>"
         },
         "used": {
           "title": "2. Az általunk használt cookies",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — technikai preferencia cookie. Tárolja a kiválasztott nyelvet, hogy ne kelljen minden látogatáskor megkérdezni. 1 év alatt lejár. Nem azonosítja a felhasználót.</li></ul><p>Jelenleg nem használunk követő vagy hirdetési cookies-okat.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — technikai preferencia cookie. Tárolja a kiválasztott nyelvet, hogy ne kelljen minden látogatáskor megkérdezni. 1 év alatt lejár. Nem azonosítja a felhasználót.</li></ul><p>Jelenleg nem használunk követő vagy hirdetési cookies-okat.</p>"
         },
         "thirdParty": {
           "title": "3. Harmadik felek cookies-ai",
-          "body": "<p>A Tanukibox jelenleg nem tölt be olyan harmadik féltől származó szkripteket, amelyek cookies-okat telepítenének. Ha a jövőben olyan szolgáltatásokat integrálunk, mint a Google AdSense vagy egy elemző eszköz, ez a szakasz frissül, és az Ön hozzájárulását egy banneren keresztül kérjük.</p>"
+          "body": "<p>A Cervantic jelenleg nem tölt be olyan harmadik féltől származó szkripteket, amelyek cookies-okat telepítenének. Ha a jövőben olyan szolgáltatásokat integrálunk, mint a Google AdSense vagy egy elemző eszköz, ez a szakasz frissül, és az Ön hozzájárulását egy banneren keresztül kérjük.</p>"
         },
         "manage": {
           "title": "4. Cookies kezelése",
-          "body": "<p>A cookies-okat a böngésző beállításaiból törölheti vagy letilthatja. Ha letiltja a <code>tanukibox_lang</code>-ot, az oldal működik, de nem fogja megjegyezni a nyelvi preferenciáját.</p>"
+          "body": "<p>A cookies-okat a böngésző beállításaiból törölheti vagy letilthatja. Ha letiltja a <code>cervantic_lang</code>-ot, az oldal működik, de nem fogja megjegyezni a nyelvi preferenciáját.</p>"
         },
         "changes": {
           "title": "5. A szabályzat módosításai",

@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Siemen",
-      "placeholder": "esim. tanukibox",
+      "placeholder": "esim. cervantic",
       "hint": "Sama siemen tuottaa aina saman jonon. Ei kryptografisesti turvallinen.",
       "randomTitle": "Uusi satunnainen siemen"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Vesileiman teksti",
-      "placeholder": "esim. © TanukiBox",
+      "placeholder": "esim. © Cervantic",
       "font": "Fontti",
       "size": "Koko",
       "color": "Väri",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Tiedosto ei ole kelvollinen kuva."
   },
   "footer": {
-    "tagline": "Tanukibox · työkalut, jotka toimivat selaimessasi",
+    "tagline": "Cervantic · työkalut, jotka toimivat selaimessasi",
     "legalLinks": "Lailliset linkit",
     "privacy": "Yksityisyys",
     "terms": "Ehdot",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Viimeksi päivitetty: 15. toukokuuta 2026",
     "privacy": {
       "title": "Tietosuojakäytäntö",
-      "intro": "<p>Tanukiboxissa uskomme, että tiedostosi ovat sinun. Siksi kaikki työkalumme toimivat <strong>kokonaan selaimessasi</strong>: kuvat, PDF:t, teksti tai mikä tahansa käsittelemäsi tiedosto ei koskaan poistu laitteeltasi.</p>",
+      "intro": "<p>Cervanticissa uskomme, että tiedostosi ovat sinun. Siksi kaikki työkalumme toimivat <strong>kokonaan selaimessasi</strong>: kuvat, PDF:t, teksti tai mikä tahansa käsittelemäsi tiedosto ei koskaan poistu laitteeltasi.</p>",
       "sections": {
         "scope": {
           "title": "1. Soveltamisala",
-          "body": "<p>Tämä käytäntö koskee tanukibox.com-sivustoa ja kaikkia tämän verkkotunnuksen alla isännöityjä työkaluja. Se kuvaa, mitä tietoja kerätään, kun vierailet sivustolla, ja mitä teemme niillä.</p>"
+          "body": "<p>Tämä käytäntö koskee Cervanticia ja kaikkia sen työkaluja. Se kuvaa, mitä tietoja kerätään, kun vierailet sivustolla, ja mitä teemme niillä.</p>"
         },
         "data": {
           "title": "2. Keräämämme tiedot",
-          "body": "<p>Meillä ei ole palvelinta, joka vastaanottaisi tiedostosi. Työkalut (Mochi, Metaimg, Createpass, Hashy jne.) käsittelevät tietoja suoraan selaimessasi käyttäen natiivirajapintoja (Canvas, Web Crypto jne.). Siksi:</p><ul><li><strong>Emme kerää</strong> käsittelemiäsi tiedostoja, niiden sisältöä tai tuloksia.</li><li><strong>Käyttäjätilejä</strong>, salasanoja tai profiileja ei ole.</li><li>Tanukibox-palvelin toimittaa vain sivuston staattiset resurssit (HTML, CSS, JS).</li></ul><p>Ainoa tallennettava asia on kuvattu Evästeet-osiossa.</p>"
+          "body": "<p>Meillä ei ole palvelinta, joka vastaanottaisi tiedostosi. Työkalut (Mochi, Metaimg, Createpass, Hashy jne.) käsittelevät tietoja suoraan selaimessasi käyttäen natiivirajapintoja (Canvas, Web Crypto jne.). Siksi:</p><ul><li><strong>Emme kerää</strong> käsittelemiäsi tiedostoja, niiden sisältöä tai tuloksia.</li><li><strong>Käyttäjätilejä</strong>, salasanoja tai profiileja ei ole.</li><li>Cervantic-palvelin toimittaa vain sivuston staattiset resurssit (HTML, CSS, JS).</li></ul><p>Ainoa tallennettava asia on kuvattu Evästeet-osiossa.</p>"
         },
         "cookies": {
           "title": "3. Evästeet ja paikallinen tallennus",
-          "body": "<p>Käytämme yhtä teknistä evästettä nimeltä <code>tanukibox_lang</code> kieliasetuksesi muistamiseen. Se ei tunnista käyttäjää eikä sitä jaeta kolmansille osapuolille.</p><p>Lisätietoja <a href='/cookies'>evästekäytännössä</a>.</p>"
+          "body": "<p>Käytämme yhtä teknistä evästettä nimeltä <code>cervantic_lang</code> kieliasetuksesi muistamiseen. Se ei tunnista käyttäjää eikä sitä jaeta kolmansille osapuolille.</p><p>Lisätietoja <a href='/cookies'>evästekäytännössä</a>.</p>"
         },
         "tracking": {
           "title": "4. Analytiikka ja mainonta",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Yhteystiedot",
-          "body": "<p>Tietosuojaan liittyvissä kysymyksissä: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>Tietosuojaan liittyvissä kysymyksissä: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Käyttöehdot",
-      "intro": "<p>Tervetuloa Tanukiboxiin. Käyttämällä tätä sivustoa hyväksyt alla kuvatut ehdot. Jos et hyväksy, älä käytä palvelua.</p>",
+      "intro": "<p>Tervetuloa Cervanticiin. Käyttämällä tätä sivustoa hyväksyt alla kuvatut ehdot. Jos et hyväksy, älä käytä palvelua.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Hyväksyntä",
-          "body": "<p>Tanukibox.com-sivuston käyttö ja siihen pääsy merkitsee näiden ehtojen täydellistä hyväksymistä. Niitä voidaan päivittää milloin tahansa; jatkuva käyttö muutosten jälkeen merkitsee niiden hyväksymistä.</p>"
+          "body": "<p>Cervantic-sivuston käyttö ja siihen pääsy merkitsee näiden ehtojen täydellistä hyväksymistä. Niitä voidaan päivittää milloin tahansa; jatkuva käyttö muutosten jälkeen merkitsee niiden hyväksymistä.</p>"
         },
         "service": {
           "title": "2. Palvelun kuvaus",
-          "body": "<p>Tanukibox tarjoaa joukon työkaluja, jotka toimivat kokonaan selaimessasi (paikallinen käsittely). Palvelu tarjotaan <strong>maksutta ja \"sellaisena kuin se on\"</strong>, ilman takuita saatavuudesta, tarkkuudesta tai sopivuudesta tiettyyn tarkoitukseen.</p>"
+          "body": "<p>Cervantic tarjoaa joukon työkaluja, jotka toimivat kokonaan selaimessasi (paikallinen käsittely). Palvelu tarjotaan <strong>maksutta ja \"sellaisena kuin se on\"</strong>, ilman takuita saatavuudesta, tarkkuudesta tai sopivuudesta tiettyyn tarkoitukseen.</p>"
         },
         "use": {
           "title": "3. Sallittu käyttö",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Immateriaalioikeudet",
-          "body": "<p>Tanukibox-nimi, logo ja sivuston suunnittelu ovat tekijänsä omaisuutta. Lähdekoodi voi olla saatavilla avoimella lisenssillä julkisessa repositoriossa; tarkista repositorio tarkkojen ehtojen osalta.</p>"
+          "body": "<p>Cervantic-nimi, logo ja sivuston suunnittelu ovat tekijänsä omaisuutta. Lähdekoodi voi olla saatavilla avoimella lisenssillä julkisessa repositoriossa; tarkista repositorio tarkkojen ehtojen osalta.</p>"
         },
         "liability": {
           "title": "6. Vastuun rajoitus",
-          "body": "<p>Lain sallimissa enimmäismäärissä Tanukibox ei ole vastuussa suorista, epäsuorista, satunnaisista tai välillisistä vahingoista, jotka aiheutuvat palvelun käytöstä tai kyvyttömyydestä käyttää sitä, mukaan lukien tietojen menetys.</p>"
+          "body": "<p>Lain sallimissa enimmäismäärissä Cervantic ei ole vastuussa suorista, epäsuorista, satunnaisista tai välillisistä vahingoista, jotka aiheutuvat palvelun käytöstä tai kyvyttömyydestä käyttää sitä, mukaan lukien tietojen menetys.</p>"
         },
         "changes": {
           "title": "7. Muutokset",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Evästekäytäntö",
-      "intro": "<p>Tällä sivulla kuvataan, mitä evästeitä ja tallennusmekanismeja tanukibox.com käyttää.</p>",
+      "intro": "<p>Tällä sivulla kuvataan, mitä evästeitä ja tallennusmekanismeja Cervantic käyttää.</p>",
       "sections": {
         "what": {
           "title": "1. Mitä evästeet ovat",
-          "body": "<p>Evästeet ovat pieniä tiedostoja, joita verkkosivusto tallentaa laitteeseesi muistaakseen tietoja vierailujen välillä (asetukset, istunto jne.). Tanukibox käyttää vain välttämätöntä minimimäärää.</p>"
+          "body": "<p>Evästeet ovat pieniä tiedostoja, joita verkkosivusto tallentaa laitteeseesi muistaakseen tietoja vierailujen välillä (asetukset, istunto jne.). Cervantic käyttää vain välttämätöntä minimimäärää.</p>"
         },
         "used": {
           "title": "2. Käyttämämme evästeet",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — tekninen asetusten eväste. Tallentaa valitun kielen, jottei sitä kysytä joka vierailulla. Vanhenee 1 vuoden kuluttua. Ei tunnista käyttäjää.</li></ul><p>Emme tällä hetkellä käytä seuranta- tai mainosevästeitä.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — tekninen asetusten eväste. Tallentaa valitun kielen, jottei sitä kysytä joka vierailulla. Vanhenee 1 vuoden kuluttua. Ei tunnista käyttäjää.</li></ul><p>Emme tällä hetkellä käytä seuranta- tai mainosevästeitä.</p>"
         },
         "thirdParty": {
           "title": "3. Kolmansien osapuolten evästeet",
-          "body": "<p>Tanukibox ei tällä hetkellä lataa kolmansien osapuolten skriptejä, jotka asentavat evästeitä. Jos integroimme tulevaisuudessa palveluita, kuten Google AdSensen tai analytiikkatyökalun, tämä osio päivitetään ja suostumustasi pyydetään bannerilla.</p>"
+          "body": "<p>Cervantic ei tällä hetkellä lataa kolmansien osapuolten skriptejä, jotka asentavat evästeitä. Jos integroimme tulevaisuudessa palveluita, kuten Google AdSensen tai analytiikkatyökalun, tämä osio päivitetään ja suostumustasi pyydetään bannerilla.</p>"
         },
         "manage": {
           "title": "4. Evästeiden hallinta",
-          "body": "<p>Voit poistaa tai estää evästeitä selaimesi asetuksista. Jos estät <code>tanukibox_lang</code>-evästeen, sivusto toimii, mutta se ei muista kieliasetustasi.</p>"
+          "body": "<p>Voit poistaa tai estää evästeitä selaimesi asetuksista. Jos estät <code>cervantic_lang</code>-evästeen, sivusto toimii, mutta se ei muista kieliasetustasi.</p>"
         },
         "changes": {
           "title": "5. Tämän käytännön muutokset",

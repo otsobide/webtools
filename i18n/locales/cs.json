@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "např. tanukibox",
+      "placeholder": "např. cervantic",
       "hint": "Stejný seed vždy generuje stejnou posloupnost. Není kryptograficky bezpečné.",
       "randomTitle": "Nový náhodný seed"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Text vodoznaku",
-      "placeholder": "např. © TanukiBox",
+      "placeholder": "např. © Cervantic",
       "font": "Písmo",
       "size": "Velikost",
       "color": "Barva",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Tento soubor není platný obrázek."
   },
   "footer": {
-    "tagline": "Tanukibox · nástroje, které běží ve vašem prohlížeči",
+    "tagline": "Cervantic · nástroje, které běží ve vašem prohlížeči",
     "legalLinks": "Právní odkazy",
     "privacy": "Soukromí",
     "terms": "Podmínky",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Naposledy aktualizováno: 15. května 2026",
     "privacy": {
       "title": "Zásady ochrany osobních údajů",
-      "intro": "<p>V Tanukibox věříme, že vaše soubory patří vám. Proto všechny naše nástroje běží <strong>plně ve vašem prohlížeči</strong>: obrázky, PDF, text nebo jakýkoli soubor, který zpracováváte, nikdy neopustí vaše zařízení.</p>",
+      "intro": "<p>V Cervantic věříme, že vaše soubory patří vám. Proto všechny naše nástroje běží <strong>plně ve vašem prohlížeči</strong>: obrázky, PDF, text nebo jakýkoli soubor, který zpracováváte, nikdy neopustí vaše zařízení.</p>",
       "sections": {
         "scope": {
           "title": "1. Rozsah",
-          "body": "<p>Tyto zásady platí pro tanukibox.com a každý nástroj hostovaný pod touto doménou. Popisují, jaké informace jsou shromažďovány, když navštívíte web, a co s nimi děláme.</p>"
+          "body": "<p>Tyto zásady platí pro Cervantic a všechny jeho nástroje. Popisují, jaké informace jsou shromažďovány, když navštívíte web, a co s nimi děláme.</p>"
         },
         "data": {
           "title": "2. Údaje, které shromažďujeme",
-          "body": "<p>Nemáme server, který přijímá vaše soubory. Nástroje (Mochi, Metaimg, Createpass, Hashy atd.) zpracovávají data přímo ve vašem prohlížeči pomocí nativních API (Canvas, Web Crypto atd.). Proto:</p><ul><li><strong>Neshromažďujeme</strong> soubory, které zpracováváte, jejich obsah ani výsledky.</li><li><strong>Neexistují uživatelské účty</strong>, hesla ani profily.</li><li>Server Tanukibox doručuje pouze statické soubory webu (HTML, CSS, JS).</li></ul><p>Jediné, co se ukládá, je popsáno v sekci Cookies.</p>"
+          "body": "<p>Nemáme server, který přijímá vaše soubory. Nástroje (Mochi, Metaimg, Createpass, Hashy atd.) zpracovávají data přímo ve vašem prohlížeči pomocí nativních API (Canvas, Web Crypto atd.). Proto:</p><ul><li><strong>Neshromažďujeme</strong> soubory, které zpracováváte, jejich obsah ani výsledky.</li><li><strong>Neexistují uživatelské účty</strong>, hesla ani profily.</li><li>Server Cervantic doručuje pouze statické soubory webu (HTML, CSS, JS).</li></ul><p>Jediné, co se ukládá, je popsáno v sekci Cookies.</p>"
         },
         "cookies": {
           "title": "3. Cookies a místní úložiště",
-          "body": "<p>Používáme jedinou technickou cookie s názvem <code>tanukibox_lang</code> pro zapamatování vašeho jazykového nastavení. Neidentifikuje uživatele a není sdílena s třetími stranami.</p><p>Více podrobností v <a href='/cookies'>zásadách cookies</a>.</p>"
+          "body": "<p>Používáme jedinou technickou cookie s názvem <code>cervantic_lang</code> pro zapamatování vašeho jazykového nastavení. Neidentifikuje uživatele a není sdílena s třetími stranami.</p><p>Více podrobností v <a href='/cookies'>zásadách cookies</a>.</p>"
         },
         "tracking": {
           "title": "4. Analytika a reklama",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Kontakt",
-          "body": "<p>Pro jakékoli dotazy týkající se soukromí: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>Pro jakékoli dotazy týkající se soukromí: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Podmínky použití",
-      "intro": "<p>Vítejte v Tanukibox. Používáním tohoto webu přijímáte níže popsané podmínky. Pokud nesouhlasíte, službu prosím nepoužívejte.</p>",
+      "intro": "<p>Vítejte v Cervantic. Používáním tohoto webu přijímáte níže popsané podmínky. Pokud nesouhlasíte, službu prosím nepoužívejte.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Přijetí",
-          "body": "<p>Přístup a používání tanukibox.com znamená plné přijetí těchto podmínek. Mohou být kdykoli aktualizovány; pokračující používání po změnách znamená jejich přijetí.</p>"
+          "body": "<p>Přístup a používání Cervantic znamená plné přijetí těchto podmínek. Mohou být kdykoli aktualizovány; pokračující používání po změnách znamená jejich přijetí.</p>"
         },
         "service": {
           "title": "2. Popis služby",
-          "body": "<p>Tanukibox poskytuje sadu nástrojů, které běží plně ve vašem prohlížeči (místní zpracování). Služba je poskytována <strong>zdarma a \"tak jak je\"</strong>, bez záruk dostupnosti, přesnosti nebo vhodnosti pro konkrétní účel.</p>"
+          "body": "<p>Cervantic poskytuje sadu nástrojů, které běží plně ve vašem prohlížeči (místní zpracování). Služba je poskytována <strong>zdarma a \"tak jak je\"</strong>, bez záruk dostupnosti, přesnosti nebo vhodnosti pro konkrétní účel.</p>"
         },
         "use": {
           "title": "3. Povolené použití",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Duševní vlastnictví",
-          "body": "<p>Název Tanukibox, logo a design webu jsou vlastnictvím jejich autora. Zdrojový kód může být dostupný pod otevřenou licencí ve veřejném repozitáři; přesné podmínky zkontrolujte v repozitáři.</p>"
+          "body": "<p>Název Cervantic, logo a design webu jsou vlastnictvím jejich autora. Zdrojový kód může být dostupný pod otevřenou licencí ve veřejném repozitáři; přesné podmínky zkontrolujte v repozitáři.</p>"
         },
         "liability": {
           "title": "6. Omezení odpovědnosti",
-          "body": "<p>V maximálním rozsahu povoleném zákonem nenese Tanukibox odpovědnost za přímé, nepřímé, náhodné nebo následné škody vyplývající z použití nebo nemožnosti používat službu, včetně ztráty dat.</p>"
+          "body": "<p>V maximálním rozsahu povoleném zákonem nenese Cervantic odpovědnost za přímé, nepřímé, náhodné nebo následné škody vyplývající z použití nebo nemožnosti používat službu, včetně ztráty dat.</p>"
         },
         "changes": {
           "title": "7. Úpravy",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Zásady cookies",
-      "intro": "<p>Tato stránka popisuje, které cookies a mechanismy úložiště tanukibox.com používá.</p>",
+      "intro": "<p>Tato stránka popisuje, které cookies a mechanismy úložiště Cervantic používá.</p>",
       "sections": {
         "what": {
           "title": "1. Co jsou cookies",
-          "body": "<p>Cookies jsou malé soubory, které web ukládá na vaše zařízení, aby si zapamatoval informace mezi návštěvami (preference, relace atd.). Tanukibox používá naprosté minimum.</p>"
+          "body": "<p>Cookies jsou malé soubory, které web ukládá na vaše zařízení, aby si zapamatoval informace mezi návštěvami (preference, relace atd.). Cervantic používá naprosté minimum.</p>"
         },
         "used": {
           "title": "2. Cookies, které používáme",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — technická preferenční cookie. Ukládá vybraný jazyk, abychom se nemuseli ptát při každé návštěvě. Vyprší za 1 rok. Neidentifikuje uživatele.</li></ul><p>Momentálně nepoužíváme sledovací ani reklamní cookies.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — technická preferenční cookie. Ukládá vybraný jazyk, abychom se nemuseli ptát při každé návštěvě. Vyprší za 1 rok. Neidentifikuje uživatele.</li></ul><p>Momentálně nepoužíváme sledovací ani reklamní cookies.</p>"
         },
         "thirdParty": {
           "title": "3. Cookies třetích stran",
-          "body": "<p>Tanukibox v současné době nenačítá skripty třetích stran, které instalují cookies. Pokud v budoucnu integrujeme služby jako Google AdSense nebo analytický nástroj, tato sekce bude aktualizována a váš souhlas bude požadován prostřednictvím banneru.</p>"
+          "body": "<p>Cervantic v současné době nenačítá skripty třetích stran, které instalují cookies. Pokud v budoucnu integrujeme služby jako Google AdSense nebo analytický nástroj, tato sekce bude aktualizována a váš souhlas bude požadován prostřednictvím banneru.</p>"
         },
         "manage": {
           "title": "4. Jak spravovat cookies",
-          "body": "<p>Cookies můžete smazat nebo blokovat z nastavení vašeho prohlížeče. Pokud blokujete <code>tanukibox_lang</code>, web bude fungovat, ale nezapamatuje si vaše jazykové nastavení.</p>"
+          "body": "<p>Cookies můžete smazat nebo blokovat z nastavení vašeho prohlížeče. Pokud blokujete <code>cervantic_lang</code>, web bude fungovat, ale nezapamatuje si vaše jazykové nastavení.</p>"
         },
         "changes": {
           "title": "5. Změny těchto zásad",

@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "mis. tanukibox",
+      "placeholder": "mis. cervantic",
       "hint": "Seed yang sama selalu menghasilkan urutan yang sama. Tidak aman secara kriptografis.",
       "randomTitle": "Seed acak baru"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Teks tanda air",
-      "placeholder": "mis. © TanukiBox",
+      "placeholder": "mis. © Cervantic",
       "font": "Font",
       "size": "Ukuran",
       "color": "Warna",
@@ -1458,7 +1458,7 @@
     "notAnImage": "File itu bukan gambar yang valid."
   },
   "footer": {
-    "tagline": "Tanukibox · alat yang berjalan di peramban Anda",
+    "tagline": "Cervantic · alat yang berjalan di peramban Anda",
     "legalLinks": "Tautan hukum",
     "privacy": "Privasi",
     "terms": "Ketentuan",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Terakhir diperbarui: 15 Mei 2026",
     "privacy": {
       "title": "Kebijakan Privasi",
-      "intro": "<p>Di Tanukibox, kami percaya bahwa file Anda adalah milik Anda. Itulah sebabnya semua alat kami berjalan <strong>sepenuhnya di peramban Anda</strong>: gambar, PDF, teks, atau file apa pun yang Anda proses tidak pernah meninggalkan perangkat Anda.</p>",
+      "intro": "<p>Di Cervantic, kami percaya bahwa file Anda adalah milik Anda. Itulah sebabnya semua alat kami berjalan <strong>sepenuhnya di peramban Anda</strong>: gambar, PDF, teks, atau file apa pun yang Anda proses tidak pernah meninggalkan perangkat Anda.</p>",
       "sections": {
         "scope": {
           "title": "1. Ruang lingkup",
-          "body": "<p>Kebijakan ini berlaku untuk tanukibox.com dan setiap alat yang dihosting di bawah domain ini. Ini menjelaskan informasi apa yang dikumpulkan saat Anda mengunjungi situs dan apa yang kami lakukan dengannya.</p>"
+          "body": "<p>Kebijakan ini berlaku untuk Cervantic dan semua alatnya. Ini menjelaskan informasi apa yang dikumpulkan saat Anda mengunjungi situs dan apa yang kami lakukan dengannya.</p>"
         },
         "data": {
           "title": "2. Data yang kami kumpulkan",
-          "body": "<p>Kami tidak memiliki server yang menerima file Anda. Alat-alat (Mochi, Metaimg, Createpass, Hashy, dll.) memproses data langsung di peramban Anda menggunakan API bawaan (Canvas, Web Crypto, dll.). Oleh karena itu:</p><ul><li><strong>Kami tidak mengumpulkan</strong> file yang Anda proses, isinya, atau hasilnya.</li><li><strong>Tidak ada akun pengguna</strong>, kata sandi, atau profil.</li><li>Server Tanukibox hanya mengirimkan aset statis situs (HTML, CSS, JS).</li></ul><p>Satu-satunya yang disimpan dijelaskan di bagian Cookies.</p>"
+          "body": "<p>Kami tidak memiliki server yang menerima file Anda. Alat-alat (Mochi, Metaimg, Createpass, Hashy, dll.) memproses data langsung di peramban Anda menggunakan API bawaan (Canvas, Web Crypto, dll.). Oleh karena itu:</p><ul><li><strong>Kami tidak mengumpulkan</strong> file yang Anda proses, isinya, atau hasilnya.</li><li><strong>Tidak ada akun pengguna</strong>, kata sandi, atau profil.</li><li>Server Cervantic hanya mengirimkan aset statis situs (HTML, CSS, JS).</li></ul><p>Satu-satunya yang disimpan dijelaskan di bagian Cookies.</p>"
         },
         "cookies": {
           "title": "3. Cookies dan penyimpanan lokal",
-          "body": "<p>Kami menggunakan satu cookie teknis bernama <code>tanukibox_lang</code> untuk mengingat preferensi bahasa Anda. Ini tidak mengidentifikasi pengguna dan tidak dibagikan kepada pihak ketiga.</p><p>Detail lebih lanjut dalam <a href='/cookies'>kebijakan cookies</a>.</p>"
+          "body": "<p>Kami menggunakan satu cookie teknis bernama <code>cervantic_lang</code> untuk mengingat preferensi bahasa Anda. Ini tidak mengidentifikasi pengguna dan tidak dibagikan kepada pihak ketiga.</p><p>Detail lebih lanjut dalam <a href='/cookies'>kebijakan cookies</a>.</p>"
         },
         "tracking": {
           "title": "4. Analitik dan periklanan",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Kontak",
-          "body": "<p>Untuk pertanyaan terkait privasi: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>Untuk pertanyaan terkait privasi: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Ketentuan Penggunaan",
-      "intro": "<p>Selamat datang di Tanukibox. Dengan menggunakan situs ini, Anda menerima ketentuan yang dijelaskan di bawah. Jika Anda tidak setuju, mohon jangan gunakan layanan ini.</p>",
+      "intro": "<p>Selamat datang di Cervantic. Dengan menggunakan situs ini, Anda menerima ketentuan yang dijelaskan di bawah. Jika Anda tidak setuju, mohon jangan gunakan layanan ini.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Penerimaan",
-          "body": "<p>Mengakses dan menggunakan tanukibox.com menyiratkan penerimaan penuh atas ketentuan ini. Ketentuan dapat diperbarui kapan saja; penggunaan lanjutan setelah perubahan menyiratkan penerimaannya.</p>"
+          "body": "<p>Mengakses dan menggunakan Cervantic menyiratkan penerimaan penuh atas ketentuan ini. Ketentuan dapat diperbarui kapan saja; penggunaan lanjutan setelah perubahan menyiratkan penerimaannya.</p>"
         },
         "service": {
           "title": "2. Deskripsi layanan",
-          "body": "<p>Tanukibox menyediakan sekumpulan utilitas yang berjalan sepenuhnya di peramban Anda (pemrosesan lokal). Layanan disediakan <strong>secara gratis dan \"sebagaimana adanya\"</strong>, tanpa jaminan ketersediaan, akurasi, atau kesesuaian untuk tujuan tertentu.</p>"
+          "body": "<p>Cervantic menyediakan sekumpulan utilitas yang berjalan sepenuhnya di peramban Anda (pemrosesan lokal). Layanan disediakan <strong>secara gratis dan \"sebagaimana adanya\"</strong>, tanpa jaminan ketersediaan, akurasi, atau kesesuaian untuk tujuan tertentu.</p>"
         },
         "use": {
           "title": "3. Penggunaan yang diizinkan",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Kekayaan intelektual",
-          "body": "<p>Nama, logo, dan desain situs Tanukibox adalah milik penulisnya. Kode sumber mungkin tersedia di bawah lisensi terbuka di repositori publiknya; periksa repositori untuk ketentuan yang tepat.</p>"
+          "body": "<p>Nama, logo, dan desain situs Cervantic adalah milik penulisnya. Kode sumber mungkin tersedia di bawah lisensi terbuka di repositori publiknya; periksa repositori untuk ketentuan yang tepat.</p>"
         },
         "liability": {
           "title": "6. Batasan tanggung jawab",
-          "body": "<p>Sejauh diizinkan oleh hukum, Tanukibox tidak bertanggung jawab atas kerusakan langsung, tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan atau ketidakmampuan menggunakan layanan, termasuk kehilangan data.</p>"
+          "body": "<p>Sejauh diizinkan oleh hukum, Cervantic tidak bertanggung jawab atas kerusakan langsung, tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan atau ketidakmampuan menggunakan layanan, termasuk kehilangan data.</p>"
         },
         "changes": {
           "title": "7. Modifikasi",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Kebijakan Cookies",
-      "intro": "<p>Halaman ini menjelaskan cookies dan mekanisme penyimpanan apa yang digunakan tanukibox.com.</p>",
+      "intro": "<p>Halaman ini menjelaskan cookies dan mekanisme penyimpanan apa yang digunakan Cervantic.</p>",
       "sections": {
         "what": {
           "title": "1. Apa itu cookies",
-          "body": "<p>Cookies adalah file kecil yang disimpan situs web di perangkat Anda untuk mengingat informasi antar kunjungan (preferensi, sesi, dll.). Tanukibox menggunakan minimum mutlak.</p>"
+          "body": "<p>Cookies adalah file kecil yang disimpan situs web di perangkat Anda untuk mengingat informasi antar kunjungan (preferensi, sesi, dll.). Cervantic menggunakan minimum mutlak.</p>"
         },
         "used": {
           "title": "2. Cookies yang kami gunakan",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — cookie preferensi teknis. Menyimpan bahasa yang dipilih sehingga kami tidak bertanya setiap kunjungan. Kedaluwarsa dalam 1 tahun. Tidak mengidentifikasi pengguna.</li></ul><p>Saat ini kami tidak menggunakan cookie pelacakan atau iklan.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — cookie preferensi teknis. Menyimpan bahasa yang dipilih sehingga kami tidak bertanya setiap kunjungan. Kedaluwarsa dalam 1 tahun. Tidak mengidentifikasi pengguna.</li></ul><p>Saat ini kami tidak menggunakan cookie pelacakan atau iklan.</p>"
         },
         "thirdParty": {
           "title": "3. Cookies pihak ketiga",
-          "body": "<p>Tanukibox saat ini tidak memuat skrip pihak ketiga yang memasang cookies. Jika di masa mendatang kami mengintegrasikan layanan seperti Google AdSense atau alat analitik, bagian ini akan diperbarui dan persetujuan Anda akan diminta melalui banner.</p>"
+          "body": "<p>Cervantic saat ini tidak memuat skrip pihak ketiga yang memasang cookies. Jika di masa mendatang kami mengintegrasikan layanan seperti Google AdSense atau alat analitik, bagian ini akan diperbarui dan persetujuan Anda akan diminta melalui banner.</p>"
         },
         "manage": {
           "title": "4. Cara mengelola cookies",
-          "body": "<p>Anda dapat menghapus atau memblokir cookies dari pengaturan peramban Anda. Jika Anda memblokir <code>tanukibox_lang</code>, situs akan berfungsi tetapi tidak akan mengingat preferensi bahasa Anda.</p>"
+          "body": "<p>Anda dapat menghapus atau memblokir cookies dari pengaturan peramban Anda. Jika Anda memblokir <code>cervantic_lang</code>, situs akan berfungsi tetapi tidak akan mengingat preferensi bahasa Anda.</p>"
         },
         "changes": {
           "title": "5. Perubahan pada kebijakan ini",

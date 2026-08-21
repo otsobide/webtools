@@ -3,7 +3,7 @@
 const { t } = useI18n()
 
 useHead({
-  title: () => `TanukiBox · ${t('tools.regexpad.name')}`,
+  title: () => `Cervantic · ${t('tools.regexpad.name')}`,
   meta: [{ name: 'description', content: () => t('tools.regexpad.description') }],
 })
 </script>

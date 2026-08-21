@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "ex. tanukibox",
+      "placeholder": "ex. cervantic",
       "hint": "Același seed produce mereu aceeași secvență. Nu este sigur criptografic.",
       "randomTitle": "Seed aleator nou"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Text filigran",
-      "placeholder": "ex. © TanukiBox",
+      "placeholder": "ex. © Cervantic",
       "font": "Font",
       "size": "Dimensiune",
       "color": "Culoare",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Acest fișier nu este o imagine validă."
   },
   "footer": {
-    "tagline": "Tanukibox · unelte care rulează în browserul tău",
+    "tagline": "Cervantic · unelte care rulează în browserul tău",
     "legalLinks": "Linkuri legale",
     "privacy": "Confidențialitate",
     "terms": "Termeni",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Ultima actualizare: 15 mai 2026",
     "privacy": {
       "title": "Politica de confidențialitate",
-      "intro": "<p>La Tanukibox credem că fișierele dumneavoastră vă aparțin. De aceea, toate uneltele noastre rulează <strong>integral în browserul dumneavoastră</strong>: imaginile, PDF-urile, textul sau orice fișier procesat nu părăsesc niciodată dispozitivul.</p>",
+      "intro": "<p>La Cervantic credem că fișierele dumneavoastră vă aparțin. De aceea, toate uneltele noastre rulează <strong>integral în browserul dumneavoastră</strong>: imaginile, PDF-urile, textul sau orice fișier procesat nu părăsesc niciodată dispozitivul.</p>",
       "sections": {
         "scope": {
           "title": "1. Domeniu de aplicare",
-          "body": "<p>Această politică se aplică pentru tanukibox.com și pentru fiecare unealtă găzduită sub acest domeniu. Descrie ce informații sunt colectate atunci când vizitați site-ul și ce facem cu ele.</p>"
+          "body": "<p>Această politică se aplică pentru Cervantic și pentru toate uneltele sale. Descrie ce informații sunt colectate atunci când vizitați site-ul și ce facem cu ele.</p>"
         },
         "data": {
           "title": "2. Datele pe care le colectăm",
-          "body": "<p>Nu avem un server care primește fișierele dumneavoastră. Uneltele (Mochi, Metaimg, Createpass, Hashy, etc.) procesează datele direct în browser folosind API-uri native (Canvas, Web Crypto, etc.). Prin urmare:</p><ul><li><strong>Nu colectăm</strong> fișierele pe care le procesați, conținutul lor sau rezultatele.</li><li><strong>Nu există conturi de utilizator</strong>, parole sau profiluri.</li><li>Serverul Tanukibox livrează doar resursele statice ale site-ului (HTML, CSS, JS).</li></ul><p>Singurul lucru stocat este descris în secțiunea Cookies.</p>"
+          "body": "<p>Nu avem un server care primește fișierele dumneavoastră. Uneltele (Mochi, Metaimg, Createpass, Hashy, etc.) procesează datele direct în browser folosind API-uri native (Canvas, Web Crypto, etc.). Prin urmare:</p><ul><li><strong>Nu colectăm</strong> fișierele pe care le procesați, conținutul lor sau rezultatele.</li><li><strong>Nu există conturi de utilizator</strong>, parole sau profiluri.</li><li>Serverul Cervantic livrează doar resursele statice ale site-ului (HTML, CSS, JS).</li></ul><p>Singurul lucru stocat este descris în secțiunea Cookies.</p>"
         },
         "cookies": {
           "title": "3. Cookies și stocare locală",
-          "body": "<p>Folosim un singur cookie tehnic numit <code>tanukibox_lang</code> pentru a reține preferința de limbă. Nu identifică utilizatorul și nu este partajat cu terți.</p><p>Mai multe detalii în <a href='/cookies'>politica de cookies</a>.</p>"
+          "body": "<p>Folosim un singur cookie tehnic numit <code>cervantic_lang</code> pentru a reține preferința de limbă. Nu identifică utilizatorul și nu este partajat cu terți.</p><p>Mai multe detalii în <a href='/cookies'>politica de cookies</a>.</p>"
         },
         "tracking": {
           "title": "4. Analitice și publicitate",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Contact",
-          "body": "<p>Pentru orice întrebări legate de confidențialitate: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>Pentru orice întrebări legate de confidențialitate: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Termeni de utilizare",
-      "intro": "<p>Bine ați venit la Tanukibox. Prin utilizarea acestui site acceptați condițiile descrise mai jos. Dacă nu sunteți de acord, vă rugăm să nu folosiți serviciul.</p>",
+      "intro": "<p>Bine ați venit la Cervantic. Prin utilizarea acestui site acceptați condițiile descrise mai jos. Dacă nu sunteți de acord, vă rugăm să nu folosiți serviciul.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Acceptare",
-          "body": "<p>Accesarea și utilizarea tanukibox.com implică acceptarea integrală a acestor termeni. Aceștia pot fi actualizați oricând; utilizarea continuă după modificări implică acceptarea lor.</p>"
+          "body": "<p>Accesarea și utilizarea Cervantic implică acceptarea integrală a acestor termeni. Aceștia pot fi actualizați oricând; utilizarea continuă după modificări implică acceptarea lor.</p>"
         },
         "service": {
           "title": "2. Descrierea serviciului",
-          "body": "<p>Tanukibox oferă un set de utilitare care rulează integral în browserul dumneavoastră (procesare locală). Serviciul este oferit <strong>gratuit și \"așa cum este\"</strong>, fără garanții privind disponibilitatea, acuratețea sau adecvarea la un scop anume.</p>"
+          "body": "<p>Cervantic oferă un set de utilitare care rulează integral în browserul dumneavoastră (procesare locală). Serviciul este oferit <strong>gratuit și \"așa cum este\"</strong>, fără garanții privind disponibilitatea, acuratețea sau adecvarea la un scop anume.</p>"
         },
         "use": {
           "title": "3. Utilizare permisă",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Proprietate intelectuală",
-          "body": "<p>Numele Tanukibox, logo-ul și designul site-ului sunt proprietatea autorului. Codul sursă poate fi disponibil sub o licență open în depozitul său public; consultați depozitul pentru termenii exacți.</p>"
+          "body": "<p>Numele Cervantic, logo-ul și designul site-ului sunt proprietatea autorului. Codul sursă poate fi disponibil sub o licență open în depozitul său public; consultați depozitul pentru termenii exacți.</p>"
         },
         "liability": {
           "title": "6. Limitarea răspunderii",
-          "body": "<p>În măsura maximă permisă de lege, Tanukibox nu va fi răspunzător pentru daune directe, indirecte, accidentale sau consecutive care decurg din utilizarea sau imposibilitatea utilizării serviciului, inclusiv pierderea de date.</p>"
+          "body": "<p>În măsura maximă permisă de lege, Cervantic nu va fi răspunzător pentru daune directe, indirecte, accidentale sau consecutive care decurg din utilizarea sau imposibilitatea utilizării serviciului, inclusiv pierderea de date.</p>"
         },
         "changes": {
           "title": "7. Modificări",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Politica de cookies",
-      "intro": "<p>Această pagină descrie ce cookies și mecanisme de stocare folosește tanukibox.com.</p>",
+      "intro": "<p>Această pagină descrie ce cookies și mecanisme de stocare folosește Cervantic.</p>",
       "sections": {
         "what": {
           "title": "1. Ce sunt cookies",
-          "body": "<p>Cookies sunt fișiere mici pe care un site le stochează pe dispozitivul dumneavoastră pentru a reține informații între vizite (preferințe, sesiune, etc.). Tanukibox folosește strictul necesar.</p>"
+          "body": "<p>Cookies sunt fișiere mici pe care un site le stochează pe dispozitivul dumneavoastră pentru a reține informații între vizite (preferințe, sesiune, etc.). Cervantic folosește strictul necesar.</p>"
         },
         "used": {
           "title": "2. Cookies pe care le folosim",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — cookie tehnic de preferință. Stochează limba selectată pentru a nu o solicita la fiecare vizită. Expiră într-un an. Nu identifică utilizatorul.</li></ul><p>Nu folosim cookies de urmărire sau publicitate în acest moment.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — cookie tehnic de preferință. Stochează limba selectată pentru a nu o solicita la fiecare vizită. Expiră într-un an. Nu identifică utilizatorul.</li></ul><p>Nu folosim cookies de urmărire sau publicitate în acest moment.</p>"
         },
         "thirdParty": {
           "title": "3. Cookies de la terți",
-          "body": "<p>În prezent, Tanukibox nu încarcă scripturi terțe care instalează cookies. Dacă în viitor integrăm servicii precum Google AdSense sau o unealtă de analitice, această secțiune va fi actualizată, iar consimțământul dumneavoastră va fi solicitat printr-un banner.</p>"
+          "body": "<p>În prezent, Cervantic nu încarcă scripturi terțe care instalează cookies. Dacă în viitor integrăm servicii precum Google AdSense sau o unealtă de analitice, această secțiune va fi actualizată, iar consimțământul dumneavoastră va fi solicitat printr-un banner.</p>"
         },
         "manage": {
           "title": "4. Cum gestionați cookies",
-          "body": "<p>Puteți șterge sau bloca cookies din setările browserului. Dacă blocați <code>tanukibox_lang</code>, site-ul va funcționa, dar nu va reține preferința dumneavoastră de limbă.</p>"
+          "body": "<p>Puteți șterge sau bloca cookies din setările browserului. Dacă blocați <code>cervantic_lang</code>, site-ul va funcționa, dar nu va reține preferința dumneavoastră de limbă.</p>"
         },
         "changes": {
           "title": "5. Modificări ale acestei politici",

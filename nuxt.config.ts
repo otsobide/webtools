@@ -25,7 +25,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'es' },
-      title: 'TanukiBox · WebTools',
+      title: 'Cervantic · WebTools',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -89,7 +89,7 @@ export default defineNuxtConfig({
     ],
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'tanukibox_lang',
+      cookieKey: 'cervantic_lang',
       redirectOn: 'root',
     },
   },

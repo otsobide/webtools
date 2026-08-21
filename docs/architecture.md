@@ -126,7 +126,7 @@ const toolPaths: Record<string, string> = {
 - `/en/mochi` — English
 - `/pt/mochi`, `/it/mochi`, `/el/mochi`, `/ja/mochi`, `/zh/mochi`
 
-The language switcher in `app.vue` writes a `tanukibox_lang` cookie so
+The language switcher in `app.vue` writes a `cervantic_lang` cookie so
 the choice persists across visits. `detectBrowserLanguage.redirectOn:
 'root'` means we only redirect from `/`, never from a deep link.
 
@@ -152,8 +152,8 @@ Reusable classes (`.card`, `.btn`, `.btn-ghost`, `.field`, `.dropzone`,
 `.tool-grid`, `.tool-card`) are global. Tool-specific styles live in
 scoped `<style>` blocks inside the component.
 
-The brand in the header is the literal **"TanukiBox WebTools"**:
-TanukiBox in the accent colour, WebTools in muted, side by side without
+The brand in the header is the literal **"Cervantic WebTools"**:
+Cervantic in the accent colour, WebTools in muted, side by side without
 a separator.
 
 ## What the project deliberately doesn't have
@@ -163,7 +163,7 @@ a separator.
 - No CSS framework (Tailwind, UnoCSS) — plain CSS with variables is
   enough at this scale.
 - No backend, no auth, no analytics, no tracking cookies. The only
-  cookie is `tanukibox_lang`.
+  cookie is `cervantic_lang`.
 - No test suite yet. Typechecking via `vue-tsc` is the only static
   guardrail. If/when tests are added they will go under `tests/`.
 - No tokenized design system — see `main.css` for the full styling

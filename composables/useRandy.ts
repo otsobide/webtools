@@ -93,11 +93,11 @@ const xoshiro128ss = (
 
 /**
  * Build a PRNG from a (possibly empty) string seed and an algorithm
- * choice. Empty seeds map to the fixed sentinel `"tanukibox"` so the
+ * choice. Empty seeds map to the fixed sentinel `"cervantic"` so the
  * sequence is still deterministic but predictable for first-load demos.
  */
 export const makeRng = (seed: string, algo: Algorithm): (() => number) => {
-  const effectiveSeed = seed.length === 0 ? 'tanukibox' : seed
+  const effectiveSeed = seed.length === 0 ? 'cervantic' : seed
   const hash = xmur3(effectiveSeed)
   if (algo === 'mulberry32') return mulberry32(hash())
   return xoshiro128ss(hash(), hash(), hash(), hash())

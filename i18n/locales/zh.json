@@ -1006,7 +1006,7 @@
   "randy": {
     "seed": {
       "label": "种子",
-      "placeholder": "例如 tanukibox",
+      "placeholder": "例如 cervantic",
       "hint": "相同的种子总是产生相同的序列。非加密安全。",
       "randomTitle": "新的随机种子"
     },
@@ -1052,7 +1052,7 @@
     },
     "text": {
       "text": "水印文本",
-      "placeholder": "例如 © TanukiBox",
+      "placeholder": "例如 © Cervantic",
       "font": "字体",
       "size": "大小",
       "color": "颜色",
@@ -1423,7 +1423,7 @@
     "notAnImage": "该文件不是有效的图片。"
   },
   "footer": {
-    "tagline": "Tanukibox · 在浏览器中运行的工具",
+    "tagline": "Cervantic · 在浏览器中运行的工具",
     "legalLinks": "法律链接",
     "privacy": "隐私",
     "terms": "条款",

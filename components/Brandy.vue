@@ -41,7 +41,7 @@ const canvasRef = ref<HTMLCanvasElement | null>(null)
 const kind = ref<WatermarkKind>('text')
 
 // Text options.
-const text = ref('© TanukiBox')
+const text = ref('© Cervantic')
 const fontSizePct = ref(6)
 const fontFamily = ref<string>(FONT_FAMILIES[0])
 const color = ref('#ffffff')

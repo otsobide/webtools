@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Tohum",
-      "placeholder": "örn. tanukibox",
+      "placeholder": "örn. cervantic",
       "hint": "Aynı tohum her zaman aynı diziyi üretir. Kriptografik olarak güvenli değildir.",
       "randomTitle": "Yeni rastgele tohum"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Filigran metni",
-      "placeholder": "örn. © TanukiBox",
+      "placeholder": "örn. © Cervantic",
       "font": "Yazı tipi",
       "size": "Boyut",
       "color": "Renk",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Bu dosya geçerli bir görüntü değil."
   },
   "footer": {
-    "tagline": "Tanukibox · tarayıcınızda çalışan araçlar",
+    "tagline": "Cervantic · tarayıcınızda çalışan araçlar",
     "legalLinks": "Yasal bağlantılar",
     "privacy": "Gizlilik",
     "terms": "Şartlar",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Son güncelleme: 15 Mayıs 2026",
     "privacy": {
       "title": "Gizlilik Politikası",
-      "intro": "<p>Tanukibox'ta dosyalarınızın size ait olduğuna inanıyoruz. Bu nedenle tüm araçlarımız <strong>tamamen tarayıcınızda</strong> çalışır: işlediğiniz görüntüler, PDF'ler, metinler veya herhangi bir dosya asla cihazınızdan ayrılmaz.</p>",
+      "intro": "<p>Cervantic'de dosyalarınızın size ait olduğuna inanıyoruz. Bu nedenle tüm araçlarımız <strong>tamamen tarayıcınızda</strong> çalışır: işlediğiniz görüntüler, PDF'ler, metinler veya herhangi bir dosya asla cihazınızdan ayrılmaz.</p>",
       "sections": {
         "scope": {
           "title": "1. Kapsam",
-          "body": "<p>Bu politika tanukibox.com ve bu alan adı altında barındırılan her araç için geçerlidir. Siteyi ziyaret ettiğinizde hangi bilgilerin toplandığını ve bunlarla ne yaptığımızı açıklar.</p>"
+          "body": "<p>Bu politika Cervantic ve tüm araçları için geçerlidir. Siteyi ziyaret ettiğinizde hangi bilgilerin toplandığını ve bunlarla ne yaptığımızı açıklar.</p>"
         },
         "data": {
           "title": "2. Topladığımız veriler",
-          "body": "<p>Dosyalarınızı alan bir sunucumuz yok. Araçlar (Mochi, Metaimg, Createpass, Hashy, vb.) yerel API'leri (Canvas, Web Crypto, vb.) kullanarak verileri doğrudan tarayıcınızda işler. Bu nedenle:</p><ul><li>İşlediğiniz dosyaları, içeriklerini veya sonuçları <strong>toplamıyoruz</strong>.</li><li><strong>Kullanıcı hesabı</strong>, parola veya profil yoktur.</li><li>Tanukibox sunucusu yalnızca sitenin statik varlıklarını (HTML, CSS, JS) sunar.</li></ul><p>Saklanan tek şey Çerezler bölümünde açıklanmıştır.</p>"
+          "body": "<p>Dosyalarınızı alan bir sunucumuz yok. Araçlar (Mochi, Metaimg, Createpass, Hashy, vb.) yerel API'leri (Canvas, Web Crypto, vb.) kullanarak verileri doğrudan tarayıcınızda işler. Bu nedenle:</p><ul><li>İşlediğiniz dosyaları, içeriklerini veya sonuçları <strong>toplamıyoruz</strong>.</li><li><strong>Kullanıcı hesabı</strong>, parola veya profil yoktur.</li><li>Cervantic sunucusu yalnızca sitenin statik varlıklarını (HTML, CSS, JS) sunar.</li></ul><p>Saklanan tek şey Çerezler bölümünde açıklanmıştır.</p>"
         },
         "cookies": {
           "title": "3. Çerezler ve yerel depolama",
-          "body": "<p>Dil tercihinizi hatırlamak için <code>tanukibox_lang</code> adlı tek bir teknik çerez kullanıyoruz. Kullanıcıyı tanımlamaz ve üçüncü taraflarla paylaşılmaz.</p><p>Daha fazla ayrıntı <a href='/cookies'>çerezler politikasında</a>.</p>"
+          "body": "<p>Dil tercihinizi hatırlamak için <code>cervantic_lang</code> adlı tek bir teknik çerez kullanıyoruz. Kullanıcıyı tanımlamaz ve üçüncü taraflarla paylaşılmaz.</p><p>Daha fazla ayrıntı <a href='/cookies'>çerezler politikasında</a>.</p>"
         },
         "tracking": {
           "title": "4. Analitik ve reklamcılık",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. İletişim",
-          "body": "<p>Gizlilikle ilgili herhangi bir soru için: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>Gizlilikle ilgili herhangi bir soru için: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Kullanım Şartları",
-      "intro": "<p>Tanukibox'a hoş geldiniz. Bu siteyi kullanarak aşağıda açıklanan koşulları kabul etmiş olursunuz. Kabul etmiyorsanız, lütfen hizmeti kullanmayın.</p>",
+      "intro": "<p>Cervantic'e hoş geldiniz. Bu siteyi kullanarak aşağıda açıklanan koşulları kabul etmiş olursunuz. Kabul etmiyorsanız, lütfen hizmeti kullanmayın.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Kabul",
-          "body": "<p>tanukibox.com'a erişmek ve kullanmak bu şartların tam kabulü anlamına gelir. Bunlar herhangi bir zamanda güncellenebilir; değişikliklerden sonra devam eden kullanım bunların kabulü anlamına gelir.</p>"
+          "body": "<p>Cervantic'e erişmek ve kullanmak bu şartların tam kabulü anlamına gelir. Bunlar herhangi bir zamanda güncellenebilir; değişikliklerden sonra devam eden kullanım bunların kabulü anlamına gelir.</p>"
         },
         "service": {
           "title": "2. Hizmet açıklaması",
-          "body": "<p>Tanukibox tamamen tarayıcınızda çalışan (yerel işleme) bir dizi yardımcı program sağlar. Hizmet <strong>ücretsiz ve \"olduğu gibi\"</strong> sağlanır, kullanılabilirlik, doğruluk veya belirli bir amaca uygunluk garantisi yoktur.</p>"
+          "body": "<p>Cervantic tamamen tarayıcınızda çalışan (yerel işleme) bir dizi yardımcı program sağlar. Hizmet <strong>ücretsiz ve \"olduğu gibi\"</strong> sağlanır, kullanılabilirlik, doğruluk veya belirli bir amaca uygunluk garantisi yoktur.</p>"
         },
         "use": {
           "title": "3. İzin verilen kullanım",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Fikri mülkiyet",
-          "body": "<p>Tanukibox adı, logosu ve site tasarımı yazarının mülkiyetindedir. Kaynak kodu, herkese açık deposunda açık bir lisans altında mevcut olabilir; kesin şartlar için depoyu kontrol edin.</p>"
+          "body": "<p>Cervantic adı, logosu ve site tasarımı yazarının mülkiyetindedir. Kaynak kodu, herkese açık deposunda açık bir lisans altında mevcut olabilir; kesin şartlar için depoyu kontrol edin.</p>"
         },
         "liability": {
           "title": "6. Sorumluluk sınırlaması",
-          "body": "<p>Yasanın izin verdiği azami ölçüde, Tanukibox veri kaybı dahil olmak üzere hizmetin kullanımından veya kullanılamamasından kaynaklanan doğrudan, dolaylı, arızi veya sonuç olarak ortaya çıkan zararlardan sorumlu tutulamaz.</p>"
+          "body": "<p>Yasanın izin verdiği azami ölçüde, Cervantic veri kaybı dahil olmak üzere hizmetin kullanımından veya kullanılamamasından kaynaklanan doğrudan, dolaylı, arızi veya sonuç olarak ortaya çıkan zararlardan sorumlu tutulamaz.</p>"
         },
         "changes": {
           "title": "7. Değişiklikler",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Çerezler Politikası",
-      "intro": "<p>Bu sayfa tanukibox.com'un hangi çerezleri ve depolama mekanizmalarını kullandığını açıklar.</p>",
+      "intro": "<p>Bu sayfa Cervantic'in hangi çerezleri ve depolama mekanizmalarını kullandığını açıklar.</p>",
       "sections": {
         "what": {
           "title": "1. Çerezler nedir",
-          "body": "<p>Çerezler, bir web sitesinin ziyaretler arasında bilgileri (tercihler, oturum, vb.) hatırlamak için cihazınızda sakladığı küçük dosyalardır. Tanukibox en azını kullanır.</p>"
+          "body": "<p>Çerezler, bir web sitesinin ziyaretler arasında bilgileri (tercihler, oturum, vb.) hatırlamak için cihazınızda sakladığı küçük dosyalardır. Cervantic en azını kullanır.</p>"
         },
         "used": {
           "title": "2. Kullandığımız çerezler",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — teknik tercih çerezi. Her ziyarette sormamamız için seçilen dili saklar. 1 yıl içinde sona erer. Kullanıcıyı tanımlamaz.</li></ul><p>Şu anda izleme veya reklam çerezleri kullanmıyoruz.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — teknik tercih çerezi. Her ziyarette sormamamız için seçilen dili saklar. 1 yıl içinde sona erer. Kullanıcıyı tanımlamaz.</li></ul><p>Şu anda izleme veya reklam çerezleri kullanmıyoruz.</p>"
         },
         "thirdParty": {
           "title": "3. Üçüncü taraf çerezleri",
-          "body": "<p>Tanukibox şu anda çerez yükleyen üçüncü taraf komut dosyaları yüklemiyor. Gelecekte Google AdSense veya bir analitik aracı gibi hizmetleri entegre edersek, bu bölüm güncellenecek ve bir afiş aracılığıyla rızanız istenecektir.</p>"
+          "body": "<p>Cervantic şu anda çerez yükleyen üçüncü taraf komut dosyaları yüklemiyor. Gelecekte Google AdSense veya bir analitik aracı gibi hizmetleri entegre edersek, bu bölüm güncellenecek ve bir afiş aracılığıyla rızanız istenecektir.</p>"
         },
         "manage": {
           "title": "4. Çerezler nasıl yönetilir",
-          "body": "<p>Çerezleri tarayıcı ayarlarınızdan silebilir veya engelleyebilirsiniz. <code>tanukibox_lang</code>'i engellerseniz, site çalışacak ancak dil tercihinizi hatırlamayacaktır.</p>"
+          "body": "<p>Çerezleri tarayıcı ayarlarınızdan silebilir veya engelleyebilirsiniz. <code>cervantic_lang</code>'i engellerseniz, site çalışacak ancak dil tercihinizi hatırlamayacaktır.</p>"
         },
         "changes": {
           "title": "5. Bu politikadaki değişiklikler",

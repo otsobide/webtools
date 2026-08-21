@@ -2,8 +2,8 @@
 
 ## Branding
 
-- The site is **Tanukibox**.
-- The header brand is the literal **"TanukiBox WebTools"** — TanukiBox in
+- The site is **Cervantic**.
+- The header brand is the literal **"Cervantic WebTools"** — Cervantic in
   the accent colour, WebTools in muted side by side, no separator. The
   second word is a sub-brand for the tools section; other sub-brands may
   exist in the future.
@@ -46,7 +46,7 @@ Examples from the history:
 - `feat(stapler): unir varios PDFs en uno con pdf-lib`
 - `feat(combiny): modo solo-descarga para evitar colapsar la UI`
 - `fix(i18n): escapar @ en email con HTML entity para evitar parser de linked messages`
-- `feat(brand): TanukiBox WebTools`
+- `feat(brand): Cervantic WebTools`
 
 **Rules:**
 

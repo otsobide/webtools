@@ -1006,7 +1006,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "ex. tanukibox",
+      "placeholder": "ex. cervantic",
       "hint": "O mesmo seed sempre gera a mesma sequência. Não é criptograficamente seguro.",
       "randomTitle": "Novo seed aleatório"
     },
@@ -1052,7 +1052,7 @@
     },
     "text": {
       "text": "Texto da marca d'água",
-      "placeholder": "ex. © TanukiBox",
+      "placeholder": "ex. © Cervantic",
       "font": "Fonte",
       "size": "Tamanho",
       "color": "Cor",
@@ -1423,7 +1423,7 @@
     "notAnImage": "Esse arquivo não é uma imagem válida."
   },
   "footer": {
-    "tagline": "Tanukibox · ferramentas que rodam no seu navegador",
+    "tagline": "Cervantic · ferramentas que rodam no seu navegador",
     "legalLinks": "Links legais",
     "privacy": "Privacidade",
     "terms": "Termos",

@@ -17,7 +17,7 @@ type Kind = 'integers' | 'floats' | 'pick'
 const { t } = useI18n()
 const { integers, floats, pick } = useRandy()
 
-const seed = ref('tanukibox')
+const seed = ref('cervantic')
 const algorithm = ref<Algorithm>('mulberry32')
 const kind = ref<Kind>('integers')
 

@@ -2,7 +2,7 @@
 /**
  * app.vue — root SPA shell.
  *
- * Renders the persistent chrome around every page: the TanukiBox · WebTools
+ * Renders the persistent chrome around every page: the Cervantic · WebTools
  * brand link, the language switcher (driven by `useI18n().locales`) and
  * the `<NuxtPage />` slot where every route mounts. The locale switcher
  * triggers `setLocale`, which routes the user to the equivalent localised
@@ -26,7 +26,7 @@ const onChangeLocale = (event: Event) => {
   <div class="app-shell">
     <header class="app-header">
       <NuxtLink :to="localePath('/')" class="brand">
-        <span class="brand-mark">TanukiBox</span>
+        <span class="brand-mark">Cervantic</span>
         <span class="brand-sep" aria-hidden="true">·</span>
         <span class="brand-sub">WebTools</span>
       </NuxtLink>

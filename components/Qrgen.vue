@@ -13,7 +13,7 @@ import { ERROR_LEVELS } from '~/composables/useQrgen'
 const { t } = useI18n()
 const { toSvg, toPngBlob } = useQrgen()
 
-const text = ref('https://tanukibox.com')
+const text = ref('https://example.com')
 const errorLevel = ref<ErrorLevel>('M')
 const margin = ref(2)
 const size = ref(512)

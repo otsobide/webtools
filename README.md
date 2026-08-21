@@ -1,6 +1,6 @@
-# TanukiBox · WebTools
+# Cervantic · WebTools
 
-Source code of [tanukibox.com](https://tanukibox.com) — a growing collection
+Source code of **Cervantic** — a growing collection
 of small web utilities that run **entirely in the browser**. No backend,
 no uploads, no telemetry: files never leave the user's device.
 

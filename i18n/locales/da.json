@@ -1041,7 +1041,7 @@
   "randy": {
     "seed": {
       "label": "Seed",
-      "placeholder": "f.eks. tanukibox",
+      "placeholder": "f.eks. cervantic",
       "hint": "Samme seed giver altid den samme sekvens. Ikke kryptografisk sikker.",
       "randomTitle": "Ny tilfældig seed"
     },
@@ -1087,7 +1087,7 @@
     },
     "text": {
       "text": "Vandmærketekst",
-      "placeholder": "f.eks. © TanukiBox",
+      "placeholder": "f.eks. © Cervantic",
       "font": "Skrifttype",
       "size": "Størrelse",
       "color": "Farve",
@@ -1458,7 +1458,7 @@
     "notAnImage": "Den fil er ikke et gyldigt billede."
   },
   "footer": {
-    "tagline": "Tanukibox · værktøjer der kører i din browser",
+    "tagline": "Cervantic · værktøjer der kører i din browser",
     "legalLinks": "Juridiske links",
     "privacy": "Privatliv",
     "terms": "Vilkår",
@@ -1468,19 +1468,19 @@
     "lastUpdated": "Sidst opdateret: 15. maj 2026",
     "privacy": {
       "title": "Privatlivspolitik",
-      "intro": "<p>Hos Tanukibox mener vi, at dine filer er dine. Derfor kører alle vores værktøjer <strong>udelukkende i din browser</strong>: billederne, PDF'erne, teksten eller enhver fil, du behandler, forlader aldrig din enhed.</p>",
+      "intro": "<p>Hos Cervantic mener vi, at dine filer er dine. Derfor kører alle vores værktøjer <strong>udelukkende i din browser</strong>: billederne, PDF'erne, teksten eller enhver fil, du behandler, forlader aldrig din enhed.</p>",
       "sections": {
         "scope": {
           "title": "1. Omfang",
-          "body": "<p>Denne politik gælder for tanukibox.com og alle værktøjer, der hostes under dette domæne. Den beskriver, hvilke oplysninger der indsamles, når du besøger siden, og hvad vi gør med dem.</p>"
+          "body": "<p>Denne politik gælder for Cervantic og alle dets værktøjer. Den beskriver, hvilke oplysninger der indsamles, når du besøger siden, og hvad vi gør med dem.</p>"
         },
         "data": {
           "title": "2. Data vi indsamler",
-          "body": "<p>Vi har ikke en server, der modtager dine filer. Værktøjerne (Mochi, Metaimg, Createpass, Hashy osv.) behandler data direkte i din browser ved hjælp af native API'er (Canvas, Web Crypto osv.). Derfor:</p><ul><li><strong>Vi indsamler ikke</strong> de filer, du behandler, deres indhold eller resultaterne.</li><li><strong>Der findes ingen brugerkonti</strong>, adgangskoder eller profiler.</li><li>Tanukibox-serveren leverer kun sidens statiske ressourcer (HTML, CSS, JS).</li></ul><p>Det eneste, der gemmes, er beskrevet i afsnittet om cookies.</p>"
+          "body": "<p>Vi har ikke en server, der modtager dine filer. Værktøjerne (Mochi, Metaimg, Createpass, Hashy osv.) behandler data direkte i din browser ved hjælp af native API'er (Canvas, Web Crypto osv.). Derfor:</p><ul><li><strong>Vi indsamler ikke</strong> de filer, du behandler, deres indhold eller resultaterne.</li><li><strong>Der findes ingen brugerkonti</strong>, adgangskoder eller profiler.</li><li>Cervantic-serveren leverer kun sidens statiske ressourcer (HTML, CSS, JS).</li></ul><p>Det eneste, der gemmes, er beskrevet i afsnittet om cookies.</p>"
         },
         "cookies": {
           "title": "3. Cookies og lokal lagring",
-          "body": "<p>Vi bruger en enkelt teknisk cookie kaldet <code>tanukibox_lang</code> til at huske din sprogpræference. Den identificerer ikke brugeren og deles ikke med tredjeparter.</p><p>Flere detaljer i <a href='/cookies'>cookiepolitikken</a>.</p>"
+          "body": "<p>Vi bruger en enkelt teknisk cookie kaldet <code>cervantic_lang</code> til at huske din sprogpræference. Den identificerer ikke brugeren og deles ikke med tredjeparter.</p><p>Flere detaljer i <a href='/cookies'>cookiepolitikken</a>.</p>"
         },
         "tracking": {
           "title": "4. Analyse og annoncering",
@@ -1500,21 +1500,21 @@
         },
         "contact": {
           "title": "8. Kontakt",
-          "body": "<p>For ethvert spørgsmål vedrørende privatliv: <a href='mailto:hola&#64;tanukibox.com'>hola&#64;tanukibox.com</a>.</p>"
+          "body": "<p>For ethvert spørgsmål vedrørende privatliv: <a href='mailto:info&#64;cervantic.com'>info&#64;cervantic.com</a>.</p>"
         }
       }
     },
     "terms": {
       "title": "Brugsvilkår",
-      "intro": "<p>Velkommen til Tanukibox. Ved at bruge denne side accepterer du de vilkår, der er beskrevet nedenfor. Hvis du ikke er enig, bedes du undlade at bruge tjenesten.</p>",
+      "intro": "<p>Velkommen til Cervantic. Ved at bruge denne side accepterer du de vilkår, der er beskrevet nedenfor. Hvis du ikke er enig, bedes du undlade at bruge tjenesten.</p>",
       "sections": {
         "acceptance": {
           "title": "1. Accept",
-          "body": "<p>Adgang til og brug af tanukibox.com indebærer fuld accept af disse vilkår. De kan opdateres når som helst; fortsat brug efter ændringerne indebærer accept af dem.</p>"
+          "body": "<p>Adgang til og brug af Cervantic indebærer fuld accept af disse vilkår. De kan opdateres når som helst; fortsat brug efter ændringerne indebærer accept af dem.</p>"
         },
         "service": {
           "title": "2. Beskrivelse af tjenesten",
-          "body": "<p>Tanukibox leverer et sæt værktøjer, der kører udelukkende i din browser (lokal behandling). Tjenesten leveres <strong>gratis og \"som den er\"</strong>, uden garantier for tilgængelighed, nøjagtighed eller egnethed til et bestemt formål.</p>"
+          "body": "<p>Cervantic leverer et sæt værktøjer, der kører udelukkende i din browser (lokal behandling). Tjenesten leveres <strong>gratis og \"som den er\"</strong>, uden garantier for tilgængelighed, nøjagtighed eller egnethed til et bestemt formål.</p>"
         },
         "use": {
           "title": "3. Tilladt brug",
@@ -1526,11 +1526,11 @@
         },
         "ip": {
           "title": "5. Immaterielle rettigheder",
-          "body": "<p>Navnet Tanukibox, logoet og sidens design tilhører dets forfatter. Kildekoden kan være tilgængelig under en åben licens i dens offentlige repository; tjek repositoryet for de nøjagtige vilkår.</p>"
+          "body": "<p>Navnet Cervantic, logoet og sidens design tilhører dets forfatter. Kildekoden kan være tilgængelig under en åben licens i dens offentlige repository; tjek repositoryet for de nøjagtige vilkår.</p>"
         },
         "liability": {
           "title": "6. Ansvarsbegrænsning",
-          "body": "<p>I det videst mulige omfang, som loven tillader, er Tanukibox ikke ansvarlig for direkte, indirekte, tilfældige eller følgeskader, der opstår som følge af brugen eller manglende evne til at bruge tjenesten, herunder tab af data.</p>"
+          "body": "<p>I det videst mulige omfang, som loven tillader, er Cervantic ikke ansvarlig for direkte, indirekte, tilfældige eller følgeskader, der opstår som følge af brugen eller manglende evne til at bruge tjenesten, herunder tab af data.</p>"
         },
         "changes": {
           "title": "7. Ændringer",
@@ -1544,23 +1544,23 @@
     },
     "cookies": {
       "title": "Cookiepolitik",
-      "intro": "<p>Denne side beskriver, hvilke cookies og lagringsmekanismer tanukibox.com bruger.</p>",
+      "intro": "<p>Denne side beskriver, hvilke cookies og lagringsmekanismer Cervantic bruger.</p>",
       "sections": {
         "what": {
           "title": "1. Hvad cookies er",
-          "body": "<p>Cookies er små filer, som et website gemmer på din enhed for at huske oplysninger mellem besøg (præferencer, session osv.). Tanukibox bruger det absolutte minimum.</p>"
+          "body": "<p>Cookies er små filer, som et website gemmer på din enhed for at huske oplysninger mellem besøg (præferencer, session osv.). Cervantic bruger det absolutte minimum.</p>"
         },
         "used": {
           "title": "2. Cookies vi bruger",
-          "body": "<ul><li><strong><code>tanukibox_lang</code></strong> — teknisk præferencecookie. Gemmer det valgte sprog, så vi ikke spørger ved hvert besøg. Udløber efter 1 år. Identificerer ikke brugeren.</li></ul><p>Vi bruger i øjeblikket ikke sporings- eller annoncecookies.</p>"
+          "body": "<ul><li><strong><code>cervantic_lang</code></strong> — teknisk præferencecookie. Gemmer det valgte sprog, så vi ikke spørger ved hvert besøg. Udløber efter 1 år. Identificerer ikke brugeren.</li></ul><p>Vi bruger i øjeblikket ikke sporings- eller annoncecookies.</p>"
         },
         "thirdParty": {
           "title": "3. Tredjepartscookies",
-          "body": "<p>Tanukibox indlæser i øjeblikket ikke tredjepartsscripts, der installerer cookies. Hvis vi i fremtiden integrerer tjenester som Google AdSense eller et analyseværktøj, vil dette afsnit blive opdateret, og dit samtykke vil blive anmodet om via et banner.</p>"
+          "body": "<p>Cervantic indlæser i øjeblikket ikke tredjepartsscripts, der installerer cookies. Hvis vi i fremtiden integrerer tjenester som Google AdSense eller et analyseværktøj, vil dette afsnit blive opdateret, og dit samtykke vil blive anmodet om via et banner.</p>"
         },
         "manage": {
           "title": "4. Sådan administrerer du cookies",
-          "body": "<p>Du kan slette eller blokere cookies fra din browsers indstillinger. Hvis du blokerer <code>tanukibox_lang</code>, vil siden fungere, men den vil ikke huske din sprogpræference.</p>"
+          "body": "<p>Du kan slette eller blokere cookies fra din browsers indstillinger. Hvis du blokerer <code>cervantic_lang</code>, vil siden fungere, men den vil ikke huske din sprogpræference.</p>"
         },
         "changes": {
           "title": "5. Ændringer af denne politik",

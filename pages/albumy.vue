@@ -3,7 +3,7 @@
 const { t } = useI18n()
 
 useHead({
-  title: () => `TanukiBox · ${t('tools.albumy.name')}`,
+  title: () => `Cervantic · ${t('tools.albumy.name')}`,
   meta: [{ name: 'description', content: () => t('tools.albumy.description') }],
 })
 </script>

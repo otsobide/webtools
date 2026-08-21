@@ -1006,7 +1006,7 @@
   "randy": {
     "seed": {
       "label": "シード",
-      "placeholder": "例: tanukibox",
+      "placeholder": "例: cervantic",
       "hint": "同じシードは常に同じ列を生成します。暗号学的に安全ではありません。",
       "randomTitle": "新しいランダムシード"
     },
@@ -1052,7 +1052,7 @@
     },
     "text": {
       "text": "ウォーターマークのテキスト",
-      "placeholder": "例: © TanukiBox",
+      "placeholder": "例: © Cervantic",
       "font": "フォント",
       "size": "サイズ",
       "color": "色",
@@ -1423,7 +1423,7 @@
     "notAnImage": "そのファイルは有効な画像ではありません。"
   },
   "footer": {
-    "tagline": "Tanukibox · ブラウザで動くツール",
+    "tagline": "Cervantic · ブラウザで動くツール",
     "legalLinks": "法的リンク",
     "privacy": "プライバシー",
     "terms": "利用規約",

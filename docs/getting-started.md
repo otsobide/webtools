@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- **Node.js 20** (pinned via `netlify.toml`; locally any 20.x works).
+- **Node.js 20** (pinned via `.nvmrc`; locally any 20.x works).
 - **npm** (the project ships a `package-lock.json`).
 
 That's it. No databases, no environment variables, no API keys.
@@ -36,37 +36,44 @@ Open <http://localhost:3000>. Hot-reload works for `pages/`, `components/`,
 npm run generate
 ```
 
-Output: `dist/` — a fully static SPA. Netlify runs this automatically on
-every push to `main`.
+Output: `dist/` — a fully static SPA. Vercel runs this automatically on
+every push to `dev`.
 
-For Netlify the relevant config lives in `netlify.toml` at the repo root:
+The relevant config lives in `vercel.json` at the repo root:
 
-```toml
-[build]
-  command = "npm run generate"
-  publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "20"
+```json
+{
+  "framework": null,
+  "installCommand": "npm install",
+  "buildCommand": "NITRO_PRESET=static npm run generate",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/200.html" }]
+}
 ```
 
-`public/_redirects` adds the SPA fallback (`/* /index.html 200`) so deep
-links like `/mochi` resolve when refreshed.
+`NITRO_PRESET=static` is load-bearing. Without it Nitro autodetects its
+`vercel` preset from the `VERCEL` env var and writes
+`.vercel/output/config.json` declaring one override per prerendered
+route, while `nuxt.config.ts` still sends the files to `dist`. Vercel
+then serves an empty directory and 404s every path.
+
+The rewrite is the SPA fallback. Vercel checks the filesystem first, so
+it only catches paths that weren't prerendered.
 
 ## Deploying
 
 You usually don't need to do anything manual. The flow is:
 
 1. Work on the `dev` branch.
-2. Push: `git push origin dev`.
-3. When ready to release, fast-forward `dev` into `main` and push:
+2. Push: `git push origin dev` — Vercel picks it up and deploys.
+3. `main` is kept as a stable release branch. Fast-forward `dev` into it
+   when you want to mark a known-good state:
    ```bash
    git checkout main
    git merge --ff-only dev
    git push origin main
    git checkout dev
    ```
-4. Netlify picks up the push to `main` and deploys.
 
 See [`docs/conventions.md`](conventions.md) for the rules around when to
 merge and how to write commits.

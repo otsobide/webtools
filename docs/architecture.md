@@ -9,7 +9,7 @@ Browser
         ├── @nuxtjs/i18n (25 locales, lazy-loaded JSON)
         └── Per-tool composable + component + page
 
-Static hosting (Netlify) serves dist/ — that's the whole runtime.
+Static hosting (Vercel) serves dist/ — that's the whole runtime.
 ```
 
 Every tool is **fully client-side**. There is no backend, no database, no
@@ -39,10 +39,7 @@ needs a server, it doesn't belong here.
 .
 ├── app.vue                 Root layout: header (brand + lang switcher) + footer
 ├── nuxt.config.ts          Nuxt + i18n config, output to dist/
-├── netlify.toml            Build command + Node 20
-├── public/
-│   ├── _redirects          SPA fallback: /* /index.html 200
-│   └── favicon.ico
+├── vercel.json             Build command, output dir, SPA rewrite
 ├── assets/css/main.css     Global CSS variables, layout, .card, .btn, etc.
 ├── pages/                  File-based routing — one file per route
 │   ├── index.vue           Landing with categorised tool grid

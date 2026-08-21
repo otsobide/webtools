@@ -73,7 +73,7 @@ npm run dev      # http://localhost:3000
 npm run generate # static build → dist/
 ```
 
-Requires Node.js 20 (pinned in `netlify.toml`).
+Requires Node.js 20 (pinned in `.nvmrc`).
 
 ## Documentation
 
@@ -108,12 +108,12 @@ to brief an LLM on the project:
   - `js-yaml` — YamlJson
   - `qrcode` — Qrgen
   - `diff` — Diffy
-- **Netlify** auto-deploys from the `main` branch (`npm run generate` →
-  `dist/`).
+- **Vercel** auto-deploys from the `dev` branch (`npm run generate` →
+  `dist/`), configured in `vercel.json`.
 
 ## Branches
 
 | Branch | Role |
 |---|---|
-| `dev` | Default. All day-to-day work happens here. |
-| `main` | Production. Netlify watches it. Only receives fast-forward merges from `dev`, by explicit request. |
+| `dev` | Default. All day-to-day work happens here. Vercel deploys from it. |
+| `main` | Stable release branch. Only receives fast-forward merges from `dev`, by explicit request. |

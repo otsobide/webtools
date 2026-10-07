@@ -201,6 +201,11 @@
       "tagline": "复利计算器",
       "description": "模拟本金在复利和定期投入下的增长。以您选择的货币逐年显示结果。全部在您的浏览器中完成。"
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "文件遮盖与水印",
+      "description": "在分享前隐藏图片和 PDF 中的敏感信息，并添加文字水印，适合身份证复印件等。全部在您的浏览器中完成。"
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "格式化和验证 JSON",
@@ -961,6 +966,48 @@
       "balance": "余额",
       "contributed": "已投入",
       "interest": "利息"
+    }
+  },
+  "inky": {
+    "dropzone": "将图片或 PDF 拖到此处，或点击选择",
+    "dropzoneHint": "支持 JPG、PNG、WebP 或 PDF。不会上传任何内容。",
+    "pages": "{n} 页",
+    "pageOf": "第 {page} 页，共 {total} 页",
+    "prevPage": "上一页",
+    "nextPage": "下一页",
+    "redact": {
+      "title": "1. 隐藏敏感信息",
+      "hint": "在要隐藏的内容上拖动框选。点按或点击黑色方块即可移除。",
+      "count": "已隐藏区域：{n}",
+      "undo": "撤销",
+      "clearPage": "清空本页",
+      "clearAll": "全部清除"
+    },
+    "watermark": {
+      "title": "2. 添加水印",
+      "text": "谁可以使用此文件，用于什么目的？",
+      "placeholder": "例如：仅用于与 Acme 房产办理租房手续，2026 年 10 月",
+      "tip": "写明具体的个人或公司名称以及确切用途。这样标记的副本无法挪作他用。",
+      "color": "颜色",
+      "size": "大小",
+      "opacity": "不透明度",
+      "rotation": "角度",
+      "spacing": "间距"
+    },
+    "imageNote": "图片会被完全重新编码，因此副本不含任何 EXIF 元数据（相机、位置、日期）。",
+    "pdfNote": "每一页都会转换为图片，确保被隐藏的文字真正消失。生成的 PDF 不含可选择的文字，也没有元数据。",
+    "actions": {
+      "opening": "正在打开…",
+      "download": "下载",
+      "processing": "处理中…",
+      "processingPage": "正在处理第 {page} 页，共 {total} 页…",
+      "change": "更换文件"
+    },
+    "errors": {
+      "unsupported": "{name} 不是受支持的图片或 PDF。",
+      "invalidPdf": "无法读取 {name}。",
+      "password": "此 PDF 受密码保护。请移除密码后重试。",
+      "generic": "无法处理该文件。"
     }
   },
   "croppy": {

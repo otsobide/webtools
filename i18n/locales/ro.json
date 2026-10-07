@@ -206,6 +206,11 @@
       "tagline": "Calculator de dobândă compusă",
       "description": "Simulează creșterea unui capital cu dobândă compusă și contribuții regulate. Rezultate an de an în moneda aleasă. Totul în browserul tău."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Ascunde date și pune filigran pe documente",
+      "description": "Ascunde datele sensibile și adaugă un filigran text pe imagini și PDF-uri înainte să le trimiți, de exemplu pe copia buletinului. Totul în browserul tău."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Formatează și validează JSON",
@@ -996,6 +1001,48 @@
       "balance": "Sold",
       "contributed": "Contribuit",
       "interest": "Dobândă"
+    }
+  },
+  "inky": {
+    "dropzone": "Trage o imagine sau un PDF aici, sau apasă pentru a selecta",
+    "dropzoneHint": "JPG, PNG, WebP sau PDF. Nu se încarcă nimic.",
+    "pages": "{n} pagini",
+    "pageOf": "Pagina {page} din {total}",
+    "prevPage": "Pagina anterioară",
+    "nextPage": "Pagina următoare",
+    "redact": {
+      "title": "1. Ascunde informațiile sensibile",
+      "hint": "Trage peste ce vrei să ascunzi. Atinge sau apasă pe un dreptunghi negru ca să-l elimini.",
+      "count": "Zone ascunse: {n}",
+      "undo": "Anulează",
+      "clearPage": "Golește pagina",
+      "clearAll": "Elimină tot"
+    },
+    "watermark": {
+      "title": "2. Adaugă un filigran",
+      "text": "Cine poate folosi acest document și în ce scop?",
+      "placeholder": "Ex.: Doar pentru închirierea apartamentului prin Imobiliare Acme, octombrie 2026",
+      "tip": "Scrie persoana sau firma și scopul exact. O copie marcată astfel nu mai poate fi folosită la altceva.",
+      "color": "Culoare",
+      "size": "Dimensiune",
+      "opacity": "Opacitate",
+      "rotation": "Unghi",
+      "spacing": "Spațiere"
+    },
+    "imageNote": "Imaginea este recodificată de la zero, așa că copia nu conține metadate EXIF (cameră, locație, dată).",
+    "pdfNote": "Fiecare pagină este transformată în imagine, ca textul ascuns să dispară cu adevărat. PDF-ul rezultat nu are text selectabil și nici metadate.",
+    "actions": {
+      "opening": "Se deschide…",
+      "download": "Descarcă",
+      "processing": "Se procesează…",
+      "processingPage": "Se procesează pagina {page} din {total}…",
+      "change": "Schimbă fișierul"
+    },
+    "errors": {
+      "unsupported": "{name} nu este o imagine sau un PDF acceptat.",
+      "invalidPdf": "Nu s-a putut citi {name}.",
+      "password": "Acest PDF este protejat cu parolă. Elimină parola și încearcă din nou.",
+      "generic": "Fișierul nu a putut fi procesat."
     }
   },
   "croppy": {

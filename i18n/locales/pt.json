@@ -201,6 +201,11 @@
       "tagline": "Calculadora de juros compostos",
       "description": "Simule o crescimento de um capital com juros compostos e aportes periódicos. Resultados ano a ano na moeda escolhida. Tudo no seu navegador."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Oculte dados e aplique marca d'água",
+      "description": "Oculte dados sensíveis e aplique uma marca d'água de texto em imagens e PDFs antes de compartilhá-los, como a cópia do seu documento de identidade. Tudo no seu navegador."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Formate e valide JSON",
@@ -961,6 +966,48 @@
       "balance": "Saldo",
       "contributed": "Aportado",
       "interest": "Juros"
+    }
+  },
+  "inky": {
+    "dropzone": "Arraste uma imagem ou um PDF aqui, ou clique para selecionar",
+    "dropzoneHint": "JPG, PNG, WebP ou PDF. Nada é enviado.",
+    "pages": "{n} páginas",
+    "pageOf": "Página {page} de {total}",
+    "prevPage": "Página anterior",
+    "nextPage": "Próxima página",
+    "redact": {
+      "title": "1. Oculte as informações sensíveis",
+      "hint": "Arraste sobre o que você quer ocultar. Toque ou clique em um retângulo preto para removê-lo.",
+      "count": "Áreas ocultas: {n}",
+      "undo": "Desfazer",
+      "clearPage": "Limpar página",
+      "clearAll": "Remover tudo"
+    },
+    "watermark": {
+      "title": "2. Adicione uma marca d'água",
+      "text": "Quem pode usar este documento, e para quê?",
+      "placeholder": "Ex.: Somente para o aluguel do apartamento com a Imobiliária Acme, outubro de 2026",
+      "tip": "Informe a pessoa ou empresa e a finalidade exata. Uma cópia marcada assim não serve para mais nada.",
+      "color": "Cor",
+      "size": "Tamanho",
+      "opacity": "Opacidade",
+      "rotation": "Ângulo",
+      "spacing": "Espaçamento"
+    },
+    "imageNote": "A imagem é recodificada do zero, então a cópia não leva metadados EXIF (câmera, localização, data).",
+    "pdfNote": "Cada página é convertida em imagem para que o texto oculto desapareça de verdade. O PDF resultante não tem texto selecionável nem metadados.",
+    "actions": {
+      "opening": "Abrindo…",
+      "download": "Baixar",
+      "processing": "Processando…",
+      "processingPage": "Processando página {page} de {total}…",
+      "change": "Trocar arquivo"
+    },
+    "errors": {
+      "unsupported": "{name} não é uma imagem ou PDF compatível.",
+      "invalidPdf": "Não foi possível ler {name}.",
+      "password": "Este PDF está protegido por senha. Remova a senha e tente novamente.",
+      "generic": "Não foi possível processar o arquivo."
     }
   },
   "croppy": {

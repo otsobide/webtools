@@ -11,6 +11,8 @@
  * See https://nuxt.com/docs/api/configuration/nuxt-config for the full
  * option reference.
  */
+import { fileURLToPath } from 'node:url'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-01',
 
@@ -49,6 +51,14 @@ export default defineNuxtConfig({
     output: {
       publicDir: 'dist',
     },
+    // Inky's pdf.js fetches these on demand: cmaps for CJK text,
+    // standard fonts for PDFs that don't embed them, and wasm/ICC for
+    // JPEG 2000 and CMYK images.
+    publicAssets: ['cmaps', 'standard_fonts', 'wasm', 'iccs'].map((dir) => ({
+      dir: fileURLToPath(new URL(`./node_modules/pdfjs-dist/${dir}`, import.meta.url)),
+      baseURL: `/pdfjs/${dir}`,
+      maxAge: 60 * 60 * 24 * 30,
+    })),
   },
 
   i18n: {

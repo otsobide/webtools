@@ -206,6 +206,11 @@
       "tagline": "Beregner til renters rente",
       "description": "Simuler væksten af en hovedstol med renters rente og regelmæssige indbetalinger. Resultater år for år i din valgte valuta. Alt i din browser."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Skjul data og sæt vandmærke på dokumenter",
+      "description": "Skjul følsomme oplysninger og sæt et tekstvandmærke på billeder og PDF'er, før du deler dem, fx en kopi af dit pas. Alt i din browser."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Formatér og valider JSON",
@@ -996,6 +1001,48 @@
       "balance": "Saldo",
       "contributed": "Indbetalt",
       "interest": "Renter"
+    }
+  },
+  "inky": {
+    "dropzone": "Træk et billede eller en PDF hertil, eller klik for at vælge",
+    "dropzoneHint": "JPG, PNG, WebP eller PDF. Intet bliver uploadet.",
+    "pages": "{n} sider",
+    "pageOf": "Side {page} af {total}",
+    "prevPage": "Forrige side",
+    "nextPage": "Næste side",
+    "redact": {
+      "title": "1. Skjul følsomme oplysninger",
+      "hint": "Træk hen over det, du vil skjule. Tryk eller klik på en sort boks for at fjerne den.",
+      "count": "Skjulte områder: {n}",
+      "undo": "Fortryd",
+      "clearPage": "Ryd side",
+      "clearAll": "Fjern alle"
+    },
+    "watermark": {
+      "title": "2. Tilføj et vandmærke",
+      "text": "Hvem må bruge dette dokument, og til hvad?",
+      "placeholder": "Fx: Kun til leje af lejligheden hos Acme Bolig, oktober 2026",
+      "tip": "Skriv personen eller firmaet og det præcise formål. En kopi mærket sådan kan ikke bruges til andet.",
+      "color": "Farve",
+      "size": "Størrelse",
+      "opacity": "Gennemsigtighed",
+      "rotation": "Vinkel",
+      "spacing": "Afstand"
+    },
+    "imageNote": "Billedet kodes helt forfra, så kopien har ingen EXIF-metadata (kamera, placering, dato).",
+    "pdfNote": "Hver side omdannes til et billede, så skjult tekst virkelig forsvinder. Den færdige PDF har ingen markerbar tekst eller metadata.",
+    "actions": {
+      "opening": "Åbner…",
+      "download": "Download",
+      "processing": "Behandler…",
+      "processingPage": "Behandler side {page} af {total}…",
+      "change": "Skift fil"
+    },
+    "errors": {
+      "unsupported": "{name} er ikke et understøttet billede eller en PDF.",
+      "invalidPdf": "{name} kunne ikke læses.",
+      "password": "Denne PDF er beskyttet med adgangskode. Fjern adgangskoden, og prøv igen.",
+      "generic": "Filen kunne ikke behandles."
     }
   },
   "croppy": {

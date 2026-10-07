@@ -206,6 +206,11 @@
       "tagline": "Máy tính lãi kép",
       "description": "Mô phỏng sự tăng trưởng của một khoản vốn với lãi kép và các khoản đóng góp định kỳ. Kết quả từng năm bằng đơn vị tiền tệ bạn chọn. Tất cả trong trình duyệt của bạn."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Che thông tin và đóng dấu hình mờ tài liệu",
+      "description": "Che dữ liệu nhạy cảm và đóng dấu hình mờ bằng chữ lên ảnh và PDF trước khi chia sẻ, chẳng hạn bản sao CCCD của bạn. Tất cả trong trình duyệt của bạn."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Định dạng và xác thực JSON",
@@ -996,6 +1001,48 @@
       "balance": "Số dư",
       "contributed": "Đã đóng góp",
       "interest": "Lãi"
+    }
+  },
+  "inky": {
+    "dropzone": "Kéo ảnh hoặc PDF vào đây, hoặc nhấp để chọn",
+    "dropzoneHint": "JPG, PNG, WebP hoặc PDF. Không có gì được tải lên.",
+    "pages": "{n} trang",
+    "pageOf": "Trang {page} / {total}",
+    "prevPage": "Trang trước",
+    "nextPage": "Trang sau",
+    "redact": {
+      "title": "1. Che thông tin nhạy cảm",
+      "hint": "Kéo qua những gì bạn muốn che. Chạm hoặc nhấp vào một ô đen để xóa nó.",
+      "count": "Vùng đã che: {n}",
+      "undo": "Hoàn tác",
+      "clearPage": "Xóa trang này",
+      "clearAll": "Xóa tất cả"
+    },
+    "watermark": {
+      "title": "2. Thêm hình mờ",
+      "text": "Ai được dùng tài liệu này, và để làm gì?",
+      "placeholder": "VD: Chỉ dùng cho việc thuê căn hộ với Acme Homes, tháng 10/2026",
+      "tip": "Ghi rõ tên người hoặc công ty và mục đích cụ thể. Bản sao được đánh dấu như vậy không dùng được vào việc khác.",
+      "color": "Màu sắc",
+      "size": "Kích thước",
+      "opacity": "Độ mờ",
+      "rotation": "Góc",
+      "spacing": "Khoảng cách"
+    },
+    "imageNote": "Ảnh được mã hóa lại từ đầu nên bản sao không chứa siêu dữ liệu EXIF (máy ảnh, vị trí, ngày chụp).",
+    "pdfNote": "Mỗi trang được chuyển thành ảnh để phần chữ bị che thực sự biến mất. PDF tạo ra không có chữ chọn được và không có siêu dữ liệu.",
+    "actions": {
+      "opening": "Đang mở…",
+      "download": "Tải xuống",
+      "processing": "Đang xử lý…",
+      "processingPage": "Đang xử lý trang {page} / {total}…",
+      "change": "Đổi tệp"
+    },
+    "errors": {
+      "unsupported": "{name} không phải ảnh hoặc PDF được hỗ trợ.",
+      "invalidPdf": "Không thể đọc {name}.",
+      "password": "PDF này được bảo vệ bằng mật khẩu. Hãy gỡ mật khẩu rồi thử lại.",
+      "generic": "Không thể xử lý tệp."
     }
   },
   "croppy": {

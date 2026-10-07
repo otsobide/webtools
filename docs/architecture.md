@@ -17,12 +17,18 @@ serverless functions. The user's files are processed in their own browser
 using:
 
 - **Canvas API** — Mochi (resize), Convy (format conversion), Pixely
-  (pixelate), Picky (color eyedropper), Albumy (image-to-PDF rendering).
+  (pixelate), Picky (color eyedropper), Albumy (image-to-PDF rendering),
+  Inky (redaction boxes and tiled watermark).
 - **Web Crypto** — Hashy (digests), Createpass (random), Idkun (UUID
   v4/v7/NIL, ULID, NanoID).
 - **File API + `ArrayBuffer`** — every tool that takes a file.
 - **`pdf-lib`** — Stapler (merge), Scissor (split), PdfSpinner (rotate),
-  Albumy (image-to-PDF), Metapdf (metadata), Markpdf (watermark).
+  Albumy (image-to-PDF), Metapdf (metadata), Markpdf (watermark),
+  Inky (rebuilds the PDF from rasterized pages).
+- **`pdfjs-dist`** — Inky (renders PDF pages to canvas). Its cmaps,
+  standard fonts, wasm decoders and ICC profiles are served from
+  `/pdfjs/` straight out of `node_modules` via `nitro.publicAssets` in
+  `nuxt.config.ts`.
 - **`piexifjs`** — Metaimg (EXIF read/write).
 - **`js-yaml`** — YamlJson (YAML ↔ JSON).
 - **`qrcode`** — Qrgen (QR codes, SVG/PNG).
@@ -112,7 +118,9 @@ const toolPaths: Record<string, string> = {
 - Heavy single-use libraries should be `import()`ed dynamically inside
   the composable if possible — keeps the landing page snappy. Currently
   `pdf-lib`, `piexifjs`, `js-yaml`, `qrcode` and `diff` are imported
-  statically; all are small enough that it doesn't matter.
+  statically; all are small enough that it doesn't matter. `pdfjs-dist`
+  (~500 KB gzipped with its worker) is the exception: `useInky` imports
+  it dynamically when a PDF is opened.
 - The 25 locale JSON files are lazy-loaded by `@nuxtjs/i18n` (`lazy: true`).
 
 ## Routing and i18n strategy

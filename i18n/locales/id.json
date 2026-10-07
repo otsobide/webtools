@@ -206,6 +206,11 @@
       "tagline": "Kalkulator bunga majemuk",
       "description": "Simulasikan pertumbuhan modal pokok dengan bunga majemuk dan setoran berkala. Hasil tahun demi tahun dalam mata uang pilihan Anda. Semua di peramban Anda."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Sensor dan beri tanda air dokumen",
+      "description": "Sembunyikan data sensitif dan bubuhkan tanda air teks pada gambar dan PDF sebelum membagikannya, seperti salinan KTP Anda. Semua di peramban Anda."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Format dan validasi JSON",
@@ -996,6 +1001,48 @@
       "balance": "Saldo",
       "contributed": "Disetor",
       "interest": "Bunga"
+    }
+  },
+  "inky": {
+    "dropzone": "Seret gambar atau PDF ke sini, atau klik untuk memilih",
+    "dropzoneHint": "JPG, PNG, WebP, atau PDF. Tidak ada yang diunggah.",
+    "pages": "{n} halaman",
+    "pageOf": "Halaman {page} dari {total}",
+    "prevPage": "Halaman sebelumnya",
+    "nextPage": "Halaman berikutnya",
+    "redact": {
+      "title": "1. Sembunyikan informasi sensitif",
+      "hint": "Seret di atas bagian yang ingin disembunyikan. Ketuk atau klik kotak hitam untuk menghapusnya.",
+      "count": "Area tersembunyi: {n}",
+      "undo": "Urungkan",
+      "clearPage": "Bersihkan halaman",
+      "clearAll": "Hapus semua"
+    },
+    "watermark": {
+      "title": "2. Tambahkan tanda air",
+      "text": "Siapa yang boleh memakai dokumen ini, dan untuk apa?",
+      "placeholder": "Mis.: Hanya untuk sewa apartemen dengan Acme Properti, Oktober 2026",
+      "tip": "Sebutkan nama orang atau perusahaan dan tujuan yang tepat. Salinan yang ditandai seperti ini tidak berguna untuk hal lain.",
+      "color": "Warna",
+      "size": "Ukuran",
+      "opacity": "Opasitas",
+      "rotation": "Sudut",
+      "spacing": "Jarak"
+    },
+    "imageNote": "Gambar dienkode ulang dari awal, sehingga salinannya tidak membawa metadata EXIF (kamera, lokasi, tanggal).",
+    "pdfNote": "Setiap halaman diubah menjadi gambar agar teks yang disembunyikan benar-benar hilang. PDF hasilnya tidak memiliki teks yang bisa dipilih maupun metadata.",
+    "actions": {
+      "opening": "Membuka…",
+      "download": "Unduh",
+      "processing": "Memproses…",
+      "processingPage": "Memproses halaman {page} dari {total}…",
+      "change": "Ganti file"
+    },
+    "errors": {
+      "unsupported": "{name} bukan gambar atau PDF yang didukung.",
+      "invalidPdf": "Tidak dapat membaca {name}.",
+      "password": "PDF ini dilindungi kata sandi. Hapus kata sandinya lalu coba lagi.",
+      "generic": "Tidak dapat memproses file."
     }
   },
   "croppy": {

@@ -206,6 +206,11 @@
       "tagline": "Koronkorkolaskuri",
       "description": "Simuloi pääoman kasvua koronkorolla ja säännöllisillä lisäsijoituksilla. Vuosi vuodelta -tulokset valitsemassasi valuutassa. Kaikki selaimessasi."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Peitä tiedot ja lisää vesileima",
+      "description": "Peitä arkaluonteiset tiedot ja lisää tekstivesileima kuviin ja PDF-tiedostoihin ennen jakamista, esimerkiksi henkilökortin kopioon. Kaikki selaimessasi."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Muotoile ja validoi JSON",
@@ -996,6 +1001,48 @@
       "balance": "Saldo",
       "contributed": "Sijoitettu",
       "interest": "Korko"
+    }
+  },
+  "inky": {
+    "dropzone": "Vedä kuva tai PDF tähän tai napsauta valitaksesi",
+    "dropzoneHint": "JPG, PNG, WebP tai PDF. Mitään ei ladata palvelimelle.",
+    "pages": "{n} sivua",
+    "pageOf": "Sivu {page}/{total}",
+    "prevPage": "Edellinen sivu",
+    "nextPage": "Seuraava sivu",
+    "redact": {
+      "title": "1. Peitä arkaluonteiset tiedot",
+      "hint": "Vedä sen yli, minkä haluat peittää. Poista musta laatikko napauttamalla tai napsauttamalla sitä.",
+      "count": "Peitettyjä alueita: {n}",
+      "undo": "Kumoa",
+      "clearPage": "Tyhjennä sivu",
+      "clearAll": "Poista kaikki"
+    },
+    "watermark": {
+      "title": "2. Lisää vesileima",
+      "text": "Kuka saa käyttää tätä asiakirjaa ja mihin?",
+      "placeholder": "Esim. Vain asunnon vuokraukseen Acme Kotien kautta, lokakuu 2026",
+      "tip": "Mainitse henkilö tai yritys ja tarkka käyttötarkoitus. Näin merkitty kopio ei kelpaa mihinkään muuhun.",
+      "color": "Väri",
+      "size": "Koko",
+      "opacity": "Läpinäkyvyys",
+      "rotation": "Kulma",
+      "spacing": "Väli"
+    },
+    "imageNote": "Kuva koodataan kokonaan uudelleen, joten kopiossa ei ole EXIF-metatietoja (kamera, sijainti, päivämäärä).",
+    "pdfNote": "Jokainen sivu muunnetaan kuvaksi, jotta peitetty teksti katoaa oikeasti. Valmiissa PDF:ssä ei ole valittavaa tekstiä eikä metatietoja.",
+    "actions": {
+      "opening": "Avataan…",
+      "download": "Lataa",
+      "processing": "Käsitellään…",
+      "processingPage": "Käsitellään sivua {page}/{total}…",
+      "change": "Vaihda tiedosto"
+    },
+    "errors": {
+      "unsupported": "{name} ei ole tuettu kuva tai PDF.",
+      "invalidPdf": "Tiedostoa {name} ei voitu lukea.",
+      "password": "Tämä PDF on suojattu salasanalla. Poista salasana ja yritä uudelleen.",
+      "generic": "Tiedostoa ei voitu käsitellä."
     }
   },
   "croppy": {

@@ -206,6 +206,11 @@
       "tagline": "Calculadora de interés compuesto",
       "description": "Simula el crecimiento de un capital con interés compuesto y aportaciones periódicas. Resultados año a año en la moneda que elijas. Todo en tu navegador."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Oculta datos y pon marca de agua",
+      "description": "Tapa datos sensibles y añade una marca de agua de texto a imágenes y PDF antes de compartirlos, como la copia de tu DNI. Todo en tu navegador."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Formatea y valida JSON",
@@ -996,6 +1001,48 @@
       "balance": "Balance",
       "contributed": "Aportado",
       "interest": "Intereses"
+    }
+  },
+  "inky": {
+    "dropzone": "Arrastra una imagen o un PDF aquí, o haz clic para elegirlo",
+    "dropzoneHint": "JPG, PNG, WebP o PDF. No se sube nada.",
+    "pages": "{n} páginas",
+    "pageOf": "Página {page} de {total}",
+    "prevPage": "Página anterior",
+    "nextPage": "Página siguiente",
+    "redact": {
+      "title": "1. Oculta la información sensible",
+      "hint": "Arrastra sobre lo que quieras ocultar. Toca o haz clic en un recuadro negro para quitarlo.",
+      "count": "Zonas ocultas: {n}",
+      "undo": "Deshacer",
+      "clearPage": "Limpiar página",
+      "clearAll": "Quitar todo"
+    },
+    "watermark": {
+      "title": "2. Añade una marca de agua",
+      "text": "¿Quién puede usar este documento y para qué?",
+      "placeholder": "Ej.: Solo para el alquiler de la vivienda con Inmobiliaria Acme, octubre de 2026",
+      "tip": "Indica la persona o empresa y el propósito exacto. Una copia marcada así no sirve para nada más.",
+      "color": "Color",
+      "size": "Tamaño",
+      "opacity": "Opacidad",
+      "rotation": "Ángulo",
+      "spacing": "Separación"
+    },
+    "imageNote": "La imagen se vuelve a codificar desde cero, así que la copia no lleva metadatos EXIF (cámara, ubicación, fecha).",
+    "pdfNote": "Cada página se convierte en imagen para que el texto oculto desaparezca de verdad. El PDF resultante no tiene texto seleccionable ni metadatos.",
+    "actions": {
+      "opening": "Abriendo…",
+      "download": "Descargar",
+      "processing": "Procesando…",
+      "processingPage": "Procesando página {page} de {total}…",
+      "change": "Cambiar archivo"
+    },
+    "errors": {
+      "unsupported": "{name} no es una imagen o un PDF compatible.",
+      "invalidPdf": "No se pudo leer {name}.",
+      "password": "Este PDF está protegido con contraseña. Quítale la contraseña y vuelve a intentarlo.",
+      "generic": "No se pudo procesar el archivo."
     }
   },
   "croppy": {

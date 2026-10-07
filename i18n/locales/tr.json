@@ -206,6 +206,11 @@
       "tagline": "Bileşik faiz hesaplayıcı",
       "description": "Bir anaparanın bileşik faiz ve düzenli katkılarla büyümesini simüle edin. Seçtiğiniz para biriminde yıl yıl sonuçlar. Hepsi tarayıcınızda."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Belgeleri karartın ve filigran ekleyin",
+      "description": "Görselleri ve PDF'leri paylaşmadan önce hassas bilgileri gizleyin ve metin filigranı ekleyin; örneğin kimlik kartınızın kopyası için. Hepsi tarayıcınızda."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "JSON'u biçimlendir ve doğrula",
@@ -996,6 +1001,48 @@
       "balance": "Bakiye",
       "contributed": "Katkı",
       "interest": "Faiz"
+    }
+  },
+  "inky": {
+    "dropzone": "Buraya bir görsel veya PDF sürükleyin ya da seçmek için tıklayın",
+    "dropzoneHint": "JPG, PNG, WebP veya PDF. Hiçbir şey yüklenmez.",
+    "pages": "{n} sayfa",
+    "pageOf": "Sayfa {page} / {total}",
+    "prevPage": "Önceki sayfa",
+    "nextPage": "Sonraki sayfa",
+    "redact": {
+      "title": "1. Hassas bilgileri gizleyin",
+      "hint": "Gizlemek istediğiniz yerin üzerinde sürükleyin. Kaldırmak için siyah bir kutuya dokunun veya tıklayın.",
+      "count": "Gizlenen alanlar: {n}",
+      "undo": "Geri al",
+      "clearPage": "Sayfayı temizle",
+      "clearAll": "Tümünü kaldır"
+    },
+    "watermark": {
+      "title": "2. Filigran ekleyin",
+      "text": "Bu belgeyi kim, hangi amaçla kullanabilir?",
+      "placeholder": "Örn.: Yalnızca Acme Emlak ile daire kiralama işlemi için, Ekim 2026",
+      "tip": "Kişiyi ya da şirketi ve tam amacı yazın. Böyle işaretlenmiş bir kopya başka hiçbir işe yaramaz.",
+      "color": "Renk",
+      "size": "Boyut",
+      "opacity": "Opaklık",
+      "rotation": "Açı",
+      "spacing": "Aralık"
+    },
+    "imageNote": "Görsel baştan yeniden kodlanır; bu yüzden kopyada EXIF meta verisi (kamera, konum, tarih) bulunmaz.",
+    "pdfNote": "Gizlenen metnin gerçekten yok olması için her sayfa görsele dönüştürülür. Oluşan PDF'de seçilebilir metin ve meta veri bulunmaz.",
+    "actions": {
+      "opening": "Açılıyor…",
+      "download": "İndir",
+      "processing": "İşleniyor…",
+      "processingPage": "Sayfa {page} / {total} işleniyor…",
+      "change": "Dosyayı değiştir"
+    },
+    "errors": {
+      "unsupported": "{name} desteklenen bir görsel veya PDF değil.",
+      "invalidPdf": "{name} okunamadı.",
+      "password": "Bu PDF parola korumalı. Parolayı kaldırıp tekrar deneyin.",
+      "generic": "Dosya işlenemedi."
     }
   },
   "croppy": {

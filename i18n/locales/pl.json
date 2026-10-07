@@ -206,6 +206,11 @@
       "tagline": "Kalkulator procentu składanego",
       "description": "Symuluj wzrost kapitału z procentem składanym i regularnymi wpłatami. Wyniki rok po roku w wybranej walucie. Wszystko w Twojej przeglądarce."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Zaczernianie i znak wodny dokumentów",
+      "description": "Ukryj poufne dane i dodaj tekstowy znak wodny do obrazów i plików PDF przed ich udostępnieniem, np. kopii dowodu osobistego. Wszystko w Twojej przeglądarce."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Formatuj i waliduj JSON",
@@ -996,6 +1001,48 @@
       "balance": "Saldo",
       "contributed": "Wpłacone",
       "interest": "Odsetki"
+    }
+  },
+  "inky": {
+    "dropzone": "Przeciągnij tutaj obraz lub PDF albo kliknij, aby wybrać plik",
+    "dropzoneHint": "JPG, PNG, WebP lub PDF. Nic nie jest wysyłane.",
+    "pages": "Stron: {n}",
+    "pageOf": "Strona {page} z {total}",
+    "prevPage": "Poprzednia strona",
+    "nextPage": "Następna strona",
+    "redact": {
+      "title": "1. Ukryj poufne informacje",
+      "hint": "Przeciągnij nad tym, co chcesz ukryć. Stuknij lub kliknij czarny prostokąt, aby go usunąć.",
+      "count": "Ukryte obszary: {n}",
+      "undo": "Cofnij",
+      "clearPage": "Wyczyść stronę",
+      "clearAll": "Usuń wszystko"
+    },
+    "watermark": {
+      "title": "2. Dodaj znak wodny",
+      "text": "Kto może użyć tego dokumentu i w jakim celu?",
+      "placeholder": "Np.: Tylko do wynajmu mieszkania przez Acme Nieruchomości, październik 2026",
+      "tip": "Podaj osobę lub firmę i dokładny cel. Tak oznaczona kopia do niczego innego się nie przyda.",
+      "color": "Kolor",
+      "size": "Rozmiar",
+      "opacity": "Przezroczystość",
+      "rotation": "Kąt",
+      "spacing": "Odstęp"
+    },
+    "imageNote": "Obraz jest kodowany od nowa, więc kopia nie zawiera metadanych EXIF (aparat, lokalizacja, data).",
+    "pdfNote": "Każda strona jest zamieniana na obraz, aby ukryty tekst naprawdę zniknął. Powstały PDF nie ma tekstu do zaznaczenia ani metadanych.",
+    "actions": {
+      "opening": "Otwieranie…",
+      "download": "Pobierz",
+      "processing": "Przetwarzanie…",
+      "processingPage": "Przetwarzanie strony {page} z {total}…",
+      "change": "Zmień plik"
+    },
+    "errors": {
+      "unsupported": "{name} nie jest obsługiwanym obrazem ani plikiem PDF.",
+      "invalidPdf": "Nie udało się odczytać {name}.",
+      "password": "Ten PDF jest chroniony hasłem. Usuń hasło i spróbuj ponownie.",
+      "generic": "Nie udało się przetworzyć pliku."
     }
   },
   "croppy": {

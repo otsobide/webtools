@@ -206,6 +206,11 @@
       "tagline": "Ränta-på-ränta-kalkylator",
       "description": "Simulera tillväxten av ett kapital med ränta på ränta och regelbundna insättningar. Resultat år för år i valfri valuta. Allt i din webbläsare."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Maskera och vattenstämpla dokument",
+      "description": "Dölj känsliga uppgifter och lägg en textvattenstämpel på bilder och PDF:er innan du delar dem, till exempel en kopia av ditt pass. Allt i din webbläsare."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Formatera och validera JSON",
@@ -996,6 +1001,48 @@
       "balance": "Saldo",
       "contributed": "Insatt",
       "interest": "Ränta"
+    }
+  },
+  "inky": {
+    "dropzone": "Dra en bild eller en PDF hit, eller klicka för att välja",
+    "dropzoneHint": "JPG, PNG, WebP eller PDF. Inget laddas upp.",
+    "pages": "{n} sidor",
+    "pageOf": "Sida {page} av {total}",
+    "prevPage": "Föregående sida",
+    "nextPage": "Nästa sida",
+    "redact": {
+      "title": "1. Dölj känslig information",
+      "hint": "Dra över det du vill dölja. Tryck eller klicka på en svart ruta för att ta bort den.",
+      "count": "Dolda områden: {n}",
+      "undo": "Ångra",
+      "clearPage": "Rensa sidan",
+      "clearAll": "Ta bort alla"
+    },
+    "watermark": {
+      "title": "2. Lägg till en vattenstämpel",
+      "text": "Vem får använda det här dokumentet, och till vad?",
+      "placeholder": "T.ex.: Endast för hyra av lägenheten via Acme Bostad, oktober 2026",
+      "tip": "Ange personen eller företaget och det exakta syftet. En kopia märkt så här går inte att använda till något annat.",
+      "color": "Färg",
+      "size": "Storlek",
+      "opacity": "Opacitet",
+      "rotation": "Vinkel",
+      "spacing": "Avstånd"
+    },
+    "imageNote": "Bilden kodas om från grunden, så kopian saknar EXIF-metadata (kamera, plats, datum).",
+    "pdfNote": "Varje sida görs om till en bild så att dold text verkligen försvinner. Den färdiga PDF:en har ingen markerbar text och inga metadata.",
+    "actions": {
+      "opening": "Öppnar…",
+      "download": "Ladda ner",
+      "processing": "Bearbetar…",
+      "processingPage": "Bearbetar sida {page} av {total}…",
+      "change": "Byt fil"
+    },
+    "errors": {
+      "unsupported": "{name} är inte en bild eller PDF som stöds.",
+      "invalidPdf": "Kunde inte läsa {name}.",
+      "password": "Den här PDF:en är lösenordsskyddad. Ta bort lösenordet och försök igen.",
+      "generic": "Kunde inte bearbeta filen."
     }
   },
   "croppy": {

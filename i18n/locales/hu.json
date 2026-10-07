@@ -206,6 +206,11 @@
       "tagline": "Kamatos kamat kalkulátor",
       "description": "Szimulálja a tőke növekedését kamatos kamattal és rendszeres befizetésekkel. Évről évre eredmények az Ön által választott pénznemben. Mindez a böngészőben."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Kitakarás és vízjel dokumentumokra",
+      "description": "Takarja ki az érzékeny adatokat, és tegyen szöveges vízjelet a képekre és PDF-ekre, mielőtt megosztja őket, például a személyi igazolványa másolatára. Mindez a böngészőben."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "JSON formázása és érvényesítése",
@@ -996,6 +1001,48 @@
       "balance": "Egyenleg",
       "contributed": "Befizetve",
       "interest": "Kamat"
+    }
+  },
+  "inky": {
+    "dropzone": "Húzzon ide egy képet vagy PDF-et, vagy kattintson a kiválasztáshoz",
+    "dropzoneHint": "JPG, PNG, WebP vagy PDF. Semmi sem töltődik fel.",
+    "pages": "{n} oldal",
+    "pageOf": "{page}. oldal / {total}",
+    "prevPage": "Előző oldal",
+    "nextPage": "Következő oldal",
+    "redact": {
+      "title": "1. Takarja ki az érzékeny adatokat",
+      "hint": "Húzzon keretet arra, amit el szeretne rejteni. Egy fekete téglalapra koppintva vagy kattintva eltávolíthatja.",
+      "count": "Kitakart területek: {n}",
+      "undo": "Visszavonás",
+      "clearPage": "Oldal törlése",
+      "clearAll": "Összes törlése"
+    },
+    "watermark": {
+      "title": "2. Adjon hozzá vízjelet",
+      "text": "Ki és mire használhatja ezt a dokumentumot?",
+      "placeholder": "Pl.: Kizárólag az Acme Ingatlannál intézett lakásbérléshez, 2026. október",
+      "tip": "Adja meg a személyt vagy a céget és a pontos célt. Az így megjelölt másolat semmi másra nem használható.",
+      "color": "Szín",
+      "size": "Méret",
+      "opacity": "Átlátszóság",
+      "rotation": "Szög",
+      "spacing": "Térköz"
+    },
+    "imageNote": "A kép teljesen újrakódolódik, így a másolat nem tartalmaz EXIF-metaadatokat (fényképezőgép, hely, dátum).",
+    "pdfNote": "Minden oldal képpé alakul, hogy a kitakart szöveg valóban eltűnjön. Az elkészült PDF-ben nincs kijelölhető szöveg, és nincsenek metaadatok.",
+    "actions": {
+      "opening": "Megnyitás…",
+      "download": "Letöltés",
+      "processing": "Feldolgozás…",
+      "processingPage": "{page}. oldal feldolgozása / {total}…",
+      "change": "Másik fájl"
+    },
+    "errors": {
+      "unsupported": "A(z) {name} nem támogatott kép vagy PDF.",
+      "invalidPdf": "A(z) {name} nem olvasható.",
+      "password": "Ez a PDF jelszóval védett. Távolítsa el a jelszót, és próbálja újra.",
+      "generic": "A fájl nem dolgozható fel."
     }
   },
   "croppy": {

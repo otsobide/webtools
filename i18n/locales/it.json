@@ -201,6 +201,11 @@
       "tagline": "Calcolatore di interesse composto",
       "description": "Simula la crescita di un capitale con interesse composto e versamenti periodici. Risultati anno per anno nella valuta scelta. Tutto nel tuo browser."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Oscura e filigrana documenti",
+      "description": "Nascondi i dati sensibili e aggiungi una filigrana di testo a immagini e PDF prima di condividerli, come la copia del tuo documento d'identità. Tutto nel tuo browser."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Formatta e valida JSON",
@@ -961,6 +966,48 @@
       "balance": "Saldo",
       "contributed": "Versato",
       "interest": "Interessi"
+    }
+  },
+  "inky": {
+    "dropzone": "Trascina un'immagine o un PDF qui, o clicca per selezionarlo",
+    "dropzoneHint": "JPG, PNG, WebP o PDF. Non viene caricato nulla.",
+    "pages": "{n} pagine",
+    "pageOf": "Pagina {page} di {total}",
+    "prevPage": "Pagina precedente",
+    "nextPage": "Pagina successiva",
+    "redact": {
+      "title": "1. Nascondi le informazioni sensibili",
+      "hint": "Trascina sopra ciò che vuoi nascondere. Tocca o clicca un riquadro nero per rimuoverlo.",
+      "count": "Aree nascoste: {n}",
+      "undo": "Annulla",
+      "clearPage": "Svuota pagina",
+      "clearAll": "Rimuovi tutto"
+    },
+    "watermark": {
+      "title": "2. Aggiungi una filigrana",
+      "text": "Chi può usare questo documento, e per cosa?",
+      "placeholder": "Es.: Solo per l'affitto dell'appartamento con Immobiliare Acme, ottobre 2026",
+      "tip": "Indica la persona o l'azienda e lo scopo preciso. Una copia marcata così non serve a nient'altro.",
+      "color": "Colore",
+      "size": "Dimensione",
+      "opacity": "Opacità",
+      "rotation": "Angolo",
+      "spacing": "Spaziatura"
+    },
+    "imageNote": "L'immagine viene ricodificata da zero, quindi la copia non contiene metadati EXIF (fotocamera, posizione, data).",
+    "pdfNote": "Ogni pagina viene convertita in immagine, così il testo nascosto sparisce davvero. Il PDF risultante non ha testo selezionabile né metadati.",
+    "actions": {
+      "opening": "Apertura…",
+      "download": "Scarica",
+      "processing": "Elaborazione…",
+      "processingPage": "Elaborazione pagina {page} di {total}…",
+      "change": "Cambia file"
+    },
+    "errors": {
+      "unsupported": "{name} non è un'immagine o un PDF supportato.",
+      "invalidPdf": "Impossibile leggere {name}.",
+      "password": "Questo PDF è protetto da password. Rimuovi la password e riprova.",
+      "generic": "Impossibile elaborare il file."
     }
   },
   "croppy": {

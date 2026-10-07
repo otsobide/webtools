@@ -206,6 +206,11 @@
       "tagline": "Calculateur d'intérêts composés",
       "description": "Simulez la croissance d'un capital avec des intérêts composés et des versements périodiques. Résultats année par année dans la devise de votre choix. Tout dans votre navigateur."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Masquer et filigraner des documents",
+      "description": "Masquez les données sensibles et ajoutez un filigrane texte aux images et PDF avant de les partager, comme la copie de votre pièce d'identité. Tout dans votre navigateur."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Formater et valider du JSON",
@@ -996,6 +1001,48 @@
       "balance": "Solde",
       "contributed": "Versé",
       "interest": "Intérêts"
+    }
+  },
+  "inky": {
+    "dropzone": "Glissez une image ou un PDF ici, ou cliquez pour en choisir un",
+    "dropzoneHint": "JPG, PNG, WebP ou PDF. Rien n'est envoyé.",
+    "pages": "{n} pages",
+    "pageOf": "Page {page} sur {total}",
+    "prevPage": "Page précédente",
+    "nextPage": "Page suivante",
+    "redact": {
+      "title": "1. Masquez les informations sensibles",
+      "hint": "Faites glisser sur ce que vous voulez masquer. Touchez ou cliquez sur un rectangle noir pour le retirer.",
+      "count": "Zones masquées : {n}",
+      "undo": "Annuler",
+      "clearPage": "Effacer la page",
+      "clearAll": "Tout effacer"
+    },
+    "watermark": {
+      "title": "2. Ajoutez un filigrane",
+      "text": "Qui peut utiliser ce document, et pour quoi faire ?",
+      "placeholder": "Ex. : Uniquement pour la location de l'appartement avec l'agence Acme, octobre 2026",
+      "tip": "Indiquez la personne ou l'entreprise et l'usage exact. Une copie marquée ainsi ne sert à rien d'autre.",
+      "color": "Couleur",
+      "size": "Taille",
+      "opacity": "Opacité",
+      "rotation": "Angle",
+      "spacing": "Espacement"
+    },
+    "imageNote": "L'image est réencodée de zéro : la copie ne contient aucune métadonnée EXIF (appareil, lieu, date).",
+    "pdfNote": "Chaque page est convertie en image pour que le texte masqué disparaisse vraiment. Le PDF obtenu n'a ni texte sélectionnable ni métadonnées.",
+    "actions": {
+      "opening": "Ouverture…",
+      "download": "Télécharger",
+      "processing": "Traitement…",
+      "processingPage": "Traitement de la page {page} sur {total}…",
+      "change": "Changer de fichier"
+    },
+    "errors": {
+      "unsupported": "{name} n'est pas une image ou un PDF pris en charge.",
+      "invalidPdf": "Impossible de lire {name}.",
+      "password": "Ce PDF est protégé par un mot de passe. Retirez-le et réessayez.",
+      "generic": "Impossible de traiter le fichier."
     }
   },
   "croppy": {

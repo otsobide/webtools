@@ -206,6 +206,11 @@
       "tagline": "Compound interest calculator",
       "description": "Simulate the growth of a principal with compound interest and regular contributions. Year-by-year results in your chosen currency. All in your browser."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Redact and watermark documents",
+      "description": "Hide sensitive data and stamp a text watermark on images and PDFs before sharing them, like a copy of your ID. All in your browser."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Format and validate JSON",
@@ -996,6 +1001,48 @@
       "balance": "Balance",
       "contributed": "Contributed",
       "interest": "Interest"
+    }
+  },
+  "inky": {
+    "dropzone": "Drag an image or a PDF here, or click to select one",
+    "dropzoneHint": "JPG, PNG, WebP or PDF. Nothing is uploaded.",
+    "pages": "{n} pages",
+    "pageOf": "Page {page} of {total}",
+    "prevPage": "Previous page",
+    "nextPage": "Next page",
+    "redact": {
+      "title": "1. Hide sensitive information",
+      "hint": "Drag over anything you want to hide. Tap or click a black box to remove it.",
+      "count": "Hidden areas: {n}",
+      "undo": "Undo",
+      "clearPage": "Clear page",
+      "clearAll": "Clear all"
+    },
+    "watermark": {
+      "title": "2. Add a watermark",
+      "text": "Who can use this document, and for what?",
+      "placeholder": "e.g. Only for the apartment rental with Acme Homes, October 2026",
+      "tip": "Name the person or company and the exact purpose. A copy marked like this is useless for anything else.",
+      "color": "Color",
+      "size": "Size",
+      "opacity": "Opacity",
+      "rotation": "Angle",
+      "spacing": "Spacing"
+    },
+    "imageNote": "The image is re-encoded from scratch, so the copy carries no EXIF metadata (camera, location, date).",
+    "pdfNote": "Each page is turned into an image so hidden text is really gone. The resulting PDF has no selectable text or metadata.",
+    "actions": {
+      "opening": "Opening…",
+      "download": "Download",
+      "processing": "Processing…",
+      "processingPage": "Processing page {page} of {total}…",
+      "change": "Change file"
+    },
+    "errors": {
+      "unsupported": "{name} is not a supported image or PDF.",
+      "invalidPdf": "Could not read {name}.",
+      "password": "This PDF is password-protected. Remove the password and try again.",
+      "generic": "Could not process the file."
     }
   },
   "croppy": {

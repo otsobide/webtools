@@ -206,6 +206,11 @@
       "tagline": "Rentes rente-kalkulator",
       "description": "Simuler veksten av en hovedstol med rentes rente og regelmessige innskudd. År-for-år-resultater i den valgte valutaen. Alt i nettleseren din."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Skjul data og legg vannmerke på dokumenter",
+      "description": "Skjul sensitive opplysninger og legg et tekstvannmerke på bilder og PDF-er før du deler dem, for eksempel en kopi av passet ditt. Alt i nettleseren din."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "Formater og valider JSON",
@@ -996,6 +1001,48 @@
       "balance": "Saldo",
       "contributed": "Innskutt",
       "interest": "Rente"
+    }
+  },
+  "inky": {
+    "dropzone": "Dra et bilde eller en PDF hit, eller klikk for å velge",
+    "dropzoneHint": "JPG, PNG, WebP eller PDF. Ingenting lastes opp.",
+    "pages": "{n} sider",
+    "pageOf": "Side {page} av {total}",
+    "prevPage": "Forrige side",
+    "nextPage": "Neste side",
+    "redact": {
+      "title": "1. Skjul sensitive opplysninger",
+      "hint": "Dra over det du vil skjule. Trykk eller klikk på en svart boks for å fjerne den.",
+      "count": "Skjulte områder: {n}",
+      "undo": "Angre",
+      "clearPage": "Tøm siden",
+      "clearAll": "Fjern alle"
+    },
+    "watermark": {
+      "title": "2. Legg til vannmerke",
+      "text": "Hvem kan bruke dette dokumentet, og til hva?",
+      "placeholder": "F.eks.: Kun til leie av leiligheten hos Acme Eiendom, oktober 2026",
+      "tip": "Skriv personen eller firmaet og det nøyaktige formålet. En kopi merket slik kan ikke brukes til noe annet.",
+      "color": "Farge",
+      "size": "Størrelse",
+      "opacity": "Gjennomsiktighet",
+      "rotation": "Vinkel",
+      "spacing": "Avstand"
+    },
+    "imageNote": "Bildet kodes på nytt fra bunnen av, så kopien har ingen EXIF-metadata (kamera, sted, dato).",
+    "pdfNote": "Hver side gjøres om til et bilde, slik at skjult tekst virkelig forsvinner. Den ferdige PDF-en har verken markerbar tekst eller metadata.",
+    "actions": {
+      "opening": "Åpner…",
+      "download": "Last ned",
+      "processing": "Behandler…",
+      "processingPage": "Behandler side {page} av {total}…",
+      "change": "Bytt fil"
+    },
+    "errors": {
+      "unsupported": "{name} er ikke et støttet bilde eller en PDF.",
+      "invalidPdf": "Kunne ikke lese {name}.",
+      "password": "Denne PDF-en er passordbeskyttet. Fjern passordet og prøv igjen.",
+      "generic": "Kunne ikke behandle filen."
     }
   },
   "croppy": {

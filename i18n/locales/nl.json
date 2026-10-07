@@ -206,6 +206,11 @@
       "tagline": "Samengestelde-rentecalculator",
       "description": "Simuleer de groei van een hoofdsom met samengestelde rente en periodieke stortingen. Resultaten jaar voor jaar in de door u gekozen valuta. Alles in uw browser."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "Documenten afschermen en watermerken",
+      "description": "Verberg gevoelige gegevens en zet een tekstwatermerk op afbeeldingen en PDF's voordat u ze deelt, zoals een kopie van uw identiteitsbewijs. Alles in uw browser."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "JSON formatteren en valideren",
@@ -996,6 +1001,48 @@
       "balance": "Saldo",
       "contributed": "Gestort",
       "interest": "Rente"
+    }
+  },
+  "inky": {
+    "dropzone": "Sleep een afbeelding of PDF hierheen of klik om er een te kiezen",
+    "dropzoneHint": "JPG, PNG, WebP of PDF. Er wordt niets geüpload.",
+    "pages": "{n} pagina's",
+    "pageOf": "Pagina {page} van {total}",
+    "prevPage": "Vorige pagina",
+    "nextPage": "Volgende pagina",
+    "redact": {
+      "title": "1. Verberg gevoelige informatie",
+      "hint": "Sleep over alles wat u wilt verbergen. Tik of klik op een zwart vak om het te verwijderen.",
+      "count": "Verborgen gebieden: {n}",
+      "undo": "Ongedaan maken",
+      "clearPage": "Pagina wissen",
+      "clearAll": "Alles wissen"
+    },
+    "watermark": {
+      "title": "2. Voeg een watermerk toe",
+      "text": "Wie mag dit document gebruiken, en waarvoor?",
+      "placeholder": "Bijv.: Alleen voor de huur van het appartement via Acme Makelaars, oktober 2026",
+      "tip": "Noem de persoon of het bedrijf en het precieze doel. Een kopie die zo gemarkeerd is, is voor niets anders bruikbaar.",
+      "color": "Kleur",
+      "size": "Grootte",
+      "opacity": "Dekking",
+      "rotation": "Hoek",
+      "spacing": "Tussenruimte"
+    },
+    "imageNote": "De afbeelding wordt opnieuw gecodeerd, dus de kopie bevat geen EXIF-metadata (camera, locatie, datum).",
+    "pdfNote": "Elke pagina wordt omgezet in een afbeelding, zodat verborgen tekst echt verdwijnt. De resulterende PDF heeft geen selecteerbare tekst of metadata.",
+    "actions": {
+      "opening": "Openen…",
+      "download": "Downloaden",
+      "processing": "Verwerken…",
+      "processingPage": "Pagina {page} van {total} verwerken…",
+      "change": "Ander bestand"
+    },
+    "errors": {
+      "unsupported": "{name} is geen ondersteunde afbeelding of PDF.",
+      "invalidPdf": "Kan {name} niet lezen.",
+      "password": "Deze PDF is met een wachtwoord beveiligd. Verwijder het wachtwoord en probeer het opnieuw.",
+      "generic": "Kan het bestand niet verwerken."
     }
   },
   "croppy": {

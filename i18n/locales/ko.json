@@ -206,6 +206,11 @@
       "tagline": "복리 계산기",
       "description": "복리와 정기 납입으로 원금이 성장하는 과정을 시뮬레이션합니다. 선택한 통화로 연도별 결과를 확인할 수 있습니다. 모두 브라우저에서 처리됩니다."
     },
+    "inky": {
+      "name": "Inky",
+      "tagline": "문서 가리기와 워터마크",
+      "description": "공유하기 전에 이미지와 PDF의 민감한 정보를 가리고 텍스트 워터마크를 넣습니다. 신분증 사본 등에 알맞습니다. 모두 브라우저에서 처리됩니다."
+    },
     "jsonpad": {
       "name": "Jsonpad",
       "tagline": "JSON 포맷 및 검증",
@@ -996,6 +1001,48 @@
       "balance": "잔액",
       "contributed": "납입액",
       "interest": "이자"
+    }
+  },
+  "inky": {
+    "dropzone": "이미지나 PDF를 여기에 끌어 놓거나 클릭해 선택하세요",
+    "dropzoneHint": "JPG, PNG, WebP 또는 PDF. 아무것도 업로드되지 않습니다.",
+    "pages": "{n}페이지",
+    "pageOf": "{total}페이지 중 {page}페이지",
+    "prevPage": "이전 페이지",
+    "nextPage": "다음 페이지",
+    "redact": {
+      "title": "1. 민감한 정보 가리기",
+      "hint": "가리고 싶은 부분 위로 드래그하세요. 검은 상자를 탭하거나 클릭하면 삭제됩니다.",
+      "count": "가린 영역: {n}",
+      "undo": "실행 취소",
+      "clearPage": "이 페이지 지우기",
+      "clearAll": "모두 지우기"
+    },
+    "watermark": {
+      "title": "2. 워터마크 추가",
+      "text": "누가 어떤 목적으로 이 문서를 사용할 수 있나요?",
+      "placeholder": "예: Acme 부동산과의 아파트 임대 계약용으로만 사용, 2026년 10월",
+      "tip": "개인 또는 회사 이름과 정확한 용도를 적으세요. 이렇게 표시한 사본은 다른 용도로 쓸 수 없습니다.",
+      "color": "색상",
+      "size": "크기",
+      "opacity": "불투명도",
+      "rotation": "각도",
+      "spacing": "간격"
+    },
+    "imageNote": "이미지를 처음부터 다시 인코딩하므로 사본에는 EXIF 메타데이터(카메라, 위치, 날짜)가 남지 않습니다.",
+    "pdfNote": "가린 텍스트가 확실히 사라지도록 각 페이지를 이미지로 변환합니다. 결과 PDF에는 선택 가능한 텍스트나 메타데이터가 없습니다.",
+    "actions": {
+      "opening": "여는 중…",
+      "download": "다운로드",
+      "processing": "처리 중…",
+      "processingPage": "{total}페이지 중 {page}페이지 처리 중…",
+      "change": "파일 변경"
+    },
+    "errors": {
+      "unsupported": "{name}은(는) 지원되는 이미지나 PDF가 아닙니다.",
+      "invalidPdf": "{name}을(를) 읽을 수 없습니다.",
+      "password": "이 PDF는 비밀번호로 보호되어 있습니다. 비밀번호를 해제한 뒤 다시 시도하세요.",
+      "generic": "파일을 처리할 수 없습니다."
     }
   },
   "croppy": {

@@ -1024,13 +1024,32 @@
       "placeholder": "Pl.: Kizárólag az Acme Ingatlannál intézett lakásbérléshez, 2026. október",
       "tip": "Adja meg a személyt vagy a céget és a pontos célt. Az így megjelölt másolat semmi másra nem használható.",
       "color": "Szín",
-      "size": "Méret",
+      "size": "Szövegméret",
+      "lineSpacing": "Sorköz",
       "opacity": "Átlátszóság",
       "rotation": "Szög",
-      "spacing": "Térköz"
+      "spacing": "Vízszintes térköz"
     },
-    "imageNote": "A kép teljesen újrakódolódik, így a másolat nem tartalmaz EXIF-metaadatokat (fényképezőgép, hely, dátum).",
-    "pdfNote": "Minden oldal képpé alakul, hogy a kitakart szöveg valóban eltűnjön. Az elkészült PDF-ben nincs kijelölhető szöveg, és nincsenek metaadatok.",
+    "metadata": {
+      "title": "3. A fájl metaadatai",
+      "hint": "Ezek a letöltött fájlba kerülnek. Ha mindent üresen hagy, a fájl semmilyen metaadatot nem tartalmaz.",
+      "fields": {
+        "title": "Cím",
+        "author": "Szerző",
+        "subject": "Tárgy",
+        "keywords": "Kulcsszavak",
+        "creator": "Alkalmazás"
+      },
+      "keywordsPlaceholder": "Vesszővel elválasztva",
+      "custom": "Egyéni mezők",
+      "key": "Név",
+      "value": "Érték",
+      "add": "Mező hozzáadása",
+      "remove": "Mező eltávolítása",
+      "keyHint": "A mezőnevek ékezetek nélkül, csak latin betűkkel, számjegyekkel és alapvető írásjelekkel kerülnek mentésre."
+    },
+    "imageNote": "A kép teljesen újrakódolódik, így semmilyen eredeti metaadat (fényképezőgép, hely, dátum) nem marad meg. Csak az kerül bele, amit a 3. lépésben megad.",
+    "pdfNote": "Minden oldal képpé alakul, hogy a kitakart szöveg valóban eltűnjön. Az elkészült PDF-ben nincs kijelölhető szöveg és eredeti metaadat, csak amit a 3. lépésben megad.",
     "actions": {
       "opening": "Megnyitás…",
       "download": "Letöltés",

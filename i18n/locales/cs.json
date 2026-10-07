@@ -1024,13 +1024,32 @@
       "placeholder": "Např.: Pouze pro pronájem bytu u realitní kanceláře Acme, říjen 2026",
       "tip": "Uveďte osobu nebo firmu a přesný účel. Takto označená kopie se k ničemu jinému nehodí.",
       "color": "Barva",
-      "size": "Velikost",
+      "size": "Velikost textu",
+      "lineSpacing": "Řádkování",
       "opacity": "Krytí",
       "rotation": "Úhel",
-      "spacing": "Rozestup"
+      "spacing": "Vodorovné rozestupy"
     },
-    "imageNote": "Obrázek se kóduje znovu od začátku, takže kopie neobsahuje žádná metadata EXIF (fotoaparát, poloha, datum).",
-    "pdfNote": "Každá strana se převede na obrázek, aby skrytý text opravdu zmizel. Výsledné PDF nemá označitelný text ani metadata.",
+    "metadata": {
+      "title": "3. Metadata souboru",
+      "hint": "Zapíšou se do staženého souboru. Když necháte vše prázdné, nebude obsahovat žádná metadata.",
+      "fields": {
+        "title": "Název",
+        "author": "Autor",
+        "subject": "Předmět",
+        "keywords": "Klíčová slova",
+        "creator": "Aplikace"
+      },
+      "keywordsPlaceholder": "Oddělená čárkami",
+      "custom": "Vlastní pole",
+      "key": "Název pole",
+      "value": "Hodnota",
+      "add": "Přidat pole",
+      "remove": "Odebrat pole",
+      "keyHint": "Názvy polí se ukládají bez diakritiky, jen s latinskými písmeny, číslicemi a základní interpunkcí."
+    },
+    "imageNote": "Obrázek se kóduje znovu od začátku, takže se nezachovají žádná původní metadata (fotoaparát, poloha, datum). Zapíše se jen to, co vyplníte v kroku 3.",
+    "pdfNote": "Každá strana se převede na obrázek, aby skrytý text opravdu zmizel. Výsledné PDF nemá označitelný text ani původní metadata, jen ta, která vyplníte v kroku 3.",
     "actions": {
       "opening": "Otevírání…",
       "download": "Stáhnout",

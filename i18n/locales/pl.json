@@ -1024,13 +1024,32 @@
       "placeholder": "Np.: Tylko do wynajmu mieszkania przez Acme Nieruchomości, październik 2026",
       "tip": "Podaj osobę lub firmę i dokładny cel. Tak oznaczona kopia do niczego innego się nie przyda.",
       "color": "Kolor",
-      "size": "Rozmiar",
+      "size": "Rozmiar tekstu",
+      "lineSpacing": "Interlinia",
       "opacity": "Przezroczystość",
       "rotation": "Kąt",
-      "spacing": "Odstęp"
+      "spacing": "Odstęp poziomy"
     },
-    "imageNote": "Obraz jest kodowany od nowa, więc kopia nie zawiera metadanych EXIF (aparat, lokalizacja, data).",
-    "pdfNote": "Każda strona jest zamieniana na obraz, aby ukryty tekst naprawdę zniknął. Powstały PDF nie ma tekstu do zaznaczenia ani metadanych.",
+    "metadata": {
+      "title": "3. Metadane pliku",
+      "hint": "Są zapisywane w pobranym pliku. Jeśli zostawisz wszystko puste, plik nie będzie miał żadnych metadanych.",
+      "fields": {
+        "title": "Tytuł",
+        "author": "Autor",
+        "subject": "Temat",
+        "keywords": "Słowa kluczowe",
+        "creator": "Aplikacja"
+      },
+      "keywordsPlaceholder": "Oddzielone przecinkami",
+      "custom": "Pola niestandardowe",
+      "key": "Nazwa",
+      "value": "Wartość",
+      "add": "Dodaj pole",
+      "remove": "Usuń pole",
+      "keyHint": "Nazwy pól są zapisywane bez znaków diakrytycznych, tylko literami łacińskimi, cyframi i podstawową interpunkcją."
+    },
+    "imageNote": "Obraz jest kodowany od nowa, więc nie zachowuje żadnych oryginalnych metadanych (aparat, lokalizacja, data). Zapisywane jest tylko to, co wpiszesz w kroku 3.",
+    "pdfNote": "Każda strona jest zamieniana na obraz, aby ukryty tekst naprawdę zniknął. Powstały PDF nie ma tekstu do zaznaczenia ani oryginalnych metadanych, tylko te wpisane w kroku 3.",
     "actions": {
       "opening": "Otwieranie…",
       "download": "Pobierz",

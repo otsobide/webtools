@@ -989,13 +989,32 @@
       "placeholder": "Ex.: Somente para o aluguel do apartamento com a Imobiliária Acme, outubro de 2026",
       "tip": "Informe a pessoa ou empresa e a finalidade exata. Uma cópia marcada assim não serve para mais nada.",
       "color": "Cor",
-      "size": "Tamanho",
+      "size": "Tamanho do texto",
+      "lineSpacing": "Espaçamento entre linhas",
       "opacity": "Opacidade",
       "rotation": "Ângulo",
-      "spacing": "Espaçamento"
+      "spacing": "Espaçamento horizontal"
     },
-    "imageNote": "A imagem é recodificada do zero, então a cópia não leva metadados EXIF (câmera, localização, data).",
-    "pdfNote": "Cada página é convertida em imagem para que o texto oculto desapareça de verdade. O PDF resultante não tem texto selecionável nem metadados.",
+    "metadata": {
+      "title": "3. Metadados do arquivo",
+      "hint": "São gravados no arquivo baixado. Se deixar tudo em branco, ele não terá nenhum metadado.",
+      "fields": {
+        "title": "Título",
+        "author": "Autor",
+        "subject": "Assunto",
+        "keywords": "Palavras-chave",
+        "creator": "Aplicativo"
+      },
+      "keywordsPlaceholder": "Separadas por vírgulas",
+      "custom": "Campos personalizados",
+      "key": "Nome",
+      "value": "Valor",
+      "add": "Adicionar campo",
+      "remove": "Remover campo",
+      "keyHint": "Os nomes dos campos são salvos sem acentos, apenas com letras latinas, números e pontuação básica."
+    },
+    "imageNote": "A imagem é recodificada do zero, então nenhum metadado original (câmera, localização, data) é mantido. Só é gravado o que você preencher na etapa 3.",
+    "pdfNote": "Cada página é convertida em imagem para que o texto oculto desapareça de verdade. O PDF resultante não tem texto selecionável nem os metadados originais, apenas os que você preencher na etapa 3.",
     "actions": {
       "opening": "Abrindo…",
       "download": "Baixar",

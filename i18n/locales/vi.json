@@ -1024,13 +1024,32 @@
       "placeholder": "VD: Chỉ dùng cho việc thuê căn hộ với Acme Homes, tháng 10/2026",
       "tip": "Ghi rõ tên người hoặc công ty và mục đích cụ thể. Bản sao được đánh dấu như vậy không dùng được vào việc khác.",
       "color": "Màu sắc",
-      "size": "Kích thước",
+      "size": "Cỡ chữ",
+      "lineSpacing": "Giãn dòng",
       "opacity": "Độ mờ",
       "rotation": "Góc",
-      "spacing": "Khoảng cách"
+      "spacing": "Khoảng cách ngang"
     },
-    "imageNote": "Ảnh được mã hóa lại từ đầu nên bản sao không chứa siêu dữ liệu EXIF (máy ảnh, vị trí, ngày chụp).",
-    "pdfNote": "Mỗi trang được chuyển thành ảnh để phần chữ bị che thực sự biến mất. PDF tạo ra không có chữ chọn được và không có siêu dữ liệu.",
+    "metadata": {
+      "title": "3. Siêu dữ liệu tệp",
+      "hint": "Được ghi vào tệp tải xuống. Nếu để trống tất cả, tệp sẽ không có siêu dữ liệu nào.",
+      "fields": {
+        "title": "Tiêu đề",
+        "author": "Tác giả",
+        "subject": "Chủ đề",
+        "keywords": "Từ khóa",
+        "creator": "Ứng dụng"
+      },
+      "keywordsPlaceholder": "Phân tách bằng dấu phẩy",
+      "custom": "Trường tùy chỉnh",
+      "key": "Tên",
+      "value": "Giá trị",
+      "add": "Thêm trường",
+      "remove": "Xóa trường",
+      "keyHint": "Tên trường được lưu không dấu, chỉ gồm chữ Latinh, chữ số và dấu câu cơ bản."
+    },
+    "imageNote": "Ảnh được mã hóa lại từ đầu nên không giữ lại siêu dữ liệu gốc nào (máy ảnh, vị trí, ngày chụp). Chỉ những gì bạn nhập ở bước 3 được ghi vào.",
+    "pdfNote": "Mỗi trang được chuyển thành ảnh để phần chữ bị che thực sự biến mất. PDF tạo ra không có chữ chọn được và không có siêu dữ liệu gốc, chỉ có những gì bạn nhập ở bước 3.",
     "actions": {
       "opening": "Đang mở…",
       "download": "Tải xuống",

@@ -1024,13 +1024,32 @@
       "placeholder": "Ex. : Uniquement pour la location de l'appartement avec l'agence Acme, octobre 2026",
       "tip": "Indiquez la personne ou l'entreprise et l'usage exact. Une copie marquée ainsi ne sert à rien d'autre.",
       "color": "Couleur",
-      "size": "Taille",
+      "size": "Taille du texte",
+      "lineSpacing": "Interligne",
       "opacity": "Opacité",
       "rotation": "Angle",
-      "spacing": "Espacement"
+      "spacing": "Espacement horizontal"
     },
-    "imageNote": "L'image est réencodée de zéro : la copie ne contient aucune métadonnée EXIF (appareil, lieu, date).",
-    "pdfNote": "Chaque page est convertie en image pour que le texte masqué disparaisse vraiment. Le PDF obtenu n'a ni texte sélectionnable ni métadonnées.",
+    "metadata": {
+      "title": "3. Métadonnées du fichier",
+      "hint": "Elles sont écrites dans le fichier téléchargé. Laissez tout vide pour qu'il n'en contienne aucune.",
+      "fields": {
+        "title": "Titre",
+        "author": "Auteur",
+        "subject": "Sujet",
+        "keywords": "Mots-clés",
+        "creator": "Application"
+      },
+      "keywordsPlaceholder": "Séparés par des virgules",
+      "custom": "Champs personnalisés",
+      "key": "Nom",
+      "value": "Valeur",
+      "add": "Ajouter un champ",
+      "remove": "Supprimer le champ",
+      "keyHint": "Les noms de champ sont enregistrés sans accents, avec seulement des lettres latines, des chiffres et la ponctuation de base."
+    },
+    "imageNote": "L'image est réencodée de zéro : aucune métadonnée d'origine (appareil, lieu, date) n'est conservée. Seul ce que vous saisissez à l'étape 3 est écrit.",
+    "pdfNote": "Chaque page est convertie en image pour que le texte masqué disparaisse vraiment. Le PDF obtenu n'a ni texte sélectionnable ni métadonnées d'origine, seulement celles saisies à l'étape 3.",
     "actions": {
       "opening": "Ouverture…",
       "download": "Télécharger",

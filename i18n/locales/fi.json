@@ -1024,13 +1024,32 @@
       "placeholder": "Esim. Vain asunnon vuokraukseen Acme Kotien kautta, lokakuu 2026",
       "tip": "Mainitse henkilö tai yritys ja tarkka käyttötarkoitus. Näin merkitty kopio ei kelpaa mihinkään muuhun.",
       "color": "Väri",
-      "size": "Koko",
+      "size": "Tekstin koko",
+      "lineSpacing": "Riviväli",
       "opacity": "Läpinäkyvyys",
       "rotation": "Kulma",
-      "spacing": "Väli"
+      "spacing": "Vaakaväli"
     },
-    "imageNote": "Kuva koodataan kokonaan uudelleen, joten kopiossa ei ole EXIF-metatietoja (kamera, sijainti, päivämäärä).",
-    "pdfNote": "Jokainen sivu muunnetaan kuvaksi, jotta peitetty teksti katoaa oikeasti. Valmiissa PDF:ssä ei ole valittavaa tekstiä eikä metatietoja.",
+    "metadata": {
+      "title": "3. Tiedoston metatiedot",
+      "hint": "Ne kirjoitetaan ladattavaan tiedostoon. Jos jätät kaiken tyhjäksi, tiedostossa ei ole lainkaan metatietoja.",
+      "fields": {
+        "title": "Otsikko",
+        "author": "Tekijä",
+        "subject": "Aihe",
+        "keywords": "Avainsanat",
+        "creator": "Sovellus"
+      },
+      "keywordsPlaceholder": "Pilkuilla eroteltuina",
+      "custom": "Omat kentät",
+      "key": "Nimi",
+      "value": "Arvo",
+      "add": "Lisää kenttä",
+      "remove": "Poista kenttä",
+      "keyHint": "Kenttien nimet tallennetaan ilman tarkkeita, vain latinalaisin kirjaimin, numeroin ja tavallisin välimerkein."
+    },
+    "imageNote": "Kuva koodataan kokonaan uudelleen, joten alkuperäisiä metatietoja (kamera, sijainti, päivämäärä) ei säily. Tiedostoon kirjoitetaan vain se, mitä syötät vaiheessa 3.",
+    "pdfNote": "Jokainen sivu muunnetaan kuvaksi, jotta peitetty teksti katoaa oikeasti. Valmiissa PDF:ssä ei ole valittavaa tekstiä eikä alkuperäisiä metatietoja, vain vaiheessa 3 syöttämäsi.",
     "actions": {
       "opening": "Avataan…",
       "download": "Lataa",

@@ -3,14 +3,16 @@
  * Inky.vue
  *
  * Image/PDF dropzone, a preview canvas where dragging draws a box to
- * hide and tapping a box removes it, page navigation for PDFs, and the
- * watermark controls (text, color, size, opacity, angle, spacing). The
- * preview is composed at reduced size by `useInky.compose`; Download
- * re-renders at full resolution with `exportImage` / `exportPdf`.
+ * hide and tapping a box removes it, page navigation for PDFs, the
+ * watermark controls (text, color, opacity, angle, and size, line
+ * spacing and gap as slider-plus-number pairs) and the metadata form
+ * (named fields plus free key/value rows). The preview is composed at
+ * reduced size by `useInky.compose`; Download re-renders at full
+ * resolution with `exportImage` / `exportPdf`.
  */
 import type { PDFDocumentProxy } from 'pdfjs-dist'
-import type { Box, InkyWatermark } from '~/composables/useInky'
-import { PREVIEW_LONG_SIDE } from '~/composables/useInky'
+import type { Box, InkyMetadata, InkyWatermark } from '~/composables/useInky'
+import { META_FIELDS, PREVIEW_LONG_SIDE } from '~/composables/useInky'
 
 const { t } = useI18n()
 const {
@@ -36,8 +38,11 @@ const MIN_BOX_PX = 3
 // shallowRef: pdf.js objects use private class fields, which throw when
 // accessed through Vue's deep reactive proxies.
 const source = shallowRef<Source | null>(null)
-/** The rendered page under the preview, tagged with its page index. */
-const preview = shallowRef<{ canvas: HTMLCanvasElement; index: number } | null>(null)
+/**
+ * The rendered page under the preview, tagged with its page index and
+ * how many preview pixels one watermark size unit (pt or px) spans.
+ */
+const preview = shallowRef<{ canvas: HTMLCanvasElement; index: number; unitPx: number } | null>(null)
 const pageIndex = ref(0)
 const boxes = ref<Box[][]>([])
 const draft = ref<Box | null>(null)
@@ -46,10 +51,21 @@ let renderToken = 0
 
 const text = ref('')
 const color = ref('#808080')
-const sizePct = ref(4)
+const size = ref(24)
 const opacityPct = ref(35)
 const rotation = ref(-30)
-const spacingPct = ref(100)
+const lineSpacing = ref(2.5)
+const gap = ref(2)
+
+let customId = 0
+const meta = reactive<InkyMetadata & { custom: { id: number; key: string; value: string }[] }>({
+  title: '',
+  author: '',
+  subject: '',
+  keywords: '',
+  creator: '',
+  custom: [],
+})
 
 const isDragging = ref(false)
 const isOpening = ref(false)
@@ -65,14 +81,29 @@ const pageCount = computed(() =>
 const currentBoxes = computed(() => boxes.value[pageIndex.value] ?? [])
 const totalBoxes = computed(() => boxes.value.reduce((n, page) => n + page.length, 0))
 
+/** Number inputs yield '' while being edited; fall back instead of NaN. */
+const clamp = (v: unknown, min: number, max: number, fallback: number) => {
+  const n = Number(v)
+  return v === '' || !Number.isFinite(n) ? fallback : Math.min(max, Math.max(min, n))
+}
+
 const watermark = computed<InkyWatermark>(() => ({
   text: text.value,
   color: color.value,
-  sizePct: sizePct.value,
+  size: clamp(size.value, 1, 5000, 24),
   opacity: opacityPct.value / 100,
   rotation: rotation.value,
-  spacingPct: spacingPct.value,
+  lineSpacing: clamp(lineSpacing.value, 1, 20, 2.5),
+  gap: clamp(gap.value, 0, 20, 2),
 }))
+
+/** Watermark size is in points for PDFs and pixels for images. */
+const unit = computed(() => (source.value?.kind === 'pdf' ? 'pt' : 'px'))
+const sizeMax = computed(() => {
+  const s = source.value
+  if (s?.kind !== 'image') return 144
+  return Math.max(48, Math.round(Math.min(s.bitmap.width, s.bitmap.height) / 4))
+})
 
 const formatBytes = (bytes: number): string => {
   if (bytes < 1024) return `${bytes} B`
@@ -115,6 +146,7 @@ const renderPreview = () => {
     preview.value.canvas,
     boxes.value[preview.value.index] ?? [],
     watermark.value,
+    preview.value.unitPx,
   )
 }
 
@@ -122,13 +154,14 @@ const loadPreview = async (index: number) => {
   const s = source.value
   if (!s) return
   if (s.kind === 'image') {
-    preview.value = { canvas: imagePreview(s.bitmap), index }
+    const canvas = imagePreview(s.bitmap)
+    preview.value = { canvas, index, unitPx: canvas.width / s.bitmap.width }
     return
   }
   // Page flips can overlap; only the latest one may land.
   const token = ++renderToken
-  const { canvas } = await renderPdfPage(s.pdf, index + 1, PREVIEW_LONG_SIDE)
-  if (token === renderToken) preview.value = { canvas, index }
+  const { canvas, widthPt } = await renderPdfPage(s.pdf, index + 1, PREVIEW_LONG_SIDE)
+  if (token === renderToken) preview.value = { canvas, index, unitPx: canvas.width / widthPt }
 }
 
 const goTo = async (index: number) => {
@@ -168,11 +201,18 @@ const loadFile = async (file: File) => {
   }
   isOpening.value = true
   try {
-    source.value = isPdf
+    const next: Source = isPdf
       ? { kind: 'pdf', file, pdf: await openPdf(await file.arrayBuffer()) }
       : { kind: 'image', file, bitmap: await loadImage(file) }
+    source.value = next
     boxes.value = Array.from({ length: pageCount.value }, () => [])
     pageIndex.value = 0
+    // Pixels mean nothing across images of different resolutions, so
+    // start each one at 4% of its short side, roughly 24 pt on A4.
+    size.value =
+      next.kind === 'pdf'
+        ? 24
+        : Math.max(8, Math.round(0.04 * Math.min(next.bitmap.width, next.bitmap.height)))
     await loadPreview(0)
   } catch (err) {
     clear()
@@ -260,6 +300,10 @@ const clearPage = () => {
   boxes.value[pageIndex.value]?.splice(0)
 }
 
+const addField = () => {
+  meta.custom.push({ id: ++customId, key: '', value: '' })
+}
+
 const save = (blob: Blob, name: string) => {
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
@@ -279,10 +323,10 @@ const download = async () => {
   try {
     const baseName = s.file.name.replace(/\.[^/.]+$/, '')
     if (s.kind === 'image') {
-      const blob = await exportImage(s.file, s.bitmap, boxes.value[0], watermark.value)
+      const blob = await exportImage(s.file, s.bitmap, boxes.value[0], watermark.value, meta)
       save(blob, `${baseName}-inky.${imageOutput(s.file).ext}`)
     } else {
-      const bytes = await exportPdf(s.pdf, boxes.value, watermark.value, (n) => {
+      const bytes = await exportPdf(s.pdf, boxes.value, watermark.value, meta, (n) => {
         progressPage.value = n
       })
       save(new Blob([bytes as BlobPart], { type: 'application/pdf' }), `${baseName}-inky.pdf`)
@@ -420,23 +464,130 @@ onBeforeUnmount(release)
             <input v-model="color" type="color" class="color-input" />
           </label>
           <label class="field grow">
-            <span>{{ t('inky.watermark.size') }} ({{ sizePct }}%)</span>
-            <input v-model.number="sizePct" type="range" min="1.5" max="12" step="0.5" />
-          </label>
-          <label class="field grow">
             <span>{{ t('inky.watermark.opacity') }} ({{ opacityPct }}%)</span>
             <input v-model.number="opacityPct" type="range" min="10" max="100" />
           </label>
-        </div>
-        <div class="row">
           <label class="field grow">
             <span>{{ t('inky.watermark.rotation') }} ({{ rotation }}°)</span>
             <input v-model.number="rotation" type="range" min="-90" max="90" />
           </label>
-          <label class="field grow">
-            <span>{{ t('inky.watermark.spacing') }} ({{ spacingPct }}%)</span>
-            <input v-model.number="spacingPct" type="range" min="0" max="300" step="10" />
+        </div>
+        <div class="row">
+          <div class="field grow">
+            <span>{{ t('inky.watermark.size') }} ({{ unit }})</span>
+            <div class="range-num">
+              <input
+                v-model.number="size"
+                type="range"
+                min="4"
+                :max="sizeMax"
+                :aria-label="t('inky.watermark.size')"
+              />
+              <input
+                v-model.number="size"
+                type="number"
+                min="1"
+                step="any"
+                class="num"
+                :aria-label="t('inky.watermark.size')"
+              />
+            </div>
+          </div>
+          <div class="field grow">
+            <span>{{ t('inky.watermark.lineSpacing') }} (×)</span>
+            <div class="range-num">
+              <input
+                v-model.number="lineSpacing"
+                type="range"
+                min="1"
+                max="8"
+                step="0.1"
+                :aria-label="t('inky.watermark.lineSpacing')"
+              />
+              <input
+                v-model.number="lineSpacing"
+                type="number"
+                min="1"
+                max="20"
+                step="0.1"
+                class="num"
+                :aria-label="t('inky.watermark.lineSpacing')"
+              />
+            </div>
+          </div>
+          <div class="field grow">
+            <span>{{ t('inky.watermark.spacing') }} (×)</span>
+            <div class="range-num">
+              <input
+                v-model.number="gap"
+                type="range"
+                min="0"
+                max="8"
+                step="0.1"
+                :aria-label="t('inky.watermark.spacing')"
+              />
+              <input
+                v-model.number="gap"
+                type="number"
+                min="0"
+                max="20"
+                step="0.1"
+                class="num"
+                :aria-label="t('inky.watermark.spacing')"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="step">{{ t('inky.metadata.title') }}</h2>
+        <p class="hint">{{ t('inky.metadata.hint') }}</p>
+        <div class="meta-grid">
+          <label v-for="f in META_FIELDS" :key="f" class="field">
+            <span>{{ t(`inky.metadata.fields.${f}`) }}</span>
+            <input
+              v-model="meta[f]"
+              type="text"
+              maxlength="300"
+              :placeholder="f === 'keywords' ? t('inky.metadata.keywordsPlaceholder') : ''"
+            />
           </label>
+        </div>
+
+        <div class="field">
+          <span>{{ t('inky.metadata.custom') }}</span>
+          <div v-for="(row, i) in meta.custom" :key="row.id" class="custom-row">
+            <input
+              v-model="row.key"
+              type="text"
+              maxlength="79"
+              :placeholder="t('inky.metadata.key')"
+              :aria-label="t('inky.metadata.key')"
+            />
+            <input
+              v-model="row.value"
+              type="text"
+              maxlength="500"
+              :placeholder="t('inky.metadata.value')"
+              :aria-label="t('inky.metadata.value')"
+            />
+            <button
+              class="btn btn-ghost btn-sm"
+              type="button"
+              :aria-label="t('inky.metadata.remove')"
+              :title="t('inky.metadata.remove')"
+              @click="meta.custom.splice(i, 1)"
+            >
+              ✕
+            </button>
+          </div>
+          <p v-if="meta.custom.length" class="hint">{{ t('inky.metadata.keyHint') }}</p>
+          <div>
+            <button class="btn btn-ghost btn-sm" type="button" @click="addField">
+              {{ t('inky.metadata.add') }}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -576,12 +727,38 @@ onBeforeUnmount(release)
 .field.grow {
   flex: 1 1 160px;
 }
-.field input[type='text'] {
+.field input[type='text'],
+.field input.num {
   padding: 0.55rem 0.7rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--bg, #fff);
   font: inherit;
+  min-width: 0;
+}
+.range-num {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.range-num input[type='range'] {
+  flex: 1;
+  min-width: 0;
+}
+.range-num .num {
+  width: 4.75rem;
+  padding: 0.35rem 0.5rem;
+}
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.85rem;
+}
+.custom-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr) auto;
+  gap: 0.5rem;
+  align-items: center;
 }
 .color-input {
   height: 2.6rem;

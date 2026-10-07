@@ -1024,13 +1024,32 @@
       "placeholder": "Ex.: Doar pentru închirierea apartamentului prin Imobiliare Acme, octombrie 2026",
       "tip": "Scrie persoana sau firma și scopul exact. O copie marcată astfel nu mai poate fi folosită la altceva.",
       "color": "Culoare",
-      "size": "Dimensiune",
+      "size": "Dimensiunea textului",
+      "lineSpacing": "Spațiere între rânduri",
       "opacity": "Opacitate",
       "rotation": "Unghi",
-      "spacing": "Spațiere"
+      "spacing": "Spațiere orizontală"
     },
-    "imageNote": "Imaginea este recodificată de la zero, așa că copia nu conține metadate EXIF (cameră, locație, dată).",
-    "pdfNote": "Fiecare pagină este transformată în imagine, ca textul ascuns să dispară cu adevărat. PDF-ul rezultat nu are text selectabil și nici metadate.",
+    "metadata": {
+      "title": "3. Metadatele fișierului",
+      "hint": "Sunt scrise în fișierul descărcat. Dacă lași totul gol, nu va conține niciun metadat.",
+      "fields": {
+        "title": "Titlu",
+        "author": "Autor",
+        "subject": "Subiect",
+        "keywords": "Cuvinte cheie",
+        "creator": "Aplicație"
+      },
+      "keywordsPlaceholder": "Separate prin virgulă",
+      "custom": "Câmpuri personalizate",
+      "key": "Nume",
+      "value": "Valoare",
+      "add": "Adaugă câmp",
+      "remove": "Elimină câmpul",
+      "keyHint": "Numele câmpurilor se salvează fără diacritice, doar cu litere latine, cifre și semne de punctuație de bază."
+    },
+    "imageNote": "Imaginea este recodificată de la zero, așa că nu păstrează niciun metadat original (cameră, locație, dată). Se scrie doar ce completezi la pasul 3.",
+    "pdfNote": "Fiecare pagină este transformată în imagine, ca textul ascuns să dispară cu adevărat. PDF-ul rezultat nu are text selectabil și nici metadatele originale, doar ce completezi la pasul 3.",
     "actions": {
       "opening": "Se deschide…",
       "download": "Descarcă",

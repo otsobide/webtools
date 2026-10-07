@@ -1024,13 +1024,32 @@
       "placeholder": "F.eks.: Kun til leie av leiligheten hos Acme Eiendom, oktober 2026",
       "tip": "Skriv personen eller firmaet og det nøyaktige formålet. En kopi merket slik kan ikke brukes til noe annet.",
       "color": "Farge",
-      "size": "Størrelse",
+      "size": "Tekststørrelse",
+      "lineSpacing": "Linjeavstand",
       "opacity": "Gjennomsiktighet",
       "rotation": "Vinkel",
-      "spacing": "Avstand"
+      "spacing": "Vannrett avstand"
     },
-    "imageNote": "Bildet kodes på nytt fra bunnen av, så kopien har ingen EXIF-metadata (kamera, sted, dato).",
-    "pdfNote": "Hver side gjøres om til et bilde, slik at skjult tekst virkelig forsvinner. Den ferdige PDF-en har verken markerbar tekst eller metadata.",
+    "metadata": {
+      "title": "3. Filens metadata",
+      "hint": "De skrives inn i den nedlastede filen. Lar du alt stå tomt, får den ingen metadata i det hele tatt.",
+      "fields": {
+        "title": "Tittel",
+        "author": "Forfatter",
+        "subject": "Emne",
+        "keywords": "Nøkkelord",
+        "creator": "Program"
+      },
+      "keywordsPlaceholder": "Skilt med komma",
+      "custom": "Egendefinerte felt",
+      "key": "Navn",
+      "value": "Verdi",
+      "add": "Legg til felt",
+      "remove": "Fjern felt",
+      "keyHint": "Feltnavn lagres uten aksenter, bare med latinske bokstaver, tall og enkel tegnsetting."
+    },
+    "imageNote": "Bildet kodes på nytt fra bunnen av, så ingen av de opprinnelige metadataene (kamera, sted, dato) blir med. Bare det du fyller inn i trinn 3, blir skrevet.",
+    "pdfNote": "Hver side gjøres om til et bilde, slik at skjult tekst virkelig forsvinner. Den ferdige PDF-en har verken markerbar tekst eller de opprinnelige metadataene, bare det du fyller inn i trinn 3.",
     "actions": {
       "opening": "Åpner…",
       "download": "Last ned",

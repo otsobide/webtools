@@ -29,7 +29,8 @@ using:
   standard fonts, wasm decoders and ICC profiles are served from
   `/pdfjs/` straight out of `node_modules` via `nitro.publicAssets` in
   `nuxt.config.ts`.
-- **`piexifjs`** — Metaimg (EXIF read/write).
+- **`piexifjs`** — Metaimg (EXIF read/write), Inky (writes the user's
+  metadata into exported JPEGs; PNGs get iTXt chunks written by hand).
 - **`js-yaml`** — YamlJson (YAML ↔ JSON).
 - **`qrcode`** — Qrgen (QR codes, SVG/PNG).
 - **`diff`** — Diffy (text diff: line / word / char).

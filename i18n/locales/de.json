@@ -1024,13 +1024,32 @@
       "placeholder": "z. B. Nur für die Wohnungsmiete bei Acme Immobilien, Oktober 2026",
       "tip": "Nennen Sie die Person oder Firma und den genauen Zweck. Eine so markierte Kopie ist für nichts anderes zu gebrauchen.",
       "color": "Farbe",
-      "size": "Größe",
+      "size": "Textgröße",
+      "lineSpacing": "Zeilenabstand",
       "opacity": "Deckkraft",
       "rotation": "Winkel",
-      "spacing": "Abstand"
+      "spacing": "Horizontaler Abstand"
     },
-    "imageNote": "Das Bild wird komplett neu kodiert, die Kopie enthält also keine EXIF-Metadaten (Kamera, Ort, Datum).",
-    "pdfNote": "Jede Seite wird in ein Bild umgewandelt, damit verdeckter Text wirklich verschwindet. Das erzeugte PDF enthält keinen markierbaren Text und keine Metadaten.",
+    "metadata": {
+      "title": "3. Metadaten der Datei",
+      "hint": "Sie werden in die heruntergeladene Datei geschrieben. Lassen Sie alles leer, enthält sie keinerlei Metadaten.",
+      "fields": {
+        "title": "Titel",
+        "author": "Autor",
+        "subject": "Betreff",
+        "keywords": "Schlüsselwörter",
+        "creator": "Anwendung"
+      },
+      "keywordsPlaceholder": "Durch Kommas getrennt",
+      "custom": "Eigene Felder",
+      "key": "Name",
+      "value": "Wert",
+      "add": "Feld hinzufügen",
+      "remove": "Feld entfernen",
+      "keyHint": "Feldnamen werden ohne Akzente gespeichert, nur mit lateinischen Buchstaben, Ziffern und einfachen Satzzeichen."
+    },
+    "imageNote": "Das Bild wird komplett neu kodiert, daher bleiben keine ursprünglichen Metadaten (Kamera, Ort, Datum) erhalten. Geschrieben wird nur, was Sie in Schritt 3 eingeben.",
+    "pdfNote": "Jede Seite wird in ein Bild umgewandelt, damit verdeckter Text wirklich verschwindet. Das erzeugte PDF enthält keinen markierbaren Text und keine ursprünglichen Metadaten, nur die aus Schritt 3.",
     "actions": {
       "opening": "Wird geöffnet…",
       "download": "Herunterladen",

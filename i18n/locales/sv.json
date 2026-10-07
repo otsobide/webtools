@@ -1024,13 +1024,32 @@
       "placeholder": "T.ex.: Endast för hyra av lägenheten via Acme Bostad, oktober 2026",
       "tip": "Ange personen eller företaget och det exakta syftet. En kopia märkt så här går inte att använda till något annat.",
       "color": "Färg",
-      "size": "Storlek",
+      "size": "Textstorlek",
+      "lineSpacing": "Radavstånd",
       "opacity": "Opacitet",
       "rotation": "Vinkel",
-      "spacing": "Avstånd"
+      "spacing": "Vågrätt avstånd"
     },
-    "imageNote": "Bilden kodas om från grunden, så kopian saknar EXIF-metadata (kamera, plats, datum).",
-    "pdfNote": "Varje sida görs om till en bild så att dold text verkligen försvinner. Den färdiga PDF:en har ingen markerbar text och inga metadata.",
+    "metadata": {
+      "title": "3. Filens metadata",
+      "hint": "Den skrivs in i den nedladdade filen. Lämnar du allt tomt får filen ingen metadata alls.",
+      "fields": {
+        "title": "Titel",
+        "author": "Författare",
+        "subject": "Ämne",
+        "keywords": "Nyckelord",
+        "creator": "Program"
+      },
+      "keywordsPlaceholder": "Kommaseparerade",
+      "custom": "Egna fält",
+      "key": "Namn",
+      "value": "Värde",
+      "add": "Lägg till fält",
+      "remove": "Ta bort fält",
+      "keyHint": "Fältnamn sparas utan accenter, bara med latinska bokstäver, siffror och enkel interpunktion."
+    },
+    "imageNote": "Bilden kodas om från grunden, så ingen ursprunglig metadata (kamera, plats, datum) följer med. Bara det du fyller i steg 3 skrivs in.",
+    "pdfNote": "Varje sida görs om till en bild så att dold text verkligen försvinner. Den färdiga PDF:en har ingen markerbar text och ingen ursprunglig metadata, bara det du fyller i steg 3.",
     "actions": {
       "opening": "Öppnar…",
       "download": "Ladda ner",

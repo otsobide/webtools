@@ -1024,13 +1024,32 @@
       "placeholder": "Örn.: Yalnızca Acme Emlak ile daire kiralama işlemi için, Ekim 2026",
       "tip": "Kişiyi ya da şirketi ve tam amacı yazın. Böyle işaretlenmiş bir kopya başka hiçbir işe yaramaz.",
       "color": "Renk",
-      "size": "Boyut",
+      "size": "Metin boyutu",
+      "lineSpacing": "Satır aralığı",
       "opacity": "Opaklık",
       "rotation": "Açı",
-      "spacing": "Aralık"
+      "spacing": "Yatay aralık"
     },
-    "imageNote": "Görsel baştan yeniden kodlanır; bu yüzden kopyada EXIF meta verisi (kamera, konum, tarih) bulunmaz.",
-    "pdfNote": "Gizlenen metnin gerçekten yok olması için her sayfa görsele dönüştürülür. Oluşan PDF'de seçilebilir metin ve meta veri bulunmaz.",
+    "metadata": {
+      "title": "3. Dosya meta verileri",
+      "hint": "İndirilen dosyaya yazılır. Hepsini boş bırakırsanız dosyada hiç meta veri olmaz.",
+      "fields": {
+        "title": "Başlık",
+        "author": "Yazar",
+        "subject": "Konu",
+        "keywords": "Anahtar kelimeler",
+        "creator": "Uygulama"
+      },
+      "keywordsPlaceholder": "Virgülle ayırın",
+      "custom": "Özel alanlar",
+      "key": "Ad",
+      "value": "Değer",
+      "add": "Alan ekle",
+      "remove": "Alanı kaldır",
+      "keyHint": "Alan adları aksan işaretleri olmadan, yalnızca Latin harfleri, rakamlar ve temel noktalama işaretleriyle kaydedilir."
+    },
+    "imageNote": "Görsel baştan yeniden kodlanır; bu yüzden özgün meta verilerin (kamera, konum, tarih) hiçbiri kalmaz. Yalnızca 3. adımda girdikleriniz yazılır.",
+    "pdfNote": "Gizlenen metnin gerçekten yok olması için her sayfa görsele dönüştürülür. Oluşan PDF'de seçilebilir metin ve özgün meta veri bulunmaz; yalnızca 3. adımda girdikleriniz yer alır.",
     "actions": {
       "opening": "Açılıyor…",
       "download": "İndir",

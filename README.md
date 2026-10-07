@@ -27,7 +27,7 @@ no uploads, no telemetry: files never leave the user's device.
 | Image editing | `/mochi` | Mochi | Resize images |
 | Image editing | `/pixely` | Pixely | Pixelate an image (full or selected area) |
 | Documents | `/albumy` | Albumy | Combine several images into a single PDF |
-| Documents | `/inky` | Inky | Redact sensitive areas and add a text watermark to images and PDFs |
+| Documents | `/inky` | Inky | Redact sensitive areas, add a text watermark and custom metadata to images and PDFs |
 | Documents | `/markpdf` | Markpdf | Add a text watermark to PDF pages |
 | Documents | `/metapdf` | Metapdf | Read and edit PDF metadata (title, author, dates…) |
 | Documents | `/pdfspinner` | PdfSpinner | Rotate pages of a PDF |
@@ -36,7 +36,7 @@ no uploads, no telemetry: files never leave the user's device.
 | Documents | `/wordy` | Wordy | Word/character counter + reading time |
 | Privacy | `/createpass` | Createpass | Generate strong passwords |
 | Privacy | `/hashy` | Hashy | Hashes (SHA-1/256/384/512) + integrity check |
-| Privacy | `/inky` | Inky | Redact sensitive areas and add a text watermark to images and PDFs |
+| Privacy | `/inky` | Inky | Redact sensitive areas, add a text watermark and custom metadata to images and PDFs |
 | Privacy | `/metaimg` | Metaimg | Read, edit or strip EXIF metadata |
 | Generators | `/combiny` | Combiny | Combine fields into variants (emails, usernames…) |
 | Generators | `/createpass` | Createpass | Generate strong passwords |
@@ -107,7 +107,7 @@ to brief an LLM on the project:
   Web Audio, `Intl`, `BigInt`) plus a handful of small client libraries:
   - `pdf-lib` — Stapler, Scissor, PdfSpinner, Albumy, Metapdf, Markpdf, Inky
   - `pdfjs-dist` — Inky (renders PDF pages; loaded only when a PDF is opened)
-  - `piexifjs` — Metaimg
+  - `piexifjs` — Metaimg, Inky
   - `js-yaml` — YamlJson
   - `qrcode` — Qrgen
   - `diff` — Diffy

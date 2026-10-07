@@ -989,13 +989,32 @@
       "placeholder": "Es.: Solo per l'affitto dell'appartamento con Immobiliare Acme, ottobre 2026",
       "tip": "Indica la persona o l'azienda e lo scopo preciso. Una copia marcata così non serve a nient'altro.",
       "color": "Colore",
-      "size": "Dimensione",
+      "size": "Dimensione del testo",
+      "lineSpacing": "Interlinea",
       "opacity": "Opacità",
       "rotation": "Angolo",
-      "spacing": "Spaziatura"
+      "spacing": "Spaziatura orizzontale"
     },
-    "imageNote": "L'immagine viene ricodificata da zero, quindi la copia non contiene metadati EXIF (fotocamera, posizione, data).",
-    "pdfNote": "Ogni pagina viene convertita in immagine, così il testo nascosto sparisce davvero. Il PDF risultante non ha testo selezionabile né metadati.",
+    "metadata": {
+      "title": "3. Metadati del file",
+      "hint": "Vengono scritti nel file scaricato. Se lasci tutto vuoto, non conterrà alcun metadato.",
+      "fields": {
+        "title": "Titolo",
+        "author": "Autore",
+        "subject": "Oggetto",
+        "keywords": "Parole chiave",
+        "creator": "Applicazione"
+      },
+      "keywordsPlaceholder": "Separate da virgole",
+      "custom": "Campi personalizzati",
+      "key": "Nome",
+      "value": "Valore",
+      "add": "Aggiungi campo",
+      "remove": "Rimuovi campo",
+      "keyHint": "I nomi dei campi vengono salvati senza accenti, solo con lettere latine, numeri e punteggiatura di base."
+    },
+    "imageNote": "L'immagine viene ricodificata da zero, quindi non conserva nessun metadato originale (fotocamera, posizione, data). Viene scritto solo ciò che inserisci al passo 3.",
+    "pdfNote": "Ogni pagina viene convertita in immagine, così il testo nascosto sparisce davvero. Il PDF risultante non ha testo selezionabile né i metadati originali, solo quelli inseriti al passo 3.",
     "actions": {
       "opening": "Apertura…",
       "download": "Scarica",

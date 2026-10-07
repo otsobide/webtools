@@ -1024,13 +1024,32 @@
       "placeholder": "Mis.: Hanya untuk sewa apartemen dengan Acme Properti, Oktober 2026",
       "tip": "Sebutkan nama orang atau perusahaan dan tujuan yang tepat. Salinan yang ditandai seperti ini tidak berguna untuk hal lain.",
       "color": "Warna",
-      "size": "Ukuran",
+      "size": "Ukuran teks",
+      "lineSpacing": "Jarak antarbaris",
       "opacity": "Opasitas",
       "rotation": "Sudut",
-      "spacing": "Jarak"
+      "spacing": "Jarak horizontal"
     },
-    "imageNote": "Gambar dienkode ulang dari awal, sehingga salinannya tidak membawa metadata EXIF (kamera, lokasi, tanggal).",
-    "pdfNote": "Setiap halaman diubah menjadi gambar agar teks yang disembunyikan benar-benar hilang. PDF hasilnya tidak memiliki teks yang bisa dipilih maupun metadata.",
+    "metadata": {
+      "title": "3. Metadata file",
+      "hint": "Ditulis ke dalam file yang diunduh. Jika semuanya dikosongkan, file tidak akan berisi metadata apa pun.",
+      "fields": {
+        "title": "Judul",
+        "author": "Penulis",
+        "subject": "Subjek",
+        "keywords": "Kata kunci",
+        "creator": "Aplikasi"
+      },
+      "keywordsPlaceholder": "Pisahkan dengan koma",
+      "custom": "Kolom khusus",
+      "key": "Nama",
+      "value": "Nilai",
+      "add": "Tambah kolom",
+      "remove": "Hapus kolom",
+      "keyHint": "Nama kolom disimpan tanpa aksen, hanya dengan huruf Latin, angka, dan tanda baca dasar."
+    },
+    "imageNote": "Gambar dienkode ulang dari awal, sehingga tidak ada metadata asli (kamera, lokasi, tanggal) yang tersisa. Hanya isian Anda di langkah 3 yang ditulis.",
+    "pdfNote": "Setiap halaman diubah menjadi gambar agar teks yang disembunyikan benar-benar hilang. PDF hasilnya tidak memiliki teks yang bisa dipilih maupun metadata asli, hanya isian Anda di langkah 3.",
     "actions": {
       "opening": "Membuka…",
       "download": "Unduh",

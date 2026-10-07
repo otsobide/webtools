@@ -1024,13 +1024,32 @@
       "placeholder": "e.g. Only for the apartment rental with Acme Homes, October 2026",
       "tip": "Name the person or company and the exact purpose. A copy marked like this is useless for anything else.",
       "color": "Color",
-      "size": "Size",
+      "size": "Text size",
+      "lineSpacing": "Line spacing",
       "opacity": "Opacity",
       "rotation": "Angle",
-      "spacing": "Spacing"
+      "spacing": "Horizontal spacing"
     },
-    "imageNote": "The image is re-encoded from scratch, so the copy carries no EXIF metadata (camera, location, date).",
-    "pdfNote": "Each page is turned into an image so hidden text is really gone. The resulting PDF has no selectable text or metadata.",
+    "metadata": {
+      "title": "3. File metadata",
+      "hint": "Written into the downloaded file. Leave everything blank and it carries no metadata at all.",
+      "fields": {
+        "title": "Title",
+        "author": "Author",
+        "subject": "Subject",
+        "keywords": "Keywords",
+        "creator": "Application"
+      },
+      "keywordsPlaceholder": "Comma-separated",
+      "custom": "Custom fields",
+      "key": "Name",
+      "value": "Value",
+      "add": "Add field",
+      "remove": "Remove field",
+      "keyHint": "Field names are saved without accents, using only Latin letters, digits and basic punctuation."
+    },
+    "imageNote": "The image is re-encoded from scratch, so none of the original metadata (camera, location, date) survives. Only what you enter in step 3 is written.",
+    "pdfNote": "Each page is turned into an image so hidden text is really gone. The resulting PDF has no selectable text and none of the original metadata, only what you enter in step 3.",
     "actions": {
       "opening": "Opening…",
       "download": "Download",

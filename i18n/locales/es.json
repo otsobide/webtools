@@ -1024,13 +1024,32 @@
       "placeholder": "Ej.: Solo para el alquiler de la vivienda con Inmobiliaria Acme, octubre de 2026",
       "tip": "Indica la persona o empresa y el propósito exacto. Una copia marcada así no sirve para nada más.",
       "color": "Color",
-      "size": "Tamaño",
+      "size": "Tamaño del texto",
+      "lineSpacing": "Interlineado",
       "opacity": "Opacidad",
       "rotation": "Ángulo",
-      "spacing": "Separación"
+      "spacing": "Separación horizontal"
     },
-    "imageNote": "La imagen se vuelve a codificar desde cero, así que la copia no lleva metadatos EXIF (cámara, ubicación, fecha).",
-    "pdfNote": "Cada página se convierte en imagen para que el texto oculto desaparezca de verdad. El PDF resultante no tiene texto seleccionable ni metadatos.",
+    "metadata": {
+      "title": "3. Metadatos del archivo",
+      "hint": "Se guardan en el archivo descargado. Si lo dejas todo en blanco, no llevará ningún metadato.",
+      "fields": {
+        "title": "Título",
+        "author": "Autor",
+        "subject": "Asunto",
+        "keywords": "Palabras clave",
+        "creator": "Aplicación"
+      },
+      "keywordsPlaceholder": "Separadas por comas",
+      "custom": "Campos personalizados",
+      "key": "Nombre",
+      "value": "Valor",
+      "add": "Añadir campo",
+      "remove": "Quitar campo",
+      "keyHint": "Los nombres de campo se guardan sin tildes, solo con letras latinas, números y signos básicos."
+    },
+    "imageNote": "La imagen se vuelve a codificar desde cero, así que no conserva ningún metadato original (cámara, ubicación, fecha). Solo se escribe lo que pongas en el paso 3.",
+    "pdfNote": "Cada página se convierte en imagen para que el texto oculto desaparezca de verdad. El PDF resultante no tiene texto seleccionable ni los metadatos originales, solo los que pongas en el paso 3.",
     "actions": {
       "opening": "Abriendo…",
       "download": "Descargar",

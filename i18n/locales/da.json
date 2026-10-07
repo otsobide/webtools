@@ -1024,13 +1024,32 @@
       "placeholder": "Fx: Kun til leje af lejligheden hos Acme Bolig, oktober 2026",
       "tip": "Skriv personen eller firmaet og det præcise formål. En kopi mærket sådan kan ikke bruges til andet.",
       "color": "Farve",
-      "size": "Størrelse",
+      "size": "Tekststørrelse",
+      "lineSpacing": "Linjeafstand",
       "opacity": "Gennemsigtighed",
       "rotation": "Vinkel",
-      "spacing": "Afstand"
+      "spacing": "Vandret afstand"
     },
-    "imageNote": "Billedet kodes helt forfra, så kopien har ingen EXIF-metadata (kamera, placering, dato).",
-    "pdfNote": "Hver side omdannes til et billede, så skjult tekst virkelig forsvinder. Den færdige PDF har ingen markerbar tekst eller metadata.",
+    "metadata": {
+      "title": "3. Filens metadata",
+      "hint": "De skrives ind i den downloadede fil. Lader du alt stå tomt, får den ingen metadata overhovedet.",
+      "fields": {
+        "title": "Titel",
+        "author": "Forfatter",
+        "subject": "Emne",
+        "keywords": "Nøgleord",
+        "creator": "Program"
+      },
+      "keywordsPlaceholder": "Adskilt med kommaer",
+      "custom": "Brugerdefinerede felter",
+      "key": "Navn",
+      "value": "Værdi",
+      "add": "Tilføj felt",
+      "remove": "Fjern felt",
+      "keyHint": "Feltnavne gemmes uden accenter og kun med latinske bogstaver, tal og almindelig tegnsætning."
+    },
+    "imageNote": "Billedet kodes helt forfra, så ingen af de oprindelige metadata (kamera, placering, dato) bevares. Kun det, du skriver i trin 3, bliver gemt.",
+    "pdfNote": "Hver side omdannes til et billede, så skjult tekst virkelig forsvinder. Den færdige PDF har ingen markerbar tekst og ingen af de oprindelige metadata, kun dem fra trin 3.",
     "actions": {
       "opening": "Åbner…",
       "download": "Download",
